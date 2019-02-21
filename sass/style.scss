@@ -128,7 +128,9 @@ header {
   					max-width:120px;
 					height:auto;
   				}
-  				ul li a {
+  				ul li{
+  						padding: 10px 0;
+  						} a {
   							padding: 6px 8px 6px 16px;
   							text-decoration: none;
   							font-size: 20px;
@@ -136,9 +138,22 @@ header {
   							display: block;
   							&:hover {
   								color: #f1f1f1;
-  							}
+  							.fa-star, .fa-th-list, .fa-link, .fa-th-large, .fa-user, .fa-dollar-sign, .fa-undo {
+    							font-size: 10px;
+    							text-align: center;
+    							border-radius: 8px;
+    							width: 100px;
+    							height: 100px;
+    							padding: 8px;
+    							background-color: white;
+    							border: 6px solid white;
+    							margin: 0;  
+        						color: white;
+        						font-size: 60px;
+							}
 				}
   			}
   		}		
     }
 }
+
