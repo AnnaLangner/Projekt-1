@@ -32,7 +32,8 @@
   "dependencies": {
     "browser-sync": "^2.26.3",
     "mkdirp": "^0.5.1",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "superagent": "^3.7.0"
   },
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
