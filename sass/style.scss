@@ -68,7 +68,7 @@ section>.container {
 header {	
     .mainMenu ul {
         height: 50px;
-		background-color: #EDE7F6;
+		background-color: $firstcolor;
         padding: 0;
         margin: 0;
         list-style-type: none;
@@ -79,11 +79,11 @@ header {
                 line-height: 50px;
                 padding: 0 20px;
                 display: block;
-                /*color: $firstcolor;*/
+                color: #256bd4;
                 text-decoration: none; 
                 text-transform: uppercase;
                 &:hover {
-                    background-color: #454649;
+                    background-color: #D1C4E9;
                 }
             }
         }
@@ -93,13 +93,14 @@ header {
     	height: 100%;
   		width: 160px;
   		position: fixed;
-  		z-index: 2;
+  		z-index: 1;
   		top: 0;
   		left: 0;
   		background-color: #111;
   		overflow-x: hidden;
   		padding-top: 16px;
-  		.navigation-toggle{
+  		/*czy ten span jest potrzebny?
+  		.navigation-toggle {
   			position:fixed;
 			top:10px;
 			right:10px;
@@ -110,7 +111,6 @@ header {
 			display: block;
 			z-index: 100;
 			cursor: pointer;
-			/*czy ten span jest potrzebny?
 			span{
 				width:20px;
 				height:3px;
@@ -119,16 +119,16 @@ header {
 				background: #fff;
 				border-radius:1px;
 			}*/
-  			.navigation{
-  				.logo{
+  			.navigation {
+  				.logo {
   					text-align: center;
 					margin:20px 0;
   				}
-  				img{
+  				img {
   					max-width:120px;
 					height:auto;
   				}
-  				ul li{
+  				ul li {
   						padding: 10px 0;
   						a {
   							padding: 6px 8px 6px 16px;
@@ -152,9 +152,15 @@ header {
         						color: white;
         						font-size: 60px;
 							}
+						}
 				}
   			}
   		}		
     }
 }
 
+                /* BODY */
+
+body {
+	background-color: $firstcolor;
+}
