@@ -1,24 +1,32 @@
-header {	
-    .mainMenu ul {
-        height: 50px;
-		background-color: $firstcolor;
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-        float: right;
-        li {
-            display:inline-block;
-            a {
-                line-height: 50px;
-                padding: 0 20px;
-                display: block;
-                color: $seckondcolor;
-                text-decoration: none; 
-                text-transform: uppercase;
-                &:hover {
-                    background-color: #D1C4E9;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;	
+    .mainMenu 
+        .row {
+            display: flex;
+            border: 1px solid $seckondcolor;
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            height: 50px;
+            background-color: $firstcolor;
+            padding: 0;
+            margin: auto;
+            list-style-type: none;
+            li {
+                display:inline-block;
+                a {
+                    line-height: 50px;
+                    padding: 0 20px;
+                    display: block;
+                    color: $seckondcolor;
+                    text-decoration: none; 
+                    text-transform: uppercase;
                 }
             }
         }
-    }
+        }
+    
 }    

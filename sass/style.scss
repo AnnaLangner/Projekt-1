@@ -10,32 +10,8 @@
 
 
 
-                            /* Header */
 
-header {	
-    .mainMenu ul {
-        height: 50px;
-		background-color: $firstcolor;
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-        float: right;
-        li {
-            display:inline-block;
-            a {
-                line-height: 50px;
-                padding: 0 20px;
-                display: block;
-                color: $seckondcolor;
-                text-decoration: none; 
-                text-transform: uppercase;
-                &:hover {
-                    background-color: #D1C4E9;
-                }
-            }
-        }
-    }
-}    
+
 
     .sidebar {
   		margin: 0;
