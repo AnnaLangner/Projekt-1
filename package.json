@@ -15,10 +15,8 @@
     "build:autoprefixer": "autoprefixer-cli css/style.css",
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": "npm run build && npm-run-all -p watch:*",
-    "watch":"browsersync",
-    "watch:sass": "node-sass --output-style expanded --source-map true -o css sass --watch",
-    "watch:autoprefixer": "onchange -d 100 sass/style.scss -- autoprefixer-cli -o css/style.prefixed.css css/style.css"
-
+    "watch:sassprefixer": "onchange -d 100 sass/style.scss -- node-sass --output-style expanded --source-map true -o css sass && autoprefixer-cli -o css/style.prefixed.css css/style.css",
+    "watch": "browser-sync"
   },
   "repository": {
     "type": "git",
@@ -32,13 +30,13 @@
   },
   "homepage": "https://github.com/AnnaLangner/nauka_gita_2#readme",
   "dependencies": {
-    "browser-sync": "^2.26.3",
     "mkdirp": "^0.5.1",
     "normalize.css": "^8.0.1",
     "superagent": "^3.7.0"
   },
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.26.3",
     "globstar": "^1.0.0",
     "node-sass": "^4.11.0",
     "npm-run-all": "^4.1.5",
