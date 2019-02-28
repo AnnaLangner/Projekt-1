@@ -3,10 +3,10 @@
 @import "normalize";
 @import "layout";
 @import "glyphter";
-@import "header";
-@import "sidebar";
-@import "body";
-@import "footer";
+@import "./components/header";
+@import "./components/sidebar";
+@import "./components/body";
+@import "./components/footer";
 
 
 
