@@ -1,0 +1,18 @@
+@import "sidebar";
+@import "../sections/general";
+@import "../sections/details";
+@import "../sections/links";
+@import "../sections/banners";
+@import "../sections/personaldata";
+@import "../sections/payout";
+@import "../sections/postback";
+
+body {
+	background-color: $firstcolor;
+}
+
+div .content {
+	margin-left: 160px;
+	padding: 1px 16px;
+	height: 100%
+}

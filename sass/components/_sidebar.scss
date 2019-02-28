@@ -1,0 +1,23 @@
+.sidebar {
+      height: 100%;
+      width: 160px;
+      position: fixed;
+      z-index: 2;
+  		top: 0;
+      left: 0;
+  		background-color: $paragraph-color;
+  		position: fixed;
+  		height: 100%;
+      overflow-x: hidden;
+      padding-top: 16px;
+  		ul li a {
+  			padding: 10px 0;
+  			text-decoration: none;
+  			font-size: 20px;
+  			color: $seckondcolor;
+  			display: block;
+  			&:hover {
+  				color: #f1f1f1;
+  			}
+  		}		
+}
