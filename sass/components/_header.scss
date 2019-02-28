@@ -1,4 +1,5 @@
 header {
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
@@ -15,12 +16,8 @@ header {
             padding: 0;
             margin: auto;
             list-style-type: none;
-            li {
-                display:inline-block;
-                a {
-                    line-height: 50px;
-                    padding: 0 20px;
-                    display: block;
+            li a {
+                    padding: 0 10px;
                     color: $seckondcolor;
                     text-decoration: none; 
                     text-transform: uppercase;
