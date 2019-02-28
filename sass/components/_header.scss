@@ -3,24 +3,23 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;	
+    width: 100%;
     .mainMenu 
         .row {
             display: flex;
-            border: 1px solid $seckondcolor;
+            border: 1px solid $seckondcolor;            
         ul {
             display: flex;
             justify-content: flex-end;
             height: 50px;
             background-color: $firstcolor;
-            padding: 0;
-            margin: auto;
             list-style-type: none;
             li a {
-                    padding: 0 10px;
-                    color: $seckondcolor;
-                    text-decoration: none; 
-                    text-transform: uppercase;
+                padding: 0 20px;
+                color: $seckondcolor;
+                font-size: 20px;
+                text-decoration: none;
+                border: 1px solid $seckondcolor;
                 }
             }
         }

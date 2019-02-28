@@ -235,9 +235,9 @@ header { display: -ms-flexbox; display: flex; position: fixed; top: 0; left: 0; 
 
 header .mainMenu .row { display: -ms-flexbox; display: flex; border: 1px solid #C0C0C0; }
 
-header .mainMenu .row ul { display: -ms-flexbox; display: flex; -ms-flex-pack: end; justify-content: flex-end; height: 50px; background-color: #FFFFFF; padding: 0; margin: auto; list-style-type: none; }
+header .mainMenu .row ul { display: -ms-flexbox; display: flex; -ms-flex-pack: end; justify-content: flex-end; height: 50px; background-color: #FFFFFF; list-style-type: none; }
 
-header .mainMenu .row ul li a { padding: 0 10px; color: #C0C0C0; text-decoration: none; text-transform: uppercase; }
+header .mainMenu .row ul li a { padding: 0 20px; color: #C0C0C0; font-size: 20px; text-decoration: none; border: 1px solid #C0C0C0; }
 
 .sidebar { height: 100%; width: 160px; position: fixed; z-index: 2; top: 0; left: 0; background-color: #000000; position: fixed; height: 100%; overflow-x: hidden; padding-top: 16px; }
 
