@@ -231,7 +231,7 @@ section > .container { margin: 50px auto; }
 
 .icon-wallet:before { content: '\0062'; }
 
-header { display: -ms-flexbox; display: flex; position: fixed; top: 0; left: 0; width: 100%; }
+header { position: fixed; top: 0; left: 0; width: 100%; }
 
 header .mainMenu .row { display: -ms-flexbox; display: flex; border: 1px solid #C0C0C0; }
 
