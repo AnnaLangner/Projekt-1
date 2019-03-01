@@ -11,16 +11,15 @@
       overflow-x: hidden;
       padding-top: 16px;  
       padding-left: 10px;		
-      .buttonToExpand span{
-          width:20px;
-          height:3px;
-          margin:4px 10px;
-          display: block;
-          border-radius:1px;
-        }
+      .buttonToExpand div {
+        width: 20px;
+        height: 3px;
+        background-color: $firstcolor;
+        margin: 6px 0;
+      }
       .sideNavigation{
         img{
-          max-width:120px;
+          max-width:90px;
           height:auto;
         }
       ul li a {

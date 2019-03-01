@@ -231,7 +231,7 @@ section > .container { margin: 50px auto; }
 
 .icon-wallet:before { content: '\0062'; }
 
-header { position: fixed; top: 0; left: 0; width: 100%; }
+header { display: -ms-flexbox; display: flex; position: fixed; top: 0; left: 0; width: 100%; }
 
 header .mainMenu .row { display: -ms-flexbox; display: flex; border: 1px solid #C0C0C0; }
 
@@ -241,11 +241,9 @@ header .mainMenu .row ul li a { padding: 0 20px; color: #C0C0C0; font-size: 20px
 
 .sidebar { height: 100%; width: 160px; position: fixed; z-index: 2; top: 0; left: 0; background-color: #000000; position: fixed; height: 100%; overflow-x: hidden; padding-top: 16px; padding-left: 10px; }
 
-.sidebar .buttonToExpand span { width: 20px; height: 3px; margin: 4px 10px; display: block; border-radius: 1px; }
+.sidebar .buttonToExpand div { width: 20px; height: 3px; background-color: #FFFFFF; margin: 6px 0; }
 
-.sidebar .sideNavigation .logo { text-align: center; margin: 10px 0; }
-
-.sidebar .sideNavigation img { max-width: 120px; height: auto; }
+.sidebar .sideNavigation img { max-width: 90px; height: auto; }
 
 .sidebar .sideNavigation ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: block; }
 
@@ -253,11 +251,9 @@ header .mainMenu .row ul li a { padding: 0 20px; color: #C0C0C0; font-size: 20px
 
 .sidebar { height: 100%; width: 160px; position: fixed; z-index: 2; top: 0; left: 0; background-color: #000000; position: fixed; height: 100%; overflow-x: hidden; padding-top: 16px; padding-left: 10px; }
 
-.sidebar .buttonToExpand span { width: 20px; height: 3px; margin: 4px 10px; display: block; border-radius: 1px; }
+.sidebar .buttonToExpand div { width: 20px; height: 3px; background-color: #FFFFFF; margin: 6px 0; }
 
-.sidebar .sideNavigation .logo { text-align: center; margin: 10px 0; }
-
-.sidebar .sideNavigation img { max-width: 120px; height: auto; }
+.sidebar .sideNavigation img { max-width: 90px; height: auto; }
 
 .sidebar .sideNavigation ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: block; }
 
