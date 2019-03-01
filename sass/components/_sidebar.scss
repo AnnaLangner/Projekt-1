@@ -9,15 +9,29 @@
   		position: fixed;
   		height: 100%;
       overflow-x: hidden;
-      padding-top: 16px;
-  		ul li a {
+      padding-top: 16px;  
+      padding-left: 10px;		
+      .buttonToExpand span{
+          width:20px;
+          height:3px;
+          margin:4px 10px;
+          display: block;
+          border-radius:1px;
+        }
+      .sideNavigation{
+        img{
+          max-width:120px;
+          height:auto;
+        }
+      ul li a {
   			padding: 10px 0;
   			text-decoration: none;
-  			font-size: 20px;
+  			font-size: 15px;
   			color: $seckondcolor;
   			display: block;
   			&:hover {
   				color: #f1f1f1;
   			}
-  		}		
+  		}
+      }
 }
