@@ -1,0 +1,51 @@
+.content {
+	.calendar {	
+		border: 1px solid $seckondcolor; 
+		display: inline-block;
+		padding-top: 60px;
+		padding-left: 160px;
+		margin: 20px 0;
+		align-items: center;
+		input {
+			border: none;
+			position: absolute;
+
+		}
+		button {
+			padding: 5px;
+			color: $brand-main-color
+		}
+	.firstLine {
+		margin: 20px 0;
+		padding-left: 160px;
+		align-items: center;
+		.col {
+			p {
+				text: underline;
+				span{
+
+				}
+
+			}
+		}
+	.seckondLine {
+		margin: 20px 0;
+		padding-left: 160px;
+		align-items: center;
+		.col {
+			p {
+				text: underline;
+				span{
+
+				}
+
+			}
+		}
+	img {
+		margin: 20px 0;
+		align-items: center;
+	}
+	}
+	}
+	}
+}
