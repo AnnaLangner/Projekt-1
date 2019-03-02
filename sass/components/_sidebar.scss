@@ -11,13 +11,14 @@
       overflow-x: hidden;
       padding-top: 16px;  
       padding-left: 10px;		
-      .buttonToExpand div {
-        width: 20px;
-        height: 3px;
-        background-color: $firstcolor;
-        margin: 6px 0;
-      }
       .sideNavigation{
+        .buttonToExpand div {
+          display: block;
+          width: 20px;
+          height: 1px;
+          background-color: $firstcolor;
+          margin: 6px 0;
+        }
         img{
           max-width:90px;
           height:auto;
@@ -31,6 +32,21 @@
   			&:hover {
   				color: #f1f1f1;
   			}
+        p {
+          text-transform: uppercase;
+          text-align: center;
+          font-size: 13px;
+          padding-top: 40px;
+          padding-right: 25px;
+        }
+        img {
+          display: inline-block;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          margin-top: 10px;
+          text-align: center;
+        }
   		}
       }
 }
