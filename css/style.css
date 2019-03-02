@@ -231,13 +231,17 @@ section > .container { margin: 50px auto; }
 
 .icon-wallet:before { content: '\0062'; }
 
-header { position: fixed; top: 0; left: 0; width: 100%; }
+header { display: -ms-flexbox; display: flex; -ms-flex-pack: end; justify-content: flex-end; position: fixed; top: 0; left: 0; width: 100%; padding: 10px 30px; }
 
 header .mainMenu .row { display: -ms-flexbox; display: flex; border: 1px solid #C0C0C0; }
 
-header .mainMenu .row ul { display: -ms-flexbox; display: flex; -ms-flex-pack: end; justify-content: flex-end; height: 50px; background-color: #FFFFFF; list-style-type: none; }
+header .mainMenu .row ul { display: -ms-flexbox; display: flex; -ms-flex-pack: end; justify-content: flex-end; background-color: #FFFFFF; list-style-type: none; }
 
-header .mainMenu .row ul li a { padding: 0 20px; color: #C0C0C0; font-size: 20px; text-decoration: none; border: 1px solid #C0C0C0; }
+header .mainMenu .row ul li { padding: 10px 30px; color: #C0C0C0; font-size: 15px; text-decoration: none; border: 1px solid #C0C0C0; }
+
+header .mainMenu .row ul li a { color: #C0C0C0; text-decoration: none; }
+
+header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar { height: 100%; width: 160px; position: fixed; z-index: 2; top: 0; left: 0; background-color: #000000; position: fixed; height: 100%; overflow-x: hidden; padding-top: 16px; padding-left: 10px; }
 

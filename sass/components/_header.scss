@@ -1,8 +1,11 @@
 header {
+    display: flex;
+    justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    padding: 10px 30px;
     .mainMenu 
         .row {
             display: flex;
@@ -10,16 +13,22 @@ header {
         ul {
             display: flex;
             justify-content: flex-end;
-            height: 50px;
             background-color: $firstcolor;
             list-style-type: none;
-            li a {
-                padding: 0 20px;
+            li {
+                padding: 10px 30px;
                 color: $seckondcolor;
-                font-size: 20px;
+                font-size: 15px;
                 text-decoration: none;
                 border: 1px solid $seckondcolor;
+                a {
+                    color: $seckondcolor;
+                    text-decoration: none;
+                    span{
+                        padding: 0 10px;
+                    }
                 }
             }
+        }
         }
 }    
