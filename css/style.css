@@ -120,29 +120,29 @@ section > .container { margin: 50px auto; }
 
 [class*="col-"] { float: left; min-height: 1px; width: 100%; padding: 20px; }
 
-.col-1 { width: 8.33%; }
+.col-1 { -ms-flex: 8.333%; flex: 8.333%; }
 
-.col-2 { width: 16.66%; }
+.col-2 { -ms-flex: 16.667%; flex: 16.667%; }
 
-.col-3 { width: 25%; }
+.col-3 { -ms-flex: 25%; flex: 25%; }
 
-.col-4 { width: 33.33%; }
+.col-4 { -ms-flex: 33.333%; flex: 33.333%; }
 
-.col-5 { width: 41.66%; }
+.col-5 { -ms-flex: 41.667%; flex: 41.667%; }
 
-.col-6 { width: 50%; }
+.col-6 { -ms-flex: 50%; flex: 50%; }
 
-.col-7 { width: 58.33%; }
+.col-7 { -ms-flex: 58.333%; flex: 58.333%; }
 
-.col-8 { width: 66.66%; }
+.col-8 { -ms-flex: 66.667%; flex: 66.667%; }
 
-.col-9 { width: 75%; }
+.col-9 { -ms-flex: 75%; flex: 75%; }
 
-.col-10 { width: 83.33%; }
+.col-10 { -ms-flex: 83.333%; flex: 83.333%; }
 
-.col-11 { width: 91.66%; }
+.col-11 { -ms-flex: 91.667%; flex: 91.667%; }
 
-.col-12 { width: 100%; }
+.col-12 { -ms-flex: 100%; flex: 100%; }
 
 .col-offset-0 { margin-left: 0; }
 
@@ -245,32 +245,40 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar { height: 100%; width: 160px; position: fixed; z-index: 2; top: 0; left: 0; background-color: #000000; position: fixed; height: 100%; overflow-x: hidden; padding-top: 16px; padding-left: 10px; }
 
-.sidebar .sideNavigation .buttonToExpand div { display: block; width: 20px; height: 1px; background-color: #FFFFFF; margin: 6px 0; }
+.sidebar .sideNavigation .logoSing { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
 
-.sidebar .sideNavigation img { max-width: 90px; height: auto; }
+.sidebar .sideNavigation .logoSing .buttonToExpand div { display: block; width: 20px; height: 1px; background-color: #FFFFFF; margin: 6px 0; }
 
-.sidebar .sideNavigation ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: block; }
+.sidebar .sideNavigation .logoSing img { max-width: 90px; height: auto; }
 
-.sidebar .sideNavigation ul li a:hover { color: #f1f1f1; }
+.sidebar .sideNavigation .logoSing ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: block; }
 
-.sidebar .sideNavigation ul li a p { text-transform: uppercase; text-align: center; font-size: 13px; padding-top: 40px; padding-right: 25px; }
+.sidebar .sideNavigation .logoSing ul li a:hover { color: #f1f1f1; }
 
-.sidebar .sideNavigation ul li a img { display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
+.sidebar .sideNavigation .logoSing ul li a p { text-transform: uppercase; text-align: center; font-size: 13px; padding-top: 40px; padding-right: 25px; }
+
+.sidebar .sideNavigation .logoSing ul li a p .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
+
+.sidebar .sideNavigation .logoSing ul li a p .managerChat img { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
 
 .sidebar { height: 100%; width: 160px; position: fixed; z-index: 2; top: 0; left: 0; background-color: #000000; position: fixed; height: 100%; overflow-x: hidden; padding-top: 16px; padding-left: 10px; }
 
-.sidebar .sideNavigation .buttonToExpand div { display: block; width: 20px; height: 1px; background-color: #FFFFFF; margin: 6px 0; }
+.sidebar .sideNavigation .logoSing { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
 
-.sidebar .sideNavigation img { max-width: 90px; height: auto; }
+.sidebar .sideNavigation .logoSing .buttonToExpand div { display: block; width: 20px; height: 1px; background-color: #FFFFFF; margin: 6px 0; }
 
-.sidebar .sideNavigation ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: block; }
+.sidebar .sideNavigation .logoSing img { max-width: 90px; height: auto; }
 
-.sidebar .sideNavigation ul li a:hover { color: #f1f1f1; }
+.sidebar .sideNavigation .logoSing ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: block; }
 
-.sidebar .sideNavigation ul li a p { text-transform: uppercase; text-align: center; font-size: 13px; padding-top: 40px; padding-right: 25px; }
+.sidebar .sideNavigation .logoSing ul li a:hover { color: #f1f1f1; }
 
-.sidebar .sideNavigation ul li a img { display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
+.sidebar .sideNavigation .logoSing ul li a p { text-transform: uppercase; text-align: center; font-size: 13px; padding-top: 40px; padding-right: 25px; }
+
+.sidebar .sideNavigation .logoSing ul li a p .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
+
+.sidebar .sideNavigation .logoSing ul li a p .managerChat img { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
 
 body { background-color: #FFFFFF; }
 
-div .content { margin-left: 160px; padding: 1px 16px; height: 100%; }
+div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height: 100%; }

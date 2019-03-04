@@ -12,17 +12,20 @@
       padding-top: 16px;  
       padding-left: 10px;		
       .sideNavigation{
-        .buttonToExpand div {
-          display: block;
-          width: 20px;
-          height: 1px;
-          background-color: $firstcolor;
-          margin: 6px 0;
-        }
-        img{
-          max-width:90px;
-          height:auto;
-        }
+        .logoSing {
+          display: flex; 
+          align-items: center;
+          .buttonToExpand div {
+            display: block;
+            width: 20px;
+            height: 1px;
+            background-color: $firstcolor;
+           margin: 6px 0;
+          }
+          img{
+            max-width:90px;
+            height:auto;
+          }
       ul li a {
   			padding: 10px 0;
   			text-decoration: none;
@@ -38,15 +41,22 @@
           font-size: 13px;
           padding-top: 40px;
           padding-right: 25px;
+          .managerChat{
+            display: flex; 
+            align-items: center;
+            img {
+              display: flex; 
+              align-items: center;
+              display: inline-block;
+              border-radius: 50%;
+              width: 40px;
+              height: 40px;
+              margin-top: 10px;
+              text-align: center;
+            }
         }
-        img {
-          display: inline-block;
-          border-radius: 50%;
-          width: 40px;
-          height: 40px;
-          margin-top: 10px;
-          text-align: center;
         }
   		}
+      }
       }
 }
