@@ -257,9 +257,11 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .logoSing ul li a p { text-transform: uppercase; text-align: center; font-size: 13px; padding-top: 40px; padding-right: 25px; }
 
-.sidebar .sideNavigation .logoSing ul li a p .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
+.sidebar .sideNavigation .logoSing ul li a p .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: relative; }
 
 .sidebar .sideNavigation .logoSing ul li a p .managerChat img { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
+
+.sidebar .sideNavigation .logoSing ul li a p .managerChat .nameManager { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: absolute; top: 40px; left: 40px; }
 
 .sidebar { height: 100%; width: 160px; position: fixed; z-index: 2; top: 0; left: 0; background-color: #000000; position: fixed; height: 100%; overflow-x: hidden; padding-top: 16px; padding-left: 10px; }
 
@@ -275,9 +277,11 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .logoSing ul li a p { text-transform: uppercase; text-align: center; font-size: 13px; padding-top: 40px; padding-right: 25px; }
 
-.sidebar .sideNavigation .logoSing ul li a p .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
+.sidebar .sideNavigation .logoSing ul li a p .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: relative; }
 
 .sidebar .sideNavigation .logoSing ul li a p .managerChat img { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
+
+.sidebar .sideNavigation .logoSing ul li a p .managerChat .nameManager { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: absolute; top: 40px; left: 40px; }
 
 body { background-color: #FFFFFF; }
 
