@@ -269,6 +269,10 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .logoSing .bookmarks ul li a p .managerChat .nameManager { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: absolute; top: 20px; left: auto; }
 
+body { background-color: #FFFFFF; }
+
+div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height: 100%; }
+
 .content .calendar { display: -ms-flexbox; display: flex; padding-top: 100px; padding-left: 160px; margin: 100px 0; -ms-flex-align: center; align-items: center; position: relative; }
 
 .content .calendar .windowOne { display: -ms-inline-flexbox; display: inline-flex; border: 1px solid #C0C0C0; border: none; position: absolute; top: 100px; left: 160px; }
@@ -289,6 +293,12 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .content .calendar .firstLine .seckondLine img { margin: 20px 0; -ms-flex-align: center; align-items: center; }
 
-body { background-color: #FFFFFF; }
+.links .buttonAddNew { color: #000000; -ms-flex-align: center; align-items: center; }
 
-div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height: 100%; }
+.links .row { -ms-flex-align: center; align-items: center; }
+
+.links .row .linkLine p a { display: inline-block; color: #C0C0C0; }
+
+.links .row .linkLine p a .layer { width: 100%; height: 100%; background-color: #DDDDDD; position: absolute; top: 0; left: 0; text-align: center; line-height: 200px; color: #fff; opacity: 0; transition: .3s; }
+
+.links .row .linkLine p a .layer .layer:hover { opacity: 1; }
