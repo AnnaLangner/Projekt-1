@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 30px;
+    .mainMenu 
+        .row {
+            display: flex;
+            border: 1px solid $seckondcolor;            
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            background-color: $firstcolor;
+            list-style-type: none;
+            li {
+                padding: 10px 30px;
+                color: $seckondcolor;
+                font-size: 15px;
+                text-decoration: none;
+                border: 1px solid $seckondcolor;
+                a {
+                    color: $seckondcolor;
+                    text-decoration: none;
+                    span{
+                        padding: 0 10px;
+                    }
+                }
+            }
+        }
+        }
+}    
