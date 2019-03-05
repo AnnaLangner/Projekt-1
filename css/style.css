@@ -249,7 +249,7 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .logoSing .buttonToExpand div { display: block; width: 20px; height: 1px; background-color: #FFFFFF; margin: 6px 0; }
 
-.sidebar .sideNavigation .logoSing img { max-width: 90px; height: auto; }
+.sidebar .sideNavigation .logoSing .logoPhoto { max-width: 90px; height: auto; }
 
 .sidebar .sideNavigation .logoSing ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: block; }
 
@@ -259,7 +259,7 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .logoSing ul li a p .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: relative; }
 
-.sidebar .sideNavigation .logoSing ul li a p .managerChat img { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
+.sidebar .sideNavigation .logoSing ul li a p .managerChat .managerPhoto { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
 
 .sidebar .sideNavigation .logoSing ul li a p .managerChat .nameManager { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: absolute; top: 20px; left: auto; }
 
@@ -269,7 +269,7 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .logoSing .buttonToExpand div { display: block; width: 20px; height: 1px; background-color: #FFFFFF; margin: 6px 0; }
 
-.sidebar .sideNavigation .logoSing img { max-width: 90px; height: auto; }
+.sidebar .sideNavigation .logoSing .logoPhoto { max-width: 90px; height: auto; }
 
 .sidebar .sideNavigation .logoSing ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: block; }
 
@@ -279,7 +279,7 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .logoSing ul li a p .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: relative; }
 
-.sidebar .sideNavigation .logoSing ul li a p .managerChat img { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
+.sidebar .sideNavigation .logoSing ul li a p .managerChat .managerPhoto { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
 
 .sidebar .sideNavigation .logoSing ul li a p .managerChat .nameManager { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: absolute; top: 20px; left: auto; }
 

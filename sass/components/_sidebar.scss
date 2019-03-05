@@ -22,7 +22,7 @@
             background-color: $firstcolor;
             margin: 6px 0;
           }
-          img{
+          .logoPhoto{
             max-width:90px;
             height:auto;
           }
@@ -47,7 +47,7 @@
               display: flex; 
               align-items: center;
               position: relative;
-              img {
+              .managerPhoto {
                 display: flex; 
                 align-items: center;
                 display: inline-block;
