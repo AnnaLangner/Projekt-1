@@ -275,13 +275,13 @@ div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height:
 
 .content .calendar { display: -ms-flexbox; display: flex; padding-top: 100px; padding-left: 160px; margin: 100px 0; -ms-flex-align: center; align-items: center; position: relative; }
 
-.content .calendar .windowOne { display: -ms-inline-flexbox; display: inline-flex; border: 1px solid #C0C0C0; border: none; position: absolute; top: 100px; left: 160px; }
+.content .calendar .windowOne { display: inline-block; border: 1px solid #C0C0C0; border: none; position: relative; }
 
-.content .calendar .windowOne .windowTwo { display: -ms-inline-flexbox; display: inline-flex; border: 1px solid #C0C0C0; border: none; position: absolute; top: 100px; left: 240px; }
+.content .calendar .windowOne .windowTwo { display: inline-block; border: 1px solid #C0C0C0; position: relative; }
 
 .content .calendar .windowOne .windowTwo .icon-calendar { padding: 5px; border: 1px solid #C0C0C0; }
 
-.content .calendar .windowOne .windowTwo .icon-calendar .icon-refresh { padding: 5px; background-color: #ff0000; border-radius: 8px; }
+.content .calendar .windowOne .windowTwo .icon-calendar .icon-refresh { padding: 10px; margin-left: 5px; background-color: #ff0000; border-radius: 8px; }
 
 .content .calendar .firstLine { margin: 20px 0; padding-left: 160px; -ms-flex-align: center; align-items: center; }
 
