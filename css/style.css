@@ -251,17 +251,23 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .logoSing .logoPhoto { max-width: 90px; height: auto; }
 
-.sidebar .sideNavigation .logoSing ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: block; }
+.sidebar .sideNavigation .logoSing .bookmarks { display: -ms-flexbox; display: flex; padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; }
 
-.sidebar .sideNavigation .logoSing ul li a:hover { color: #f1f1f1; }
+.sidebar .sideNavigation .logoSing .bookmarks ul { display: -ms-flexbox; display: flex; padding: 10px 0; }
 
-.sidebar .sideNavigation .logoSing ul li a p { text-transform: uppercase; text-align: center; font-size: 13px; padding-top: 40px; padding-right: 25px; }
+.sidebar .sideNavigation .logoSing .bookmarks ul li { display: -ms-flexbox; display: flex; padding: 10px 0; }
 
-.sidebar .sideNavigation .logoSing ul li a p .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: relative; }
+.sidebar .sideNavigation .logoSing .bookmarks ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: -ms-flexbox; display: flex; }
 
-.sidebar .sideNavigation .logoSing ul li a p .managerChat .managerPhoto { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
+.sidebar .sideNavigation .logoSing .bookmarks ul li a:hover { color: #f1f1f1; }
 
-.sidebar .sideNavigation .logoSing ul li a p .managerChat .nameManager { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: absolute; top: 20px; left: auto; }
+.sidebar .sideNavigation .logoSing .bookmarks ul li a p { text-transform: uppercase; text-align: center; font-size: 13px; padding-top: 40px; padding-right: 25px; }
+
+.sidebar .sideNavigation .logoSing .bookmarks ul li a p .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: relative; }
+
+.sidebar .sideNavigation .logoSing .bookmarks ul li a p .managerChat .managerPhoto { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
+
+.sidebar .sideNavigation .logoSing .bookmarks ul li a p .managerChat .nameManager { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: absolute; top: 20px; left: auto; }
 
 .content .calendar { border: 1px solid #C0C0C0; display: inline-block; padding-top: 60px; padding-left: 160px; margin: 20px 0; -ms-flex-align: center; align-items: center; }
 
