@@ -43,27 +43,27 @@
               font-size: 13px;
               padding-top: 40px;
               padding-right: 25px;
-              .managerChat{
+            .managerChat{
+              display: flex; 
+              align-items: center;
+              position: relative;
+              img {
                 display: flex; 
                 align-items: center;
-                position: relative;
-                img {
-                  display: flex; 
-                  align-items: center;
-                  display: inline-block;
-                  border-radius: 50%;
-                  width: 40px;
-                  height: 40px;
-                  margin-top: 10px;
-                  text-align: center;
-                }
-                .nameManager {
-                  display: flex; 
-                  align-items: center;
-                  position: absolute;
-                  top: 20px; 
-                  left: auto;
-                }
+                display: inline-block;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                margin-top: 10px;
+                text-align: center;
+              }
+              .nameManager {
+                display: flex; 
+                align-items: center;
+                position: absolute;
+                top: 20px; 
+                left: auto;
+              }
             }
             }
           } 
