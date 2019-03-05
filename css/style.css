@@ -263,25 +263,21 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .logoSing ul li a p .managerChat .nameManager { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: absolute; top: 20px; left: auto; }
 
-.sidebar { height: 100%; width: 160px; position: fixed; z-index: 2; top: 0; left: 0; background-color: #000000; position: fixed; height: 100%; overflow-x: hidden; padding-top: 16px; padding-left: 10px; }
+.content .calendar { border: 1px solid #C0C0C0; display: inline-block; padding-top: 60px; padding-left: 160px; margin: 20px 0; -ms-flex-align: center; align-items: center; }
 
-.sidebar .sideNavigation .logoSing { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
+.content .calendar input { border: none; position: absolute; }
 
-.sidebar .sideNavigation .logoSing .buttonToExpand div { display: block; width: 20px; height: 1px; background-color: #FFFFFF; margin: 6px 0; }
+.content .calendar button { padding: 5px; color: #ff0000; }
 
-.sidebar .sideNavigation .logoSing .logoPhoto { max-width: 90px; height: auto; }
+.content .calendar .firstLine { margin: 20px 0; padding-left: 160px; -ms-flex-align: center; align-items: center; }
 
-.sidebar .sideNavigation .logoSing ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: block; }
+.content .calendar .firstLine .col p { text: underline; }
 
-.sidebar .sideNavigation .logoSing ul li a:hover { color: #f1f1f1; }
+.content .calendar .firstLine .seckondLine { margin: 20px 0; padding-left: 160px; -ms-flex-align: center; align-items: center; }
 
-.sidebar .sideNavigation .logoSing ul li a p { text-transform: uppercase; text-align: center; font-size: 13px; padding-top: 40px; padding-right: 25px; }
+.content .calendar .firstLine .seckondLine .col p { text: underline; }
 
-.sidebar .sideNavigation .logoSing ul li a p .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: relative; }
-
-.sidebar .sideNavigation .logoSing ul li a p .managerChat .managerPhoto { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; }
-
-.sidebar .sideNavigation .logoSing ul li a p .managerChat .nameManager { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: absolute; top: 20px; left: auto; }
+.content .calendar .firstLine .seckondLine img { margin: 20px 0; -ms-flex-align: center; align-items: center; }
 
 body { background-color: #FFFFFF; }
 
