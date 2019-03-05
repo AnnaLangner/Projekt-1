@@ -1,0 +1,63 @@
+.content {
+	.calendar {	
+		display: flex;
+		padding-top: 100px;
+		padding-left: 160px;
+		margin: 100px 0;
+		align-items: center;
+		position: relative;
+		.windowOne {
+			display: inline-block;
+			border: 1px solid $seckondcolor;
+			border: none;
+			position: relative;
+		.windowTwo {
+			display: inline-block;
+			border: 1px solid $seckondcolor;
+			position: relative;
+		.icon-calendar {
+			padding: 5px;
+			border: 1px solid $seckondcolor;
+		.icon-refresh {
+			padding: 5px;
+			margin-left: 5px;
+			background-color: $brand-main-color;
+			border-radius: 8px;
+		}
+		}
+		}		
+		}
+	.firstLine {
+		margin: 20px 0;
+		padding-left: 160px;
+		align-items: center;
+		.col {
+			p {
+				text: underline;
+				span{
+
+				}
+
+			}
+		}
+	.seckondLine {
+		margin: 20px 0;
+		padding-left: 160px;
+		align-items: center;
+		.col {
+			p {
+				text: underline;
+				span{
+
+				}
+
+			}
+		}
+	img {
+		margin: 20px 0;
+		align-items: center;
+	}
+	}
+	}
+	}
+}
