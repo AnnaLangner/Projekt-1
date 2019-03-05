@@ -1,0 +1,30 @@
+.links {
+	.buttonAddNew{
+		color: $paragraph-color;
+		align-items: center;
+	}
+	.row{
+		align-items: center;
+		.linkLine p a {
+			display: inline-block;
+			color: $seckondcolor;
+			.layer {
+				width: 100%;
+				height: 100%;
+				background: $thirdcolor;
+				position: absolute;
+				top: 0;
+				left: 0;
+				text-align: center;
+				line-height: 200px;
+				color: #fff;
+				opacity: 0;
+				transition: .3s;
+				.layer:hover {
+				opacity: 1;
+				}
+
+			}
+		}
+	}
+}
