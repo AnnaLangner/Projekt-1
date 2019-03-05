@@ -7,24 +7,20 @@
 		align-items: center;
 		position: relative;
 		.windowOne {
-			display: inline-flex;
+			display: inline-block;
 			border: 1px solid $seckondcolor;
 			border: none;
-			position: absolute;
-			top: 100px;
-			left: 160px;
+			position: relative;
 		.windowTwo {
-			display: inline-flex;
+			display: inline-block;
 			border: 1px solid $seckondcolor;
-			border: none;
-			position: absolute;
-			top: 100px;
-			left: 240px;
+			position: relative;
 		.icon-calendar {
 			padding: 5px;
 			border: 1px solid $seckondcolor;
 		.icon-refresh {
-			padding: 5px;
+			padding: 10px;
+			margin-left: 5px;
 			background-color: $brand-main-color;
 			border-radius: 8px;
 		}
