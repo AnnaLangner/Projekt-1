@@ -29,12 +29,13 @@
 
         		<div class="logoSing">
         			<img class="logoPhoto" src="images/logo.png" alt="Just do it" />
-        			<div class="buttonToExpand">
+        			<a href="#" class="buttonToExpand">
 						<div></div>
 						<div></div>
 						<div></div>
-					</div>						
-				</div>			
+					</a>						
+				</div>	
+
         		<div class="bookmarks">			
 					<ul>
 					    <li><a href="#"><span class="icon-general"></span>  General</a></li>
@@ -44,17 +45,19 @@
 		    			<li><a href="#"><span class="icon-personaldata"></span>  Personal data</a></li>
 		    			<li><a href="#"><span class="icon-payout"></span>  Payout</a></li>
 		    			<li><a href="#"><span class="icon-postback"></span>  Postback</a></li>
-		    			<li>
-		    				<a href="#">
-		    					<p>Your manager</p>
-		    					<div class="managerChat">
-		    						<img class="managerPhoto" src="images/manager1.png" alt="ManagerFoto" />
-		    						<p class="nameManager"> Mikhael E. </p>
-		    					</div>
-		    				</a>
-		    			</li>
 		    		</ul>
 		    	</div>
+
+				<section class="manager">
+					<a href="#">
+						<h2 class="managerTitle">Your manager</h2>
+						<div class="managerChat">
+							<img class="managerPhoto" src="images/manager1.png" alt="ManagerFoto" />
+							<h1 class="managerName"> Mikhael E. </h1>
+						</div>
+					</a>
+				</section>
+		    	
 			</nav>
         </div>
         
@@ -167,6 +170,10 @@
     		
     		</div>      -->   	
         	
-        </div>     								
+        </div> 
+
+        <script id="__bs_script__">//<![CDATA[
+    		document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.3'><\/script>".replace("HOST", location.hostname));
+		//]]></script>    								
 	</body>
 </html>
