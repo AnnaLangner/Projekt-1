@@ -279,25 +279,29 @@ body { background-color: #FFFFFF; }
 
 div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height: 100%; }
 
-.content .calendar { display: -ms-flexbox; display: flex; padding-top: 100px; padding-left: 160px; margin: 100px 0; -ms-flex-align: center; align-items: center; position: relative; }
+.content .generalSection { border: 1px solid #C0C0C0; margin-top: 100px; }
 
-.content .calendar .windowOne { display: inline-block; border: 1px solid #C0C0C0; border: none; position: relative; }
+.content .generalSection .generalName { color: #C0C0C0; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; }
 
-.content .calendar .windowOne .windowTwo { display: inline-block; border: 1px solid #C0C0C0; position: relative; }
+.content .generalSection .calendar { display: -ms-flexbox; display: flex; width: 100%; padding: 50px 0; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; border-top: 1px solid #C0C0C0; border-bottom: 1px solid #C0C0C0; }
 
-.content .calendar .windowOne .windowTwo .icon-calendar { padding: 5px; border: 1px solid #C0C0C0; }
+.content .generalSection .calendar .windowOne { display: inline-block; border: 1px solid #C0C0C0; padding: 10px; }
 
-.content .calendar .windowOne .windowTwo .icon-calendar .icon-refresh { padding: 10px; margin-left: 5px; background-color: #f58220; border-radius: 8px; }
+.content .generalSection .calendar .calendarWindowWithIcon { border: 1px solid #C0C0C0; padding: 10px; }
 
-.content .calendar .firstLine { margin: 20px 0; padding-left: 160px; -ms-flex-align: center; align-items: center; }
+.content .generalSection .calendar .calendarWindowWithIcon .windowTwo { display: inline-block; border: none; }
 
-.content .calendar .firstLine .col p { text: underline; }
+.content .generalSection .calendar .calendarWindowWithIcon .icon-calendar { padding: 0px; }
 
-.content .calendar .firstLine .seckondLine { margin: 20px 0; padding-left: 160px; -ms-flex-align: center; align-items: center; }
+.content .generalSection .calendar .icon-refresh { padding: 10px 12px; margin-left: 5px; background-color: #f58220; border-radius: 8px; color: #FFFFFF; }
 
-.content .calendar .firstLine .seckondLine .col p { text: underline; }
+.content .generalSection .lineStatistic { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; margin: 20px 0; padding-left: 160px; }
 
-.content .calendar .firstLine .seckondLine img { margin: 20px 0; -ms-flex-align: center; align-items: center; }
+.content .generalSection .lineStatistic .lineName { color: #C0C0C0; font-size: 15px; }
+
+.content .generalSection .lineStatistic .lineData { font-size: 15px; }
+
+.content .generalSection img { margin: 20px 0; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; padding-left: 160px; }
 
 .links .buttonAddNew { color: #191919; -ms-flex-align: center; align-items: center; }
 

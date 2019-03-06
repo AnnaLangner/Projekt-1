@@ -1,63 +1,75 @@
 .content {
-	.calendar {	
-		display: flex;
-		padding-top: 100px;
-		padding-left: 160px;
-		margin: 100px 0;
-		align-items: center;
-		position: relative;
-		.windowOne {
-			display: inline-block;
-			border: 1px solid $seckondcolor;
-			border: none;
-			position: relative;
-		.windowTwo {
-			display: inline-block;
-			border: 1px solid $seckondcolor;
-			position: relative;
-		.icon-calendar {
-			padding: 5px;
-			border: 1px solid $seckondcolor;
-		.icon-refresh {
+	.generalSection {
+		border: 1px solid $seckondcolor;
+		margin-top: 100px;
+
+		.generalName{
+			color: $seckondcolor;
+			text-transform: uppercase;
+            text-align: left;
+            padding-left: 5px;
+            font-size: 15px;
+		}	
+
+		.calendar {	
+			display: flex;
+			width: 100%;
+			padding: 50px 0;
+			justify-content: center;
+			align-items: center;
+			border-top: 1px solid $seckondcolor;
+			border-bottom: 1px solid $seckondcolor;
+			
+			.windowOne {
+				display: inline-block;
+				border: 1px solid $seckondcolor;
+				padding: 10px;
+			}
+			.calendarWindowWithIcon{
+				border: 1px solid $seckondcolor;
 			padding: 10px;
-			margin-left: 5px;
-			background-color: $brand-main-color;
-			border-radius: 8px;
-		}
-		}
-		}		
-		}
-	.firstLine {
-		margin: 20px 0;
-		padding-left: 160px;
-		align-items: center;
-		.col {
-			p {
-				text: underline;
-				span{
-
+	
+				.windowTwo {
+					display: inline-block;
+					border: none;
 				}
-
-			}
-		}
-	.seckondLine {
-		margin: 20px 0;
-		padding-left: 160px;
-		align-items: center;
-		.col {
-			p {
-				text: underline;
-				span{
-
+				.icon-calendar {
+					padding: 0px;
 				}
-
 			}
+			.icon-refresh {
+				padding: 10px 12px;
+				margin-left: 5px;
+				background-color: $brand-main-color;
+				border-radius: 8px;
+				color: $firstcolor;
+			}
+		}	
+		.lineStatistic {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			margin: 20px 0;
+			padding-left: 160px;
+			
+			.lineName {
+				color: $seckondcolor;
+				font-size: 15px;
+			}
+			.lineData {
+				font-size: 15px;
+
+			}						
 		}
-	img {
-		margin: 20px 0;
-		align-items: center;
+		
+		img {
+			margin: 20px 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-left: 160px;
+		}
 	}
-	}
-	}
-	}
+	
 }
