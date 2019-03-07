@@ -114,9 +114,7 @@ template { display: none; }
 
 .row:before, .row:after { content: " "; clear: both; display: table; }
 
-.container { width: 100%; max-width: 1200px; margin: 0 auto; }
-
-section > .container { margin: 50px auto; }
+.container { width: 100%; max-width: 1800px; margin: 50px; }
 
 [class*="col-"] { float: left; min-height: 1px; width: 100%; padding: 20px; }
 
@@ -279,7 +277,7 @@ body { background-color: #FFFFFF; }
 
 div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height: 100%; }
 
-.content .generalSection { border: 1px solid #C0C0C0; margin-top: 100px; }
+.content .generalSection { border: 1px solid #C0C0C0; margin-top: 100px; margin-left: 140px; }
 
 .content .generalSection .generalName { color: #C0C0C0; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; }
 
@@ -297,18 +295,26 @@ div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height:
 
 .content .generalSection .lineStatistic { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; margin: 20px 0; padding-left: 160px; }
 
-.content .generalSection .lineStatistic .lineName { color: #C0C0C0; font-size: 15px; }
+.content .generalSection .lineStatistic .lineName { color: #C0C0C0; font-size: 15px; border-bottom: 1px solid #C0C0C0; }
 
 .content .generalSection .lineStatistic .lineData { font-size: 15px; }
 
-.content .generalSection img { margin: 20px 0; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; padding-left: 160px; }
+.content .generalSection img { margin: 20px 0; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; padding-left: 200px; }
 
-.links .buttonAddNew { color: #191919; -ms-flex-align: center; align-items: center; }
+.linksSection { border: 1px solid #C0C0C0; margin-left: 140px; margin-top: 20px; }
 
-.links .row { -ms-flex-align: center; align-items: center; }
+.linksSection .linkButton { border-top: 1px solid #C0C0C0; }
 
-.links .row .linkLine p a { display: inline-block; color: #C0C0C0; }
+.linksSection .linkButton .buttonAddNew { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px; display: -ms-flexbox; display: flex; ext-align: center; -ms-flex: 1; flex: 1; margin: auto; }
 
-.links .row .linkLine p a .layer { width: 100%; height: 100%; background-color: #DDDDDD; position: absolute; top: 0; left: 0; text-align: center; line-height: 200px; color: #fff; opacity: 0; transition: .3s; }
+.linksSection .linkLine { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; padding-left: 160px; border-top: 1px solid #C0C0C0; }
 
-.links .row .linkLine p a .layer .layer:hover { opacity: 1; }
+.linksSection .linkLine .linkName { color: #C0C0C0; }
+
+.linksSection .linkLine .linkLayerColumn { position: relative; }
+
+.linksSection .linkLine .linkLayerColumn .linkAderss { -o-object-fit: cover; object-fit: cover; }
+
+.linksSection .linkLine .linkLayerColumn .linkAderss .linkLayer { width: 100%; height: 100%; position: absolute; top: 0; left: 0; text-align: center; opacity: 0; transition: .3s; }
+
+.linksSection .linkLine .linkLayerColumn .linkAderss .linkLayer.linkLayer:hover { background-color: #DDDDDD; opacity: 1; }

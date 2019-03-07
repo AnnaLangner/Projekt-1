@@ -1,29 +1,54 @@
-.links {
-	.buttonAddNew{
-		color: $paragraph-color;
-		align-items: center;
-	}
-	.row{
-		align-items: center;
-		.linkLine p a {
-			display: inline-block;
-			color: $seckondcolor;
-			.layer {
-				width: 100%;
-				height: 100%;
-				background-color: $thirdcolor;
-				position: absolute;
-				top: 0;
-				left: 0;
-				text-align: center;
-				line-height: 200px;
-				color: #fff;
-				opacity: 0;
-				transition: .3s;
-				.layer:hover {
-				opacity: 1;
-				}
+.linksSection {
+	border: 1px solid $seckondcolor;
+	margin-left: 140px;
+	margin-top: 20px;
 
+	.linkButton {
+		border-top: 1px solid $seckondcolor;
+		
+		.buttonAddNew{
+		background-color: $brand-main-color;
+		border: 1px solid $brand-main-color;
+		color: $firstcolor;
+		padding: 5px;
+		display: flex;
+		ext-align: center;
+    	flex: 1;
+    	margin: auto;
+		}
+	}
+	.linkLine {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding-left: 160px;
+		border-top: 1px solid $seckondcolor;
+
+			.linkName{
+				color: $seckondcolor;
+			}
+		.linkLayerColumn {
+			position: relative;
+
+			.linkAderss{
+				object-fit: cover;
+
+				.linkLayer{
+					width: 100%;
+					height: 100%;					
+					position: absolute;
+					top: 0;
+					left: 0;
+					text-align: center;
+					opacity: 0;
+					transition: .3s;
+
+					&.linkLayer:hover {
+					background-color: $thirdcolor;
+					opacity: 1;
+					}
+				}
 			}
 		}
 	}
