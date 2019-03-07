@@ -277,7 +277,7 @@ body { background-color: #FFFFFF; }
 
 div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height: 100%; }
 
-.content .generalSection { border: 1px solid #C0C0C0; margin-top: 100px; margin-left: 140px; }
+.content .generalSection { border: 1px solid #C0C0C0; margin-top: 100px; margin-left: 140px; width: 90%; }
 
 .content .generalSection .generalName { color: #C0C0C0; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; }
 
@@ -293,32 +293,34 @@ div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height:
 
 .content .generalSection .generalCalendar .icon-refresh { padding: 10px 12px; margin-left: 5px; background-color: #f58220; border-radius: 8px; color: #FFFFFF; }
 
-.content .generalSection .generalLine { width: 50%; }
+.content .generalSection .generalLine { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 
-.content .generalSection .generalLine .lineStatistic { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; margin: 20px 0; padding-left: 160px; border-bottom: 1px solid #C0C0C0; }
+.content .generalSection .generalLine .generalLineStatistic { width: 50%; }
 
-.content .generalSection .generalLine .lineStatistic .lineName { color: #C0C0C0; font-size: 15px; }
+.content .generalSection .generalLine .generalLineStatistic .lineStatistic { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; margin: 20px 0; }
 
-.content .generalSection .generalLine .lineStatistic .lineData { font-size: 15px; }
+.content .generalSection .generalLine .generalLineStatistic .lineStatistic .lineName { color: #C0C0C0; font-size: 15px; border-bottom: 1px solid #C0C0C0; }
+
+.content .generalSection .generalLine .generalLineStatistic .lineStatistic .lineData { font-size: 15px; }
 
 .content .generalSection .generalImg { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 
-.content .generalSection .generalImg img { margin: 20px 0; padding-left: 200px; }
+.content .generalSection .generalImg img { margin: 20px 0; }
 
 .linksSection { border: 1px solid #C0C0C0; margin-left: 140px; margin-top: 20px; }
 
-.linksSection .linkButton { border-top: 1px solid #C0C0C0; }
+.linksSection .linkButton { border-top: 1px solid #C0C0C0; width: 50%; }
 
 .linksSection .linkButton .buttonAddNew { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px; display: -ms-flexbox; display: flex; ext-align: center; -ms-flex: 1; flex: 1; margin: auto; }
 
-.linksSection .linkLine { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; padding-left: 160px; border-top: 1px solid #C0C0C0; }
+.linksSection .linkLine { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 50%; padding-left: 160px; border-top: 1px solid #C0C0C0; }
 
 .linksSection .linkLine .linkName { color: #C0C0C0; }
 
-.linksSection .linkLine .linkLayerColumn { position: relative; }
+.linksSection .linkLine .linkLayerRow { position: relative; }
 
-.linksSection .linkLine .linkLayerColumn .linkAderss { -o-object-fit: cover; object-fit: cover; }
+.linksSection .linkLine .linkLayerRow .linkAderss { -o-object-fit: cover; object-fit: cover; }
 
-.linksSection .linkLine .linkLayerColumn .linkAderss .linkLayer { width: 100%; height: 100%; position: absolute; top: 0; left: 0; text-align: center; opacity: 0; transition: .3s; }
+.linksSection .linkLine .linkLayerRow .linkAderss .linkLayer { width: 100%; height: 100%; position: absolute; top: 0; left: 0; text-align: center; opacity: 0; transition: .3s; }
 
-.linksSection .linkLine .linkLayerColumn .linkAderss .linkLayer.linkLayer:hover { background-color: #DDDDDD; opacity: 1; }
+.linksSection .linkLine .linkLayerRow .linkAderss .linkLayer.linkLayer:hover { background-color: #DDDDDD; opacity: 1; }

@@ -3,8 +3,11 @@
 	margin-left: 140px;
 	margin-top: 20px;
 
+	
+
 	.linkButton {
 		border-top: 1px solid $seckondcolor;
+		width: 50%;
 		
 		.buttonAddNew{
 		background-color: $brand-main-color;
@@ -21,14 +24,14 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 100%;
+		width: 50%;
 		padding-left: 160px;
 		border-top: 1px solid $seckondcolor;
 
 			.linkName{
 				color: $seckondcolor;
 			}
-		.linkLayerColumn {
+		.linkLayerRow {
 			position: relative;
 
 			.linkAderss{

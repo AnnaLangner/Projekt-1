@@ -3,6 +3,7 @@
 		border: 1px solid $seckondcolor;
 		margin-top: 100px;
 		margin-left: 140px;
+		width: 90%;
 		
 		.generalName{
 			color: $seckondcolor;
@@ -45,27 +46,31 @@
 				border-radius: 8px;
 				color: $firstcolor;
 			}
-		}	
-		.generalLine {
-			width: 50%;
+		}
+		.generalLine {	
+			display: flex;
+			justify-content: center;
+			align-items: center;
 
-			.lineStatistic {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				width: 100%;
-				margin: 20px 0;
-				padding-left: 160px;
-				border-bottom: 1px solid $seckondcolor;
-				
-				.lineName {
-					color: $seckondcolor;
-					font-size: 15px;
-					//border-bottom: 1px solid $seckondcolor;
+			.generalLineStatistic {
+				width: 50%;
+	
+				.lineStatistic {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 100%;
+					margin: 20px 0;;
+					
+					.lineName {
+						color: $seckondcolor;
+						font-size: 15px;
+						border-bottom: 1px solid $seckondcolor;
+					}
+					.lineData {
+						font-size: 15px;
+					}						
 				}
-				.lineData {
-					font-size: 15px;
-				}						
 			}
 		}
 		
@@ -76,7 +81,6 @@
 
 			img {
 				margin: 20px 0;
-				padding-left: 200px;
 			}
 		}
 	}
