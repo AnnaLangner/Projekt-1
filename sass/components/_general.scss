@@ -3,7 +3,7 @@
 		border: 1px solid $seckondcolor;
 		margin-top: 100px;
 		margin-left: 140px;
-
+		
 		.generalName{
 			color: $seckondcolor;
 			text-transform: uppercase;
@@ -12,7 +12,7 @@
             font-size: 15px;
 		}	
 
-		.calendar {	
+		.generalCalendar {	
 			display: flex;
 			width: 100%;
 			padding: 50px 0;
@@ -46,30 +46,38 @@
 				color: $firstcolor;
 			}
 		}	
-		.lineStatistic {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			width: 100%;
-			margin: 20px 0;
-			padding-left: 160px;
-			
-			.lineName {
-				color: $seckondcolor;
-				font-size: 15px;
+		.generalLine {
+			width: 50%;
+
+			.lineStatistic {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				margin: 20px 0;
+				padding-left: 160px;
 				border-bottom: 1px solid $seckondcolor;
+				
+				.lineName {
+					color: $seckondcolor;
+					font-size: 15px;
+					//border-bottom: 1px solid $seckondcolor;
+				}
+				.lineData {
+					font-size: 15px;
+				}						
 			}
-			.lineData {
-				font-size: 15px;
-			}						
 		}
 		
-		img {
-			margin: 20px 0;
+		.generalImg{
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			padding-left: 200px;
+
+			img {
+				margin: 20px 0;
+				padding-left: 200px;
+			}
 		}
 	}
 	

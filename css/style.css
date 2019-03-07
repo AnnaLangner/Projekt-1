@@ -281,25 +281,29 @@ div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height:
 
 .content .generalSection .generalName { color: #C0C0C0; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; }
 
-.content .generalSection .calendar { display: -ms-flexbox; display: flex; width: 100%; padding: 50px 0; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; border-top: 1px solid #C0C0C0; border-bottom: 1px solid #C0C0C0; }
+.content .generalSection .generalCalendar { display: -ms-flexbox; display: flex; width: 100%; padding: 50px 0; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; border-top: 1px solid #C0C0C0; border-bottom: 1px solid #C0C0C0; }
 
-.content .generalSection .calendar .windowOne { display: inline-block; border: 1px solid #C0C0C0; padding: 10px; }
+.content .generalSection .generalCalendar .windowOne { display: inline-block; border: 1px solid #C0C0C0; padding: 10px; }
 
-.content .generalSection .calendar .calendarWindowWithIcon { border: 1px solid #C0C0C0; padding: 10px; }
+.content .generalSection .generalCalendar .calendarWindowWithIcon { border: 1px solid #C0C0C0; padding: 10px; }
 
-.content .generalSection .calendar .calendarWindowWithIcon .windowTwo { display: inline-block; border: none; }
+.content .generalSection .generalCalendar .calendarWindowWithIcon .windowTwo { display: inline-block; border: none; }
 
-.content .generalSection .calendar .calendarWindowWithIcon .icon-calendar { padding: 0px; }
+.content .generalSection .generalCalendar .calendarWindowWithIcon .icon-calendar { padding: 0px; }
 
-.content .generalSection .calendar .icon-refresh { padding: 10px 12px; margin-left: 5px; background-color: #f58220; border-radius: 8px; color: #FFFFFF; }
+.content .generalSection .generalCalendar .icon-refresh { padding: 10px 12px; margin-left: 5px; background-color: #f58220; border-radius: 8px; color: #FFFFFF; }
 
-.content .generalSection .lineStatistic { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; margin: 20px 0; padding-left: 160px; }
+.content .generalSection .generalLine { width: 50%; }
 
-.content .generalSection .lineStatistic .lineName { color: #C0C0C0; font-size: 15px; border-bottom: 1px solid #C0C0C0; }
+.content .generalSection .generalLine .lineStatistic { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; margin: 20px 0; padding-left: 160px; border-bottom: 1px solid #C0C0C0; }
 
-.content .generalSection .lineStatistic .lineData { font-size: 15px; }
+.content .generalSection .generalLine .lineStatistic .lineName { color: #C0C0C0; font-size: 15px; }
 
-.content .generalSection img { margin: 20px 0; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; padding-left: 200px; }
+.content .generalSection .generalLine .lineStatistic .lineData { font-size: 15px; }
+
+.content .generalSection .generalImg { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
+
+.content .generalSection .generalImg img { margin: 20px 0; padding-left: 200px; }
 
 .linksSection { border: 1px solid #C0C0C0; margin-left: 140px; margin-top: 20px; }
 
