@@ -18,31 +18,26 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			
-			.main-containerLink{
-				
 
+			.main-containerLink{
+				width: 50%;
+				
 				.linkButton {
 					border-bottom: 1px solid $seckondcolor;
-					width: 50%;
-
+					
 					.buttonAddNew{
 					background-color: $brand-main-color;
 					border: 1px solid $brand-main-color;
 					color: $firstcolor;
 					padding: 5px;
 					display: flex;
-					ext-align: center;
-		    		flex: 1;
+					flex: 1;
 		    		margin: auto;
 					}
 				}
 				.linkLine {
 					display: flex;
-					justify-content: center;
-					align-items: center;
-					width: 50%;
-					padding-left: 160px;
+					text-align: left;
 					border-bottom: 1px solid $seckondcolor;
 
 						.linkName{
@@ -52,7 +47,7 @@
 						position: relative;
 			
 						.linkAderss{
-							object-fit: cover;
+							text-decoration: none;
 			
 							.linkLayer{
 								width: 100%;
@@ -60,7 +55,6 @@
 								position: absolute;
 								top: 0;
 								left: 0;
-								text-align: center;
 								opacity: 0;
 								transition: .3s;
 			
@@ -68,6 +62,16 @@
 								background-color: $thirdcolor;
 								opacity: 1;
 								}
+
+									.icon-links {
+										text-align: right;
+										color: $brand-main-color;
+									}
+
+									.icon-trash {
+										text-align: right;
+
+									}
 							}
 						}
 					}
