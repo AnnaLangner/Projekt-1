@@ -364,8 +364,8 @@ div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height:
 
 .content .linksSection .main-container .main-containerLink .linkLine .linkLayerRow .linkLayer { width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0; transition: .3s; }
 
-hidden .content .linksSection .main-container .main-containerLink .linkLine .linkLayerRow .linkLayer.linkLayer:hover { background-color: #DDDDDD; opacity: 1; }
+hidden .content .linksSection .main-container .main-containerLink .linkLine .linkLayerRow .linkLayer:hover { background-color: #DDDDDD; opacity: 1; }
 
-.content .linksSection .main-container .main-containerLink .linkLine .linkLayerRow .linkLayer .icon-links { text-align: right; color: #f58220; }
+.content .linksSection .main-container .main-containerLink .linkLine .linkLayerRow .icon-links { text-align: right; color: #f58220; }
 
-.content .linksSection .main-container .main-containerLink .linkLine .linkLayerRow .linkLayer .icon-trash { text-align: right; }
+.content .linksSection .main-container .main-containerLink .linkLine .linkLayerRow .icon-trash { text-align: right; }

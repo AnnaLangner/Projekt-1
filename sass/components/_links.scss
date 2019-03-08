@@ -60,11 +60,11 @@
 							transition: .3s;
 							hidden
 			
-							&.linkLayer:hover {
+							&:hover {
 							background-color: $thirdcolor;
 							opacity: 1;
 							}
-
+						}
 								.icon-links {
 									text-align: right;
 									color: $brand-main-color;
@@ -72,7 +72,7 @@
 									.icon-trash {
 									text-align: right;
 								}
-						}
+						
 					
 					}
 				}
