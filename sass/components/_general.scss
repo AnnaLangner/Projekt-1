@@ -3,7 +3,7 @@
 		border: 1px solid $seckondcolor;
 		margin-top: 100px;
 		margin-left: 140px;
-		width: 90%;
+		box-shadow: 2px 2px 5px #444;
 		
 		.generalName{
 			color: $seckondcolor;
@@ -54,23 +54,44 @@
 
 			.generalLineStatistic {
 				width: 50%;
-	
-				.lineStatistic {
+
+				.statistic {
 					display: flex;
-					justify-content: center;
-					align-items: center;
-					width: 100%;
-					margin: 20px 0;;
+					margin: 20px 0;
+					border: 1px solid green;
 					
-					.lineName {
-						color: $seckondcolor;
-						font-size: 15px;
-						border-bottom: 1px solid $seckondcolor;
+					.lineStatistic {
+						border: 1px solid purple;
+
+						.lineElement {
+							display: flex;
+							align-items: left;
+							width: 100%;
+							padding: 20px;
+							//border-bottom: 1px solid $seckondcolor;
+							border: 1px solid orange;
+							
+							.col-6 {	
+								padding: 0;
+
+								.lineName {
+									color: $seckondcolor;
+									font-size: 15px;
+									border: 1px solid red;
+								}
+							}
+							
+							.col-6 {
+								padding: 0;
+
+								.lineData {
+									font-size: 15px;
+									border: 1px solid blue; 
+								}
+							}						
+						}
 					}
-					.lineData {
-						font-size: 15px;
-					}						
-				}
+				}						
 			}
 		}
 		

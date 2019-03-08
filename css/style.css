@@ -277,7 +277,7 @@ body { background-color: #FFFFFF; }
 
 div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height: 100%; }
 
-.content .generalSection { border: 1px solid #C0C0C0; margin-top: 100px; margin-left: 140px; width: 90%; }
+.content .generalSection { border: 1px solid #C0C0C0; margin-top: 100px; margin-left: 140px; box-shadow: 2px 2px 5px #444; }
 
 .content .generalSection .generalName { color: #C0C0C0; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; }
 
@@ -297,30 +297,42 @@ div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height:
 
 .content .generalSection .generalLine .generalLineStatistic { width: 50%; }
 
-.content .generalSection .generalLine .generalLineStatistic .lineStatistic { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; margin: 20px 0; }
+.content .generalSection .generalLine .generalLineStatistic .statistic { display: -ms-flexbox; display: flex; margin: 20px 0; border: 1px solid green; }
 
-.content .generalSection .generalLine .generalLineStatistic .lineStatistic .lineName { color: #C0C0C0; font-size: 15px; border-bottom: 1px solid #C0C0C0; }
+.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic { border: 1px solid purple; }
 
-.content .generalSection .generalLine .generalLineStatistic .lineStatistic .lineData { font-size: 15px; }
+.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement { display: -ms-flexbox; display: flex; -ms-flex-align: left; align-items: left; width: 100%; padding: 20px; border: 1px solid orange; }
+
+.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 { padding: 0; }
+
+.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 .lineName { color: #C0C0C0; font-size: 15px; border: 1px solid red; }
+
+.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 { padding: 0; }
+
+.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 .lineData { font-size: 15px; border: 1px solid blue; }
 
 .content .generalSection .generalImg { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 
 .content .generalSection .generalImg img { margin: 20px 0; }
 
-.linksSection { border: 1px solid #C0C0C0; margin-left: 140px; margin-top: 20px; }
+.content .linksSection { border: 1px solid #C0C0C0; margin-left: 140px; margin-top: 20px; box-shadow: 2px 2px 5px #444; }
 
-.linksSection .linkButton { border-top: 1px solid #C0C0C0; width: 50%; }
+.content .linksSection .linksSectionName { color: #C0C0C0; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; border-bottom: 1px solid #C0C0C0; }
 
-.linksSection .linkButton .buttonAddNew { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px; display: -ms-flexbox; display: flex; ext-align: center; -ms-flex: 1; flex: 1; margin: auto; }
+.content .linksSection .main-container { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 
-.linksSection .linkLine { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 50%; padding-left: 160px; border-top: 1px solid #C0C0C0; }
+.content .linksSection .main-container .main-containerLink .linkButton { border-bottom: 1px solid #C0C0C0; width: 50%; }
 
-.linksSection .linkLine .linkName { color: #C0C0C0; }
+.content .linksSection .main-container .main-containerLink .linkButton .buttonAddNew { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px; display: -ms-flexbox; display: flex; ext-align: center; -ms-flex: 1; flex: 1; margin: auto; }
 
-.linksSection .linkLine .linkLayerRow { position: relative; }
+.content .linksSection .main-container .main-containerLink .linkLine { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 50%; padding-left: 160px; border-bottom: 1px solid #C0C0C0; }
 
-.linksSection .linkLine .linkLayerRow .linkAderss { -o-object-fit: cover; object-fit: cover; }
+.content .linksSection .main-container .main-containerLink .linkLine .linkName { color: #C0C0C0; }
 
-.linksSection .linkLine .linkLayerRow .linkAderss .linkLayer { width: 100%; height: 100%; position: absolute; top: 0; left: 0; text-align: center; opacity: 0; transition: .3s; }
+.content .linksSection .main-container .main-containerLink .linkLine .linkLayerRow { position: relative; }
 
-.linksSection .linkLine .linkLayerRow .linkAderss .linkLayer.linkLayer:hover { background-color: #DDDDDD; opacity: 1; }
+.content .linksSection .main-container .main-containerLink .linkLine .linkLayerRow .linkAderss { -o-object-fit: cover; object-fit: cover; }
+
+.content .linksSection .main-container .main-containerLink .linkLine .linkLayerRow .linkAderss .linkLayer { width: 100%; height: 100%; position: absolute; top: 0; left: 0; text-align: center; opacity: 0; transition: .3s; }
+
+.content .linksSection .main-container .main-containerLink .linkLine .linkLayerRow .linkAderss .linkLayer.linkLayer:hover { background-color: #DDDDDD; opacity: 1; }

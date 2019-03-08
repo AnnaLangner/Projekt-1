@@ -1,58 +1,78 @@
-.linksSection {
-	border: 1px solid $seckondcolor;
-	margin-left: 140px;
-	margin-top: 20px;
+.content {
+	.linksSection {
+		border: 1px solid $seckondcolor;
+		margin-left: 140px;
+		margin-top: 20px;
+		box-shadow: 2px 2px 5px #444;
 
-	
-
-	.linkButton {
-		border-top: 1px solid $seckondcolor;
-		width: 50%;
-		
-		.buttonAddNew{
-		background-color: $brand-main-color;
-		border: 1px solid $brand-main-color;
-		color: $firstcolor;
-		padding: 5px;
-		display: flex;
-		ext-align: center;
-    	flex: 1;
-    	margin: auto;
+		.linksSectionName {
+			color: $seckondcolor;
+			text-transform: uppercase;
+	        text-align: left;
+	        padding-left: 5px;
+	        font-size: 15px;
+	        border-bottom: 1px solid $seckondcolor;		
 		}
-	}
-	.linkLine {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 50%;
-		padding-left: 160px;
-		border-top: 1px solid $seckondcolor;
 
-			.linkName{
-				color: $seckondcolor;
-			}
-		.linkLayerRow {
-			position: relative;
+		.main-container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+			.main-containerLink{
+				
 
-			.linkAderss{
-				object-fit: cover;
+				.linkButton {
+					border-bottom: 1px solid $seckondcolor;
+					width: 50%;
 
-				.linkLayer{
-					width: 100%;
-					height: 100%;					
-					position: absolute;
-					top: 0;
-					left: 0;
-					text-align: center;
-					opacity: 0;
-					transition: .3s;
-
-					&.linkLayer:hover {
-					background-color: $thirdcolor;
-					opacity: 1;
+					.buttonAddNew{
+					background-color: $brand-main-color;
+					border: 1px solid $brand-main-color;
+					color: $firstcolor;
+					padding: 5px;
+					display: flex;
+					ext-align: center;
+		    		flex: 1;
+		    		margin: auto;
 					}
 				}
-			}
+				.linkLine {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 50%;
+					padding-left: 160px;
+					border-bottom: 1px solid $seckondcolor;
+
+						.linkName{
+							color: $seckondcolor;
+						}
+					.linkLayerRow {
+						position: relative;
+			
+						.linkAderss{
+							object-fit: cover;
+			
+							.linkLayer{
+								width: 100%;
+								height: 100%;					
+								position: absolute;
+								top: 0;
+								left: 0;
+								text-align: center;
+								opacity: 0;
+								transition: .3s;
+			
+								&.linkLayer:hover {
+								background-color: $thirdcolor;
+								opacity: 1;
+								}
+							}
+						}
+					}
+				}
+			}		
 		}
 	}
 }
