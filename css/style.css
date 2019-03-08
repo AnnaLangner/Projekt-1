@@ -297,19 +297,17 @@ div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height:
 
 .content .generalSection .generalLine .generalLineStatistic { width: 50%; }
 
-.content .generalSection .generalLine .generalLineStatistic .statistic { display: -ms-flexbox; display: flex; margin: 20px 0; border: 1px solid green; }
+.content .generalSection .generalLine .generalLineStatistic .statistic { display: -ms-flexbox; display: flex; margin: 20px 0; }
 
-.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic { border: 1px solid purple; }
-
-.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement { display: -ms-flexbox; display: flex; -ms-flex-align: left; align-items: left; width: 100%; padding: 20px; border: 1px solid orange; }
+.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement { display: -ms-flexbox; display: flex; -ms-flex-align: left; align-items: left; width: 100%; padding: 20px; border-bottom: 1px solid #C0C0C0; }
 
 .content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 { padding: 0; }
 
-.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 .lineName { color: #C0C0C0; font-size: 15px; border: 1px solid red; }
+.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 .lineName { color: #C0C0C0; font-size: 15px; }
 
 .content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 { padding: 0; }
 
-.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 .lineData { font-size: 15px; border: 1px solid blue; }
+.content .generalSection .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 .lineData { font-size: 15px; text-align: right; }
 
 .content .generalSection .generalImg { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 

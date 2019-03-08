@@ -58,26 +58,23 @@
 				.statistic {
 					display: flex;
 					margin: 20px 0;
-					border: 1px solid green;
 					
 					.lineStatistic {
-						border: 1px solid purple;
 
 						.lineElement {
 							display: flex;
 							align-items: left;
 							width: 100%;
 							padding: 20px;
-							//border-bottom: 1px solid $seckondcolor;
-							border: 1px solid orange;
+							border-bottom: 1px solid $seckondcolor;
+							
 							
 							.col-6 {	
 								padding: 0;
 
 								.lineName {
 									color: $seckondcolor;
-									font-size: 15px;
-									border: 1px solid red;
+									font-size: 15px;									
 								}
 							}
 							
@@ -86,7 +83,8 @@
 
 								.lineData {
 									font-size: 15px;
-									border: 1px solid blue; 
+									text-align: right;
+									
 								}
 							}						
 						}
