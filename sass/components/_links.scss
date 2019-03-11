@@ -40,11 +40,18 @@
 					text-align: left;
 					border-bottom: 1px solid $seckondcolor;
 
+					&:hover {
+					background-color: $thirdcolor;
+					opacity: 1;
+					}
+
 						.linkName{
 							color: $seckondcolor;
 						}
 					.linkLayerRow {
 						position: relative;
+						display: flex;
+						justify-content: space-between;
 			
 						.linkAddress{
 							text-decoration: none;
@@ -52,28 +59,23 @@
 			
 						.linkLayer{
 							width: 100%;
-							height: 100%;					
-							position: absolute;
-							top: 0;
-							left: 0;
+							height: 100%;
+							text-align: right;								
 							opacity: 0;
 							transition: .3s;
-							hidden
-			
 							&:hover {
-							background-color: $thirdcolor;
-							opacity: 1;
-							}
-						}
-								.icon-links {
-									text-align: right;
-									color: $brand-main-color;
-								}
-									.icon-trash {
-									text-align: right;
+								background-color: $thirdcolor;
+								opacity: 1;
 								}
 						
-					
+							.icon-links {
+								text-align: right;
+								color: $brand-main-color;
+							}
+								.icon-trash {
+								text-align: right;
+							}
+						}				
 					}
 				}
 			}		
