@@ -1,5 +1,5 @@
 .content {
-	.generalSection {
+	.section {
 		border: 1px solid $seckondcolor;
 		box-shadow: 2px 2px 5px #444;
 		background-color: $firstcolor;
@@ -39,6 +39,7 @@
 				}
 			}
 			.icon-refresh {
+				border: none;
 				padding: 10px 12px;
 				margin-left: 5px;
 				background-color: $brand-main-color;

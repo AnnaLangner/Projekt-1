@@ -24,11 +24,29 @@ header {
                 a {
                     color: $seckondcolor;
                     text-decoration: none;
-                    span{
+
+                     span{
                         padding: 0 10px;
+                        position: relative; 
+
+                        .notificationCircle {
+                            background-color: $brand-main-color;
+                            border-radius: 50%;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            width: 8px;
+                            height: 8px;
+                        }
                     }
                 }
             }
         }
         }
-}    
+}   
+
+@media (max-width: 768px) {
+.mainMenu {
+      display: none;
+    }
+} 

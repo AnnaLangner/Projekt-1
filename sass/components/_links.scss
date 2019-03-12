@@ -1,5 +1,5 @@
 .content {
-	.linksSection {
+	.section {
 		border: 1px solid $seckondcolor;
 		margin-top: 20px;
 		box-shadow: 2px 2px 5px #444;
@@ -11,6 +11,7 @@
 	        text-align: left;
 	        padding-left: 5px;
 	        font-size: 15px;
+	        padding-bottom: 10px;
 	        border-bottom: 1px solid $seckondcolor;		
 		}
 
@@ -40,14 +41,10 @@
 					text-align: left;
 					border-bottom: 1px solid $seckondcolor;
 
-					&:hover {
-					background-color: $thirdcolor;
-					opacity: 1;
-					}
-
 						.linkName{
 							color: $seckondcolor;
 						}
+
 					.linkLayerRow {
 						position: relative;
 						display: flex;
@@ -63,19 +60,26 @@
 							text-align: right;								
 							opacity: 0;
 							transition: .3s;
-							&:hover {
-								background-color: $thirdcolor;
-								opacity: 1;
-								}
-						
+							
 							.icon-links {
 								text-align: right;
 								color: $brand-main-color;
 							}
 							.icon-trash {
 								text-align: right;
+								color: $seckondcolor;
 							}
 						}				
+					}
+
+					&:hover {
+						background-color: $thirdcolor;
+						opacity: 1;
+
+						.linkLayer{
+							opacity: 1;
+						}
+
 					}
 				}
 			}		

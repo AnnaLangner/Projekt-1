@@ -15,7 +15,7 @@
 
         .logoSing {
           display: flex;
-          align-items: center;
+          justify-content: spce-between;
 
           .buttonToExpand div {
             display: block;
@@ -23,6 +23,7 @@
             height: 1px;
             background-color: $firstcolor;
             margin: 6px 0;
+            margin-right: 20px;
           }
           
           .logoPhoto{
@@ -88,6 +89,7 @@
           .managerChat {
             display: flex;
             align-items: center;
+            position: relative;
 
             .managerPhoto {
               display: flex;
@@ -98,13 +100,24 @@
               height: 40px;
               margin-top: 10px;
               text-align: center;
-              margin-right: 10px;
-            }
+              margin-left: 20px;
+              }
+
+            .managerCircle {
+              background-color: #008000;
+              border-radius: 50%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 8px;
+              height: 8px;
+              }
 
             .managerName {
               display: flex;
               align-items: center;
               font-size: 12px;
+              margin-left: 10px;
             }
 
           }
@@ -112,4 +125,65 @@
         }
 
       }
+      .mainMenu {
+        display: none;
+        .row {
+            display: flex;
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            background-color: $firstcolor;
+            list-style-type: none;
+            li {
+                padding: 20px 45px;
+                color: $seckondcolor;
+                font-size: 15px;
+                text-decoration: none;
+                border-left: 1px solid $seckondcolor;
+                a {
+                    color: $seckondcolor;
+                    text-decoration: none;
+
+                     span{
+                        padding: 0 10px;
+                        position: relative; 
+
+                        .notificationCircle {
+                            background-color: $brand-main-color;
+                            border-radius: 50%;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            width: 8px;
+                            height: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        }
+      }
+}
+
+@media (max-width: 768px) {
+  .sidebar:not(.active) {
+    left: -110px;
+
+    .sideNavigation .manager {
+      display: none;
+    }
+
+    .sideNavigation .bookmarks ul li a {
+      font-size: 0;
+      justify-content: flex-end;
+
+      span {
+        font-size: 15px;
+        margin-right: 20px;
+      }
+    }
+    .mainMenu {
+      display: block;
+    }
+  }
 }
