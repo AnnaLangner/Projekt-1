@@ -282,9 +282,9 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .manager .managerChat .managerName { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; font-size: 12px; }
 
-body { background-color: #f4f4f2; }
+body { background-color: #f4f4f2; margin-top: 100px; margin-left: 160px; }
 
-div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height: 100%; }
+div .content { height: 100%; }
 
 .content .generalSection { border: 1px solid #C0C0C0; margin-top: 100px; margin-left: 140px; box-shadow: 2px 2px 5px #444; background-color: #FFFFFF; }
 
