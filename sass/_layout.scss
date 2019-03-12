@@ -11,6 +11,10 @@
     display: table;
 }
 
+body {
+    font-family: $brand-font;
+}
+
 .container {
     width: 100%;
 	padding: 20px;
