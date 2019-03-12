@@ -4,6 +4,7 @@
 		margin-left: 140px;
 		margin-top: 20px;
 		box-shadow: 2px 2px 5px #444;
+		background-color: $firstcolor;
 
 		.linksSectionName {
 			color: $seckondcolor;
@@ -72,7 +73,7 @@
 								text-align: right;
 								color: $brand-main-color;
 							}
-								.icon-trash {
+							.icon-trash {
 								text-align: right;
 							}
 						}				
