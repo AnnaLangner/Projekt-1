@@ -39,7 +39,7 @@
           ul {
             display: block;
             padding: 0;
-            margin: 0;
+            margin-top: 40px;
 
             li {
               display: block;
@@ -67,7 +67,64 @@
             }
           }
         }
+        .headerMenu {
+          display: none;
+          padding: 0;
+          margin: 0;
+          font-size: 15px;
+          color: $seckondcolor;
+
+          ul {
+            display: block;
+            padding: 0;
+            margin-top: 40px;
+
+            li{
+              padding: 5px 0;
+              display: block;              
+
+              a {
+                color: $seckondcolor;
+                text-decoration: none;
+                padding: 10px 0;
+                font-size: 15px;
+                color: $seckondcolor;
+                display: flex;
+                border-left: 4px solid $paragraph-color;
+                transition: .2s;
+
+                &:hover {
+                  color: #f1f1f1;
+                  background: $menuHoverColor;
+                  border-left: 4px solid $brand-main-color;
+                }
+
+                span{
+                  padding: 0 15px;
+                  position: relative; 
+                    
+                  .notificationCircle {
+                    background-color: $brand-main-color;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 8px;
+                    height: 8px;
+                  }
+                }
+                .icon-notification {
+                  margin: auto;
+                }
+                .icon-quit{
+                   margin: auto;
+                }
+              }
+            }
+          }
         }
+        }
+        
 
         .manager {
 
@@ -125,44 +182,6 @@
         }
 
       }
-      .mainMenu {
-        display: none;
-        .row {
-            display: flex;
-        ul {
-            display: flex;
-            justify-content: flex-end;
-            background-color: $firstcolor;
-            list-style-type: none;
-            li {
-                padding: 20px 45px;
-                color: $seckondcolor;
-                font-size: 15px;
-                text-decoration: none;
-                border-left: 1px solid $seckondcolor;
-                a {
-                    color: $seckondcolor;
-                    text-decoration: none;
-
-                     span{
-                        padding: 0 10px;
-                        position: relative; 
-
-                        .notificationCircle {
-                            background-color: $brand-main-color;
-                            border-radius: 50%;
-                            position: absolute;
-                            top: 0;
-                            right: 0;
-                            width: 8px;
-                            height: 8px;
-                        }
-                    }
-                }
-            }
-        }
-        }
-      }
 }
 
 @media (max-width: 768px) {
@@ -182,7 +201,7 @@
         margin-right: 20px;
       }
     }
-    .mainMenu {
+    .sideNavigation .bookmarks .headerMenu {
       display: block;
     }
   }
