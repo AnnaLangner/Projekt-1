@@ -5,24 +5,22 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 30px;
     background-color: $firstcolor;
     border-bottom: 1px solid $seckondcolor;  
     .mainMenu 
         .row {
             display: flex;
-            border: 1px solid $seckondcolor;            
         ul {
             display: flex;
             justify-content: flex-end;
             background-color: $firstcolor;
             list-style-type: none;
             li {
-                padding: 10px 30px;
+                padding: 20px 45px;
                 color: $seckondcolor;
                 font-size: 15px;
                 text-decoration: none;
-                border-right: 1px solid $seckondcolor;
+                border-left: 1px solid $seckondcolor;
                 a {
                     color: $seckondcolor;
                     text-decoration: none;

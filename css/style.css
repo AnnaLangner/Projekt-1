@@ -238,13 +238,13 @@ template { display: none; }
 
 .icon-wallet:before { content: '\0062'; }
 
-header { display: -ms-flexbox; display: flex; -ms-flex-pack: end; justify-content: flex-end; position: fixed; top: 0; left: 0; width: 100%; padding: 10px 30px; background-color: #FFFFFF; border-bottom: 1px solid #C0C0C0; }
+header { display: -ms-flexbox; display: flex; -ms-flex-pack: end; justify-content: flex-end; position: fixed; top: 0; left: 0; width: 100%; background-color: #FFFFFF; border-bottom: 1px solid #C0C0C0; }
 
-header .mainMenu .row { display: -ms-flexbox; display: flex; border: 1px solid #C0C0C0; }
+header .mainMenu .row { display: -ms-flexbox; display: flex; }
 
 header .mainMenu .row ul { display: -ms-flexbox; display: flex; -ms-flex-pack: end; justify-content: flex-end; background-color: #FFFFFF; list-style-type: none; }
 
-header .mainMenu .row ul li { padding: 10px 30px; color: #C0C0C0; font-size: 15px; text-decoration: none; border-right: 1px solid #C0C0C0; }
+header .mainMenu .row ul li { padding: 20px 45px; color: #C0C0C0; font-size: 15px; text-decoration: none; border-left: 1px solid #C0C0C0; }
 
 header .mainMenu .row ul li a { color: #C0C0C0; text-decoration: none; }
 
