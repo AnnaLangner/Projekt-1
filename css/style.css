@@ -286,7 +286,7 @@ body { background-color: #f4f4f2; margin-top: 100px; margin-left: 160px; }
 
 div .content { height: 100%; }
 
-.content .generalSection { border: 1px solid #C0C0C0; margin-top: 100px; margin-left: 140px; box-shadow: 2px 2px 5px #444; background-color: #FFFFFF; }
+.content .generalSection { border: 1px solid #C0C0C0; box-shadow: 2px 2px 5px #444; background-color: #FFFFFF; }
 
 .content .generalSection .generalName { color: #C0C0C0; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; }
 
@@ -322,7 +322,7 @@ div .content { height: 100%; }
 
 .content .generalSection .generalImg img { margin: 20px 0; }
 
-.content .linksSection { border: 1px solid #C0C0C0; margin-left: 140px; margin-top: 20px; box-shadow: 2px 2px 5px #444; background-color: #FFFFFF; }
+.content .linksSection { border: 1px solid #C0C0C0; margin-top: 20px; box-shadow: 2px 2px 5px #444; background-color: #FFFFFF; }
 
 .content .linksSection .linksSectionName { color: #C0C0C0; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; border-bottom: 1px solid #C0C0C0; }
 
