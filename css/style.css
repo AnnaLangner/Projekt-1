@@ -118,29 +118,29 @@ template { display: none; }
 
 [class*="col-"] { float: left; min-height: 1px; width: 100%; padding: 20px; }
 
-.col-1 { -ms-flex: 8.333%; flex: 8.333%; }
+.col-1 { flex: 8.333%; }
 
-.col-2 { -ms-flex: 16.667%; flex: 16.667%; }
+.col-2 { flex: 16.667%; }
 
-.col-3 { -ms-flex: 25%; flex: 25%; }
+.col-3 { flex: 25%; }
 
-.col-4 { -ms-flex: 33.333%; flex: 33.333%; }
+.col-4 { flex: 33.333%; }
 
-.col-5 { -ms-flex: 41.667%; flex: 41.667%; }
+.col-5 { flex: 41.667%; }
 
-.col-6 { -ms-flex: 50%; flex: 50%; }
+.col-6 { flex: 50%; }
 
-.col-7 { -ms-flex: 58.333%; flex: 58.333%; }
+.col-7 { flex: 58.333%; }
 
-.col-8 { -ms-flex: 66.667%; flex: 66.667%; }
+.col-8 { flex: 66.667%; }
 
-.col-9 { -ms-flex: 75%; flex: 75%; }
+.col-9 { flex: 75%; }
 
-.col-10 { -ms-flex: 83.333%; flex: 83.333%; }
+.col-10 { flex: 83.333%; }
 
-.col-11 { -ms-flex: 91.667%; flex: 91.667%; }
+.col-11 { flex: 91.667%; }
 
-.col-12 { -ms-flex: 100%; flex: 100%; }
+.col-12 { flex: 100%; }
 
 .col-offset-0 { margin-left: 0; }
 
@@ -229,11 +229,11 @@ template { display: none; }
 
 .icon-wallet:before { content: '\0062'; }
 
-header { display: -ms-flexbox; display: flex; -ms-flex-pack: end; justify-content: flex-end; position: fixed; top: 0; left: 0; width: 100%; padding: 10px 30px; }
+header { display: flex; justify-content: flex-end; position: fixed; top: 0; left: 0; width: 100%; padding: 10px 30px; }
 
-header .mainMenu .row { display: -ms-flexbox; display: flex; border: 1px solid #C0C0C0; }
+header .mainMenu .row { display: flex; border: 1px solid #C0C0C0; }
 
-header .mainMenu .row ul { display: -ms-flexbox; display: flex; -ms-flex-pack: end; justify-content: flex-end; background-color: #FFFFFF; list-style-type: none; }
+header .mainMenu .row ul { display: flex; justify-content: flex-end; background-color: #FFFFFF; list-style-type: none; }
 
 header .mainMenu .row ul li { padding: 10px 30px; color: #C0C0C0; font-size: 15px; text-decoration: none; border: 1px solid #C0C0C0; }
 
@@ -243,7 +243,7 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar { height: 100%; width: 160px; position: fixed; z-index: 2; top: 0; left: 0; background-color: #191919; position: fixed; height: 100%; overflow-x: hidden; padding-top: 16px; }
 
-.sidebar .sideNavigation .logoSing { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
+.sidebar .sideNavigation .logoSing { display: flex; align-items: center; }
 
 .sidebar .sideNavigation .logoSing .buttonToExpand div { display: block; width: 20px; height: 1px; background-color: #FFFFFF; margin: 6px 0; }
 
@@ -255,7 +255,7 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .bookmarks ul li { display: block; padding: 5px 0; }
 
-.sidebar .sideNavigation .bookmarks ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: -ms-flexbox; display: flex; border-left: 4px solid #191919; transition: .2s; }
+.sidebar .sideNavigation .bookmarks ul li a { padding: 10px 0; text-decoration: none; font-size: 15px; color: #C0C0C0; display: flex; border-left: 4px solid #191919; transition: .2s; }
 
 .sidebar .sideNavigation .bookmarks ul li a:hover { color: #f1f1f1; background: #282828; border-left: 4px solid #f58220; }
 
@@ -267,11 +267,11 @@ header .mainMenu .row ul li a span { padding: 0 10px; }
 
 .sidebar .sideNavigation .manager .managerTitle { text-transform: uppercase; text-align: center; font-size: 13px; padding-top: 40px; padding-right: 25px; }
 
-.sidebar .sideNavigation .manager .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
+.sidebar .sideNavigation .manager .managerChat { display: flex; align-items: center; }
 
-.sidebar .sideNavigation .manager .managerChat .managerPhoto { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; margin-right: 10px; }
+.sidebar .sideNavigation .manager .managerChat .managerPhoto { display: flex; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; margin-right: 10px; }
 
-.sidebar .sideNavigation .manager .managerChat .managerName { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; font-size: 12px; }
+.sidebar .sideNavigation .manager .managerChat .managerName { display: flex; align-items: center; font-size: 12px; }
 
 body { background-color: #FFFFFF; }
 
@@ -281,7 +281,7 @@ div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height:
 
 .content .generalSection .generalName { color: #C0C0C0; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; }
 
-.content .generalSection .calendar { display: -ms-flexbox; display: flex; width: 100%; padding: 50px 0; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; border-top: 1px solid #C0C0C0; border-bottom: 1px solid #C0C0C0; }
+.content .generalSection .calendar { display: flex; width: 100%; padding: 50px 0; justify-content: center; align-items: center; border-top: 1px solid #C0C0C0; border-bottom: 1px solid #C0C0C0; }
 
 .content .generalSection .calendar .windowOne { display: inline-block; border: 1px solid #C0C0C0; padding: 10px; }
 
@@ -293,27 +293,27 @@ div .content { margin-top: 100px; margin-left: 160px; padding: 1px 16px; height:
 
 .content .generalSection .calendar .icon-refresh { padding: 10px 12px; margin-left: 5px; background-color: #f58220; border-radius: 8px; color: #FFFFFF; }
 
-.content .generalSection .lineStatistic { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; margin: 20px 0; padding-left: 160px; }
+.content .generalSection .lineStatistic { display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px 0; padding-left: 160px; }
 
 .content .generalSection .lineStatistic .lineName { color: #C0C0C0; font-size: 15px; border-bottom: 1px solid #C0C0C0; }
 
 .content .generalSection .lineStatistic .lineData { font-size: 15px; }
 
-.content .generalSection img { margin: 20px 0; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; padding-left: 200px; }
+.content .generalSection img { margin: 20px 0; display: flex; justify-content: center; align-items: center; padding-left: 200px; }
 
 .linksSection { border: 1px solid #C0C0C0; margin-left: 140px; margin-top: 20px; }
 
 .linksSection .linkButton { border-top: 1px solid #C0C0C0; }
 
-.linksSection .linkButton .buttonAddNew { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px; display: -ms-flexbox; display: flex; ext-align: center; -ms-flex: 1; flex: 1; margin: auto; }
+.linksSection .linkButton .buttonAddNew { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px; display: flex; ext-align: center; flex: 1; margin: auto; }
 
-.linksSection .linkLine { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; padding-left: 160px; border-top: 1px solid #C0C0C0; }
+.linksSection .linkLine { display: flex; justify-content: center; align-items: center; width: 100%; padding-left: 160px; border-top: 1px solid #C0C0C0; }
 
 .linksSection .linkLine .linkName { color: #C0C0C0; }
 
 .linksSection .linkLine .linkLayerColumn { position: relative; }
 
-.linksSection .linkLine .linkLayerColumn .linkAderss { -o-object-fit: cover; object-fit: cover; }
+.linksSection .linkLine .linkLayerColumn .linkAderss { object-fit: cover; }
 
 .linksSection .linkLine .linkLayerColumn .linkAderss .linkLayer { width: 100%; height: 100%; position: absolute; top: 0; left: 0; text-align: center; opacity: 0; transition: .3s; }
 
