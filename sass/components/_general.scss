@@ -1,9 +1,9 @@
 .content {
-	.generalSection {
+	.section {
 		border: 1px solid $seckondcolor;
-		margin-top: 100px;
-		margin-left: 140px;
-
+		box-shadow: 2px 2px 5px #444;
+		background-color: $firstcolor;
+		
 		.generalName{
 			color: $seckondcolor;
 			text-transform: uppercase;
@@ -12,7 +12,7 @@
             font-size: 15px;
 		}	
 
-		.calendar {	
+		.generalCalendar {	
 			display: flex;
 			width: 100%;
 			padding: 50px 0;
@@ -28,7 +28,7 @@
 			}
 			.calendarWindowWithIcon{
 				border: 1px solid $seckondcolor;
-			padding: 10px;
+				padding: 10px;
 	
 				.windowTwo {
 					display: inline-block;
@@ -39,37 +39,68 @@
 				}
 			}
 			.icon-refresh {
+				border: none;
 				padding: 10px 12px;
 				margin-left: 5px;
 				background-color: $brand-main-color;
 				border-radius: 8px;
 				color: $firstcolor;
 			}
-		}	
-		.lineStatistic {
+		}
+		.generalLine {	
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			width: 100%;
-			margin: 20px 0;
-			padding-left: 160px;
-			
-			.lineName {
-				color: $seckondcolor;
-				font-size: 15px;
-				border-bottom: 1px solid $seckondcolor;
+
+			.generalLineStatistic {
+				width: 50%;
+
+				.statistic {
+					display: flex;
+					margin: 20px 0;
+					
+					.lineStatistic {
+
+						.lineElement {
+							display: flex;
+							align-items: left;
+							width: 100%;
+							padding: 20px;
+							border-bottom: 1px solid $seckondcolor;
+							
+							
+							.col-6 {	
+								padding: 0;
+
+								.lineName {
+									color: $seckondcolor;
+									font-size: 15px;									
+								}
+							}
+							
+							.col-6 {
+								padding: 0;
+
+								.lineData {
+									font-size: 15px;
+									text-align: right;
+									
+								}
+							}						
+						}
+					}
+				}						
 			}
-			.lineData {
-				font-size: 15px;
-			}						
 		}
 		
-		img {
-			margin: 20px 0;
+		.generalImg{
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			padding-left: 200px;
+
+			img {
+				margin: 20px 0;
+			}
 		}
 	}
 	

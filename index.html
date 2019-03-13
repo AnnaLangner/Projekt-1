@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Just do it</title>			
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script src="js/script.js"></script>			
+					
 
 	</head>
 	<body>
@@ -15,7 +15,11 @@
 		        <div class="row">
 		        <ul>
 			        <li><a href="#"><span class="icon-wallet"></span> text <span class="icon-arrow-down"></span></a></li>
-		    	    <li><a href="#"><span class="icon-notification"></span></a></li>
+		    	    <li><a href="#">
+		    	    		<span class="icon-notification">
+		    	    			<div class="notificationCircle"></div>
+		    	    		</span>
+		    	    </a></li>
 		    	    <li><a href="#"> <span class="icon-profile"></span>Name User</a></li>
 		    	    <li><a href="#"><span class="icon-quit"></span></a></li>
 		        </ul>
@@ -23,17 +27,17 @@
             </nav>
         </header>
             
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
 
         	<nav class="sideNavigation">
 
         		<div class="logoSing">
         			<img class="logoPhoto" src="images/logo.png" alt="Just do it" />
-        			<a href="#" class="buttonToExpand">
+        			<a href="#" class="buttonToExpand" id="menuToggle" title="show menu">
 						<div></div>
 						<div></div>
 						<div></div>
-					</a>						
+					</a>							
 				</div>	
 
         		<div class="bookmarks">			
@@ -47,165 +51,289 @@
 		    			<li><a href="#"><span class="icon-postback"></span>  Postback</a></li>
 		    		</ul>
 		    	</div>
+		    	<div class="headerMenu">		        	
+		        	<ul>
+			    	    <li><a href="#"><span class="icon-wallet"></span> text <span class="icon-arrow-down"></span></a></li>
+		    		    <li><a href="#">
+		    		    		<span class="icon-notification">
+		    		    			<div class="notificationCircle"></div>
+		    		    		</span>
+		    		    </a></li>
+		    		    <li><a href="#"> <span class="icon-profile"></span>Name User</a></li>
+		    		    <li><a href="#"><span class="icon-quit"></span></a></li>
+		        	</ul>		        	
+            	</div>
+		    	
 
 				<section class="manager">
 					<a href="#">
 						<h2 class="managerTitle">Your manager</h2>
 						<div class="managerChat">
 							<img class="managerPhoto" src="images/manager1.png" alt="ManagerFoto" />
+							<div class="managerCircle"></div>
 							<h1 class="managerName"> Mikhael E. </h1>
 						</div>
 					</a>
-				</section>
-		    	
+				</section>		    	
 			</nav>
+
+			
+
         </div>
         
 
  
 
-        <div class="container content">
+        <div class="container ">
 
-                                 <!-- Body General statistic -->
+            <div class="content">                     <!-- Body General statistic -->
 
-        	<div class="generalSection">
+        		<div class="section">
 
-        		<h1 class="generalName">general statistic</h1>
+        			<h1 class="generalName">general statistic</h1>
         	
 
-        		<div class="calendar row">
-        			<input class="windowOne" type="date" name="calendar">
-        			<div class="calendarWindowWithIcon">
-        				<input class="windowTwo" type="date" name="calendar">
-        				<span class="icon-calendar"></span>
+        			<div class="generalCalendar row">
+        				<input class="windowOne" type="date" name="calendar">
+        				<div class="calendarWindowWithIcon">
+        					<input class="windowTwo" type="date" name="calendar">
+        					<span class="icon-calendar"></span>
+        				</div>
+        				<button class="icon-refresh"></button>        	
         			</div>
-        			<button class="icon-refresh"></button>        	
-        		</div>
 	
-        		<div class="row lineStatistic">
-	    			<div class="col col-3">
-	    				<h2 class="lineName">Visit Singups</h2>
-	    			</div>
-	    			<div class="col col-3">
-	    				<p class="lineData">124</p>
-					</div>
-					<div class="col col-3">
-						<h2 class="lineName">FTD</h2>
-					</div>
-					<div class="col col-3">
-						<p class="lineData">445</p>
-					</div>
-				</div>
-				<div class="row lineStatistic">
-					<div class="col col-3">
-	    				<h2 class="lineName">Net Deposit</h2>
-	    			</div>
-					<div class="col col-3">
-	    				<p class="lineData">564</p>
-					</div>
-					<div class="col col-3">
-						<h2 class="lineName">Turn over</h2>
-					</div>
-					<div class="col col-3">
-						<p class="lineData">432</p>
-					</div>
-				</div>
+        			<div class="generalLine">
+        				<div class="generalLineStatistic">
 
-				<img src="images/EarningsChart.png" alt="EarningsChart" />  
+        					<div class=" row statistic">
 
-			</div>
+        						<div class="col col-6">
+        							<div class="row lineStatistic">
+        								<div class="lineElement">
+
+	    									<div class="col col-6">
+	    										<h2 class="lineName">Visit Singups</h2>
+	    									</div>
+	    									<div class="col col-6">
+	    										<p class="lineData">124</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+        						<div class="col col-6">
+        							<div class="row lineStatistic">        								
+										<div class="lineElement">
+
+											<div class="col col-6">
+												<h2 class="lineName">FTD</h2>
+											</div>
+											<div class="col col-6">
+												<p class="lineData">445</p>
+											</div>
+
+										</div>
+									</div>
+								</div>								
+							</div>
+
+							<div class=" row statistic">
+
+        						<div class="col col-6">
+        							<div class="row lineStatistic">
+										<div class="lineElement">
+
+											<div class="col col-6">
+	    										<h2 class="lineName">Net Deposit</h2>
+	    									</div>
+											<div class="col col-6">
+	    										<p class="lineData">564</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-6">
+        							<div class="row lineStatistic">
+										<div class="lineElement">
+
+											<div class="col col-6">
+												<h2 class="lineName">Turn over</h2>
+											</div>
+											<div class="col col-6">
+												<p class="lineData">432</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+					<div class="generalImg">
+						<img src="images/EarningsChart.png" alt="EarningsChart" />  
+					</div>
+
+				</div>
 								<!-- Body Links -->
     
-    		<div class="linksSection">
+    			<div class="section">
 
-    			<div class="row linkButton">
-    				<div class="col col-12">
-    					<button class="buttonAddNew"> + add new </button>
-    				</div>
-    			</div>
+    				<h1 class="linksSectionName">links</h1>
 
-    			<div class="row linkLine">
-	    			<div class="col col-6">
-	    				<p class="linkName">nazwa strony</p>
-	    			</div>
-	    			<div class="col col-6 linkLayerColumn">
-						<a href="#" class="linkAdress">aderes internetowy</a>
-							<div class="linkLayer">
-								<span class="icon-links"></span>
-								<span class="icon-trash"></span>
-							</div>
-					</div>
-				</div>
-				<div class="row linkLine">
-	    			<div class="col col-6">
-	    				<p class="linkName">nazwa strony</p>
-	    			</div>
-	    			<div class="col col-6 linkLayerColumn">
-						<a href="#" class="linkAdress">aderes internetowy</a>
-							<div class="linkLayer">
-								<span class="icon-links"></span>
-								<span class="icon-trash"></span>
-							</div>
-					</div>
-				</div>
-				<div class="row linkLine">
-	    			<div class="col col-6">
-	    				<p class="linkName">nazwa strony</p>
-	    			</div>
-	    			<div class="col col-6 linkLayerColumn">
-						<a href="#" class="linkAdress">aderes internetowy</a>
-							<div class="linkLayer">
-								<span class="icon-links"></span>
-								<span class="icon-trash"></span>
-							</div>
-					</div>
-				</div>
-				<div class="row linkLine">
-	    			<div class="col col-6">
-	    				<p class="linkName">nazwa strony</p>
-	    			</div>
-	    			<div class="col col-6 linkLayerColumn">
-						<a href="#" class="linkAdress">aderes internetowy</a>
-							<div class="linkLayer">
-								<span class="icon-links"></span>
-								<span class="icon-trash"></span>
-							</div>
-					</div>
-				</div><div class="row linkLine">
-	    			<div class="col col-6">
-	    				<p class="linkName">nazwa strony</p>
-	    			</div>
-	    			<div class="col col-6 linkLayerColumn">
-						<a href="#" class="linkAdress">aderes internetowy</a>
-							<div class="linkLayer">
-								<span class="icon-links"></span>
-								<span class="icon-trash"></span>
-							</div>
-					</div>
-				</div>
-				<div class="row linkLine">
-	    			<div class="col col-6">
-	    				<p class="linkName">nazwa strony</p>
-	    			</div>
-	    			<div class="col col-6 linkLayerColumn">
-						<a href="#" class="linkAdress">aderes internetowy</a>
-							<div class="linkLayer">
-								<span class="icon-links"></span>
-								<span class="icon-trash"></span>
-							</div>
-					</div>
-				</div>
+    				<div class="main-container">
+    					<div class="main-containerLink">
 
-    			<div class="row linkButton">
-    				<div class="col col-12">
-    					<button class="buttonAddNew"> + add new </button>
-    				</div>
-    			</div> 
+	    					<div class="row linkButton">
+	    						<div class="col col-12">
+	    							<button class="buttonAddNew"> + add new </button>
+	    						</div>
+	    					</div>
+
+							<div class="linkArea">
+	    						<div class="row linkLine">
+		    						<div class="col col-6">
+		    							<p class="linkName">Home page</p>
+		    						</div>
+		    						<div class="col col-6 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.homepage.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6">
+		    							<p class="linkName">Currently offer</p>
+		    						</div>
+		    						<div class="col col-6 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.currently.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6">
+		    							<p class="linkName">Blurpix</p>
+		    						</div>
+		    						<div class="col col-6 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.blurpix.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6">
+		    							<p class="linkName">Youe site</p>
+		    						</div>
+		    						<div class="col col-6 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.yoursite.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6">
+		    							<p class="linkName">Google</p>
+		    						</div>
+		    						<div class="col col-6 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.google.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6">
+		    							<p class="linkName">Facebook</p>
+		    						</div>
+		    						<div class="col col-6 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.facebook.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6">
+		    							<p class="linkName">Dashboard</p>
+		    						</div>
+		    						<div class="col col-6 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.dashboard.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6">
+		    							<p class="linkName">Blurax</p>
+		    						</div>
+		    						<div class="col col-6 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.blurax.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6">
+		    							<p class="linkName">Piece od Wine</p>
+		    						</div>
+		    						<div class="col col-6 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.pieceofwine.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6">
+		    							<p class="linkName">Twitter</p>
+		    						</div>
+		    						<div class="col col-6 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.twitter.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+				
+	    					<div class="row linkButton">
+	    						<div class="col col-12">
+	    							<button class="buttonAddNew"> + add new </button>
+	    						</div>
+    						</div>
+    					</div>
+    					
+    				</div>    			
     		
-    		</div>     	
+    			</div> 
+    		</div>    	
         	
         </div> 
 
+        <script src="js/script.js"></script>
         <script id="__bs_script__">//<![CDATA[
     		document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.3'><\/script>".replace("HOST", location.hostname));
 		//]]></script>    								
