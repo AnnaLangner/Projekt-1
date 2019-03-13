@@ -23,7 +23,7 @@
             height: 1px;
             background-color: $firstcolor;
             margin: 6px 0;
-            margin-right: 20px;
+            margin-left: 30px;
           }
           
           .logoPhoto{
@@ -69,38 +69,34 @@
         }
         .headerMenu {
           display: none;
-          padding: 0;
-          margin: 0;
           font-size: 15px;
           color: $seckondcolor;
 
           ul {
             display: block;
             padding: 0;
-            margin-top: 40px;
-
-            li{
+            
+            li {
+              display: block;
               padding: 5px 0;
-              display: block;              
 
               a {
-                color: $seckondcolor;
-                text-decoration: none;
-                padding: 10px 0;
-                font-size: 15px;
-                color: $seckondcolor;
-                display: flex;
-                border-left: 4px solid $paragraph-color;
-                transition: .2s;
+               padding: 10px 0;
+               text-decoration: none;
+               font-size: 15px;
+               color: $seckondcolor;
+               display: flex;
+               border-left: 4px solid $paragraph-color;
+               transition: .2s;
 
-                &:hover {
-                  color: #f1f1f1;
-                  background: $menuHoverColor;
-                  border-left: 4px solid $brand-main-color;
-                }
+               &:hover {
+                color: #f1f1f1;
+                background: $menuHoverColor;
+                border-left: 4px solid $brand-main-color;
+               }
 
-                span{
-                  padding: 0 15px;
+               span {
+                 margin: 0 15px;
                   position: relative; 
                     
                   .notificationCircle {
