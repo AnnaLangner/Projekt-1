@@ -1,183 +1,178 @@
 .sidebar {
-      height: 100%;
-      width: 160px;
-      position: fixed;
-      z-index: 2;
-      top: 0;
-      left: 0;
-      background-color: $paragraph-color;
-      position: fixed;
-      height: 100%;
-      overflow-x: hidden;
-      padding-top: 16px;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: $paragraph-color;
+  position: fixed;
+  height: 100%;
+  overflow-x: hidden;
+  padding-top: 16px;
       
-      .sideNavigation{
+  .sideNavigation{
 
-        .logoSing {
-          display: flex;
-          justify-content: spce-between;
+    .logoSing {
+      display: flex;
+      justify-content: spce-between;
 
-          .buttonToExpand div {
-            display: block;
-            width: 20px;
-            height: 1px;
-            background-color: $firstcolor;
-            margin: 6px 0;
-            margin-left: 30px;
-          }
+      .buttonToExpand div {
+        display: block;
+        width: 20px;
+        height: 1px;
+        background-color: $firstcolor;
+        margin: 6px 0;
+        margin-left: 30px;
+      }
           
-          .logoPhoto{
-            max-width:90px;
-            height:auto;
-          }
-        }
+      .logoPhoto{
+        max-width:90px;
+        height:auto;
+      }
+    }
 
-        .bookmarks {
-          font-size: 15px;
-          color: $seckondcolor;
+    .bookmarks {
+      font-size: 15px;
+      color: $seckondcolor;
 
-          ul {
-            display: block;
-            padding: 0;
-            margin-top: 40px;
+      ul {
+        display: block;
+        padding: 0;
+        margin-top: 40px;
 
-            li {
-              display: block;
-              padding: 5px 0;
-
-              a {
-               padding: 10px 0;
-               text-decoration: none;
-               font-size: 15px;
-               color: $seckondcolor;
-               display: flex;
-               border-left: 4px solid $paragraph-color;
-               transition: .2s;
-
-               &:hover {
-                color: #f1f1f1;
-                background: $menuHoverColor;
-                border-left: 4px solid $brand-main-color;
-               }
-
-               span {
-                 margin: 0 15px;
-               }
-
-            }
-          }
-        }
-        .headerMenu {
-          display: none;
-          font-size: 15px;
-          color: $seckondcolor;
-
-          ul {
-            display: block;
-            padding: 0;
-            
-            li {
-              display: block;
-              padding: 5px 0;
-
-              a {
-               padding: 10px 0;
-               text-decoration: none;
-               font-size: 15px;
-               color: $seckondcolor;
-               display: flex;
-               border-left: 4px solid $paragraph-color;
-               transition: .2s;
-
-               &:hover {
-                color: #f1f1f1;
-                background: $menuHoverColor;
-                border-left: 4px solid $brand-main-color;
-               }
-
-               span {
-                 margin: 0 15px;
-                  position: relative; 
-                    
-                  .notificationCircle {
-                    background-color: $brand-main-color;
-                    border-radius: 50%;
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                    width: 8px;
-                    height: 8px;
-                  }
-                }
-                .icon-notification {
-                  margin: auto;
-                }
-                .icon-quit{
-                   margin: auto;
-                }
-              }
-            }
-          }
-        }
-        }
-        
-
-        .manager {
-
-          color: $seckondcolor;
+        li {
+          display: block;
+          padding: 5px 0;
 
           a {
+            padding: 10px 0;
             text-decoration: none;
-            color: inherit;
-          }
-
-          .managerTitle {
-            text-transform: uppercase;
-            text-align: center;
-            font-size: 13px;
-            padding-top: 40px;
-            padding-right: 25px;
-          }
-
-          .managerChat {
+            font-size: 15px;
+            color: $seckondcolor;
             display: flex;
-            align-items: center;
-            position: relative;
+            border-left: 4px solid $paragraph-color;
+            transition: .2s;
 
-            .managerPhoto {
-              display: flex;
-              align-items: center;
-              display: inline-block;
-              border-radius: 50%;
-              width: 40px;
-              height: 40px;
-              margin-top: 10px;
-              text-align: center;
-              margin-left: 20px;
-              }
-
-            .managerCircle {
-              background-color: #008000;
-              border-radius: 50%;
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 8px;
-              height: 8px;
-              }
-
-            .managerName {
-              display: flex;
-              align-items: center;
-              font-size: 12px;
-              margin-left: 10px;
+            &:hover {
+              color: #f1f1f1;
+              background: $menuHoverColor;
+              border-left: 4px solid $brand-main-color;
             }
 
+            span {
+              margin: 0 15px;
+            }
+          }
+        }
+      }
+    }
+    .headerMenu {
+      display: none;
+      font-size: 15px;
+      color: $seckondcolor;
+
+      ul {
+        display: block;
+        padding: 0;
+            
+        li {
+          display: block;
+          padding: 5px 0;
+
+          a {
+            padding: 10px 0;
+            text-decoration: none;
+            font-size: 15px;
+            color: $seckondcolor;
+            display: flex;
+            border-left: 4px solid $paragraph-color;
+            transition: .2s;
+
+            &:hover {
+              color: #f1f1f1;
+              background: $menuHoverColor;
+              border-left: 4px solid $brand-main-color;
+            }
+
+            span {
+              margin: 0 15px;
+              position: relative; 
+                    
+                .notificationCircle {
+                  background-color: $brand-main-color;
+                  border-radius: 50%;
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  width: 8px;
+                  height: 8px;
+              }
+            }
+            .icon-notification {
+              margin: auto;
+            }
+            .icon-quit{
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+             
+
+    .manager {
+      color: $seckondcolor;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .managerTitle {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 13px;
+        padding-top: 40px;
+        padding-right: 25px;
+      }
+
+      .managerChat {
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        .managerPhoto {
+          display: flex;
+          align-items: center;
+          display: inline-block;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          margin-top: 10px;
+          text-align: center;
+          margin-left: 20px;
           }
 
+        .managerCircle {
+          background-color: #008000;
+          border-radius: 50%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 8px;
+          height: 8px;
         }
 
+        .managerName {
+          display: flex;
+          align-items: center;
+          font-size: 12px;
+          margin-left: 10px;
+        }
       }
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -199,6 +194,16 @@
     }
     .sideNavigation .headerMenu {
       display: block;
+    }
+
+    .sideNavigation .headerMenu ul li a {
+      font-size: 0;
+      justify-content: flex-end;
+
+      span {
+        font-size: 15px;
+        margin-right: 20px;
+      }
     }
   }
 }
