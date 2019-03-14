@@ -11,16 +11,34 @@
     display: table;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 body {
     font-family: $brand-font;
 }
 
 .container {
-    width: 100%;
-	padding: 20px;
-    background-color: $backgroundColor;
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+  background-color: $backgroundColor;
 }
 
+.container-fluid {
+  width: 100%;
+  padding: 15px;
+}
+
+@for $i from 1 through 12 {
+  .col-sm-#{$i} {
+    $width: 100% / 12 * $i;
+    flex: 0 0 $width;
+    max-width: $width;
+  }
+}
 
 [class*="col-"] {
     float: left;
@@ -58,6 +76,22 @@ body {
 .col-offset-12 {margin-left: 100%;} 
 
 /* MEDIA QUERIES */
+
+@media(max-width: 767px) {
+  @include grid('sm');
+}
+
+@media(min-width: 768px) {
+  @include grid('md');
+}
+
+@media(min-width: 992px) {
+  @include grid('lg');
+}
+
+@media(min-width: 1200px) {
+  @include grid('xl');
+}
 
 @media (max-width: 767px){
     /* For phone: */
