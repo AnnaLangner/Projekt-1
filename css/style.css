@@ -414,7 +414,8 @@ header .mainMenu .row ul li a span .notificationCircle { background-color: #f582
   .sidebar:not(.active) .sideNavigation .bookmarks ul li a span { font-size: 15px; margin-right: 20px; }
   .sidebar:not(.active) .sideNavigation .headerMenu { display: block; }
   .sidebar:not(.active) .sideNavigation .headerMenu ul li a { font-size: 0; -ms-flex-pack: end; justify-content: flex-end; }
-  .sidebar:not(.active) .sideNavigation .headerMenu ul li a span { font-size: 15px; margin-right: 20px; } }
+  .sidebar:not(.active) .sideNavigation .headerMenu ul li a span { font-size: 15px; margin-right: 20px; }
+  .sidebar .sideNavigation .headerMenu { display: block; } }
 
 body { margin-top: 40px; margin-left: 160px; }
 
