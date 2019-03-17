@@ -350,9 +350,9 @@ header .mainMenu .row ul li { padding: 20px 45px; color: #a5a4a5; font-size: 15p
 
 header .mainMenu .row ul li a { color: #a5a4a5; text-decoration: none; }
 
-header .mainMenu .row ul li a span { padding: 0 10px; position: relative; }
+header .mainMenu .row ul li a .icon-notification { padding: 0 10px; position: relative; }
 
-header .mainMenu .row ul li a span .notificationCircle { background-color: #f58220; border-radius: 50%; position: absolute; top: 0; right: 0; width: 8px; height: 8px; }
+header .mainMenu .row ul li a .icon-notification .notificationCircle { background-color: #f58220; border-radius: 50%; position: absolute; top: 0; right: 0; width: 8px; height: 8px; }
 
 @media (max-width: 768px) { .mainMenu { display: none; } }
 
@@ -386,9 +386,9 @@ header .mainMenu .row ul li a span .notificationCircle { background-color: #f582
 
 .sidebar .sideNavigation .headerMenu ul li a:hover { color: #f1f1f1; background: #282828; border-left: 4px solid #f58220; }
 
-.sidebar .sideNavigation .headerMenu ul li a span { margin: 0 15px; position: relative; }
+.sidebar .sideNavigation .headerMenu ul li a .icon-notification { margin: 0 15px; position: relative; }
 
-.sidebar .sideNavigation .headerMenu ul li a span .notificationCircle { background-color: #f58220; border-radius: 50%; position: absolute; top: 0; right: 0; width: 8px; height: 8px; }
+.sidebar .sideNavigation .headerMenu ul li a .icon-notification .notificationCircle { background-color: #f58220; border-radius: 50%; position: absolute; top: 0; right: 0; width: 8px; height: 8px; }
 
 .sidebar .sideNavigation .headerMenu ul li a .icon-notification { margin: auto; }
 
@@ -400,13 +400,15 @@ header .mainMenu .row ul li a span .notificationCircle { background-color: #f582
 
 .sidebar .sideNavigation .manager .managerTitle { text-transform: uppercase; text-align: center; font-size: 13px; padding-top: 40px; padding-right: 25px; }
 
-.sidebar .sideNavigation .manager .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: relative; }
+.sidebar .sideNavigation .manager .managerChat { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
 
 .sidebar .sideNavigation .manager .managerChat .managerPhoto { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; display: inline-block; border-radius: 50%; width: 40px; height: 40px; margin-top: 10px; text-align: center; margin-left: 20px; }
 
-.sidebar .sideNavigation .manager .managerChat .managerCircle { background-color: #008000; border-radius: 50%; position: absolute; top: 0; left: 0; width: 8px; height: 8px; }
+.sidebar .sideNavigation .manager .managerChat .notification { position: relative; padding-bottom: 15px; padding-right: 5px; }
 
-.sidebar .sideNavigation .manager .managerChat .managerName { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; font-size: 12px; margin-left: 10px; }
+.sidebar .sideNavigation .manager .managerChat .notification .managerCircle { background-color: #008000; border-radius: 50%; position: absolute; top: 0; left: 0; width: 8px; height: 8px; }
+
+.sidebar .sideNavigation .manager .managerChat .managerName { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; font-size: 12px; margin-left: 15px; }
 
 @media (max-width: 768px) { .sidebar:not(.active) { left: -110px; }
   .sidebar:not(.active) .sideNavigation .manager { display: none; }

@@ -95,7 +95,7 @@
               border-left: 4px solid $brand-main-color;
             }
 
-            span {
+            .icon-notification {
               margin: 0 15px;
               position: relative; 
                     
@@ -140,8 +140,7 @@
       .managerChat {
         display: flex;
         align-items: center;
-        position: relative;
-
+        
         .managerPhoto {
           display: flex;
           align-items: center;
@@ -154,21 +153,27 @@
           margin-left: 20px;
           }
 
-        .managerCircle {
-          background-color: #008000;
-          border-radius: 50%;
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 8px;
-          height: 8px;
+        .notification {
+              position: relative; 
+              padding-bottom: 15px;
+              padding-right: 5px;
+
+          .managerCircle {
+            background-color: #008000;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 8px;
+            height: 8px;
+          }
         }
 
         .managerName {
           display: flex;
           align-items: center;
           font-size: 12px;
-          margin-left: 10px;
+          margin-left: 15px;
         }
       }
     }
