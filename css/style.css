@@ -471,7 +471,7 @@ div .content { height: 100%; }
 
 .content .section .main-container .main-containerLink .linkButton { border-bottom: 1px solid #a5a4a5; }
 
-.content .section .main-container .main-containerLink .linkButton .buttonAddNew { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px; display: -ms-flexbox; display: flex; -ms-flex: 1; flex: 1; margin: auto; }
+.content .section .main-container .main-containerLink .linkButton .buttonAddNew { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px 15px; display: -ms-flexbox; display: flex; -ms-flex: 1; flex: 1; margin: auto; border-radius: 2px; }
 
 .content .section .main-container .main-containerLink .linkLine { display: -ms-flexbox; display: flex; text-align: left; border-bottom: 1px solid #a5a4a5; }
 
@@ -490,3 +490,69 @@ div .content { height: 100%; }
 .content .section .main-container .main-containerLink .linkLine:hover { background-color: #DDDDDD; opacity: 1; }
 
 .content .section .main-container .main-containerLink .linkLine:hover .linkLayer { opacity: 1; }
+
+.content .section { border: 1px solid #a5a4a5; margin-top: 20px; box-shadow: 2px 2px 5px #444; background-color: #FFFFFF; }
+
+.content .section .bannersSectionName { color: #a5a4a5; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; padding-bottom: 10px; border-bottom: 1px solid #a5a4a5; }
+
+.content .section .main-container { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
+
+.content .section .main-container .main-containerBanners { width: 50%; }
+
+.content .section .main-container .main-containerBanners .bannersButton { border-bottom: 1px solid #a5a4a5; }
+
+.content .section .main-container .main-containerBanners .bannersButton .buttonAddNew { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px 15px; display: -ms-flexbox; display: flex; -ms-flex: 1; flex: 1; margin: auto; border-radius: 2px; }
+
+.content .section .main-container .main-containerBanners .bannersLine { display: -ms-flexbox; display: flex; text-align: left; border-bottom: 1px solid #a5a4a5; }
+
+.content .section .main-container .main-containerBanners .bannersLine .bannersName { color: #a5a4a5; font-weight: bold; }
+
+.content .section .main-container .main-containerBanners .bannersLine .bannersLayerRow { position: relative; display: -ms-flexbox; display: flex; -ms-flex-pack: justify; justify-content: space-between; }
+
+.content .section .main-container .main-containerBanners .bannersLine .bannersLayerRow .bannersAddress { text-decoration: none; color: #70bec8; }
+
+.content .section .main-container .main-containerBanners .bannersLine .bannersLayerRow .bannersLayer { width: 100%; height: 100%; text-align: right; opacity: 0; transition: .3s; }
+
+.content .section .main-container .main-containerBanners .bannersLine .bannersLayerRow .bannersLayer .icon-links { text-align: right; color: #f58220; }
+
+.content .section .main-container .main-containerBanners .bannersLine .bannersLayerRow .bannersLayer .icon-trash { text-align: right; color: #a5a4a5; }
+
+.content .section .main-container .main-containerBanners .bannersLine:hover { background-color: #DDDDDD; opacity: 1; }
+
+.content .section .main-container .main-containerBanners .bannersLine:hover .bannersLayer { opacity: 1; }
+
+.content .section { border: 1px solid #a5a4a5; margin-top: 20px; box-shadow: 2px 2px 5px #444; background-color: #FFFFFF; }
+
+.content .section .personalSectionName { color: #a5a4a5; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; padding-bottom: 10px; border-bottom: 1px solid #a5a4a5; }
+
+.content .section .main-container { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
+
+.content .section .main-container .main-containerPersonal { width: 50%; }
+
+.content .section .main-container .main-containerPersonal form { display: block; }
+
+.content .section .main-container .main-containerPersonal form .basicData { display: block; text-align: left; border-bottom: 1px solid #a5a4a5; padding: 10px 0; }
+
+.content .section .main-container .main-containerPersonal form .basicData field .spaceBetween { padding: 5px; }
+
+.content .section .main-container .main-containerPersonal form .basicData field .spaceBetween label { color: #a5a4a5; font-weight: bold; }
+
+.content .section .main-container .main-containerPersonal form .basicData field .spaceBetween { padding: 5px; }
+
+.content .section .main-container .main-containerPersonal form .basicData field .spaceBetween input [type="text"], .content .section .main-container .main-containerPersonal form .basicData field .spaceBetween input [type="email"], .content .section .main-container .main-containerPersonal form .basicData field .spaceBetween input [type="tel"] { padding: 5px 10px; font-size: 14px; background-color: #fafafa; border: none; color: #000000; }
+
+.content .section .main-container .main-containerPersonal form .mediaData { display: block; text-align: left; border-bottom: 1px solid #a5a4a5; padding: 10px 0; }
+
+.content .section .main-container .main-containerPersonal form .mediaData field label { color: #a5a4a5; font-weight: bold; }
+
+.content .section .main-container .main-containerPersonal form .walletData { display: block; text-align: left; border-bottom: 1px solid #a5a4a5; padding: 10px 0; }
+
+.content .section .main-container .main-containerPersonal form .walletData field label { color: #a5a4a5; font-weight: bold; }
+
+.content .section .main-container .main-containerPersonal form .passwordData { display: block; text-align: left; border-bottom: 1px solid #a5a4a5; padding: 10px 0; }
+
+.content .section .main-container .main-containerPersonal form .passwordData field label { color: #a5a4a5; font-weight: bold; }
+
+.content .section .main-container .main-containerPersonal form .personalButton { border-bottom: 1px solid #a5a4a5; }
+
+.content .section .main-container .main-containerPersonal form .personalButton .buttonSave { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px 15px; display: -ms-flexbox; display: flex; -ms-flex: 1; flex: 1; margin: auto; border-radius: 2px; }

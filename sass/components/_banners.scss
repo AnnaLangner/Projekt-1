@@ -1,0 +1,91 @@
+.content {
+	.section {
+		border: 1px solid $seckondcolor;
+		margin-top: 20px;
+		box-shadow: 2px 2px 5px #444;
+		background-color: $firstcolor;
+
+		.bannersSectionName {
+			color: $seckondcolor;
+			text-transform: uppercase;
+	        text-align: left;
+	        padding-left: 5px;
+	        font-size: 15px;
+	        padding-bottom: 10px;
+	        border-bottom: 1px solid $seckondcolor;		
+		}
+
+		.main-container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			.main-containerBanners{
+				width: 50%;
+				
+				.bannersButton {
+					border-bottom: 1px solid $seckondcolor;
+					
+					.buttonAddNew{
+					background-color: $brand-main-color;
+					border: 1px solid $brand-main-color;
+					color: $firstcolor;
+					padding: 5px 15px;
+					display: flex;
+					flex: 1;
+		    		margin: auto;
+		    		border-radius: 2px;
+					}
+				}
+				.bannersLine {
+					display: flex;
+					text-align: left;
+					border-bottom: 1px solid $seckondcolor;
+
+						.bannersName{
+							color: $seckondcolor;
+							font-weight: bold;
+						}
+
+					.bannersLayerRow {
+						position: relative;
+						display: flex;
+						justify-content: space-between;
+			
+						.bannersAddress{
+							text-decoration: none;
+							color: $signupsColor;
+						}
+			
+						.bannersLayer{
+							width: 100%;
+							height: 100%;
+							text-align: right;								
+							opacity: 0;
+							transition: .3s;
+							
+							.icon-links {
+								text-align: right;
+								color: $brand-main-color;
+							}
+							.icon-trash {
+								text-align: right;
+								color: $seckondcolor;
+							}
+						}				
+					}
+
+					&:hover {
+						background-color: $thirdcolor;
+						opacity: 1;
+
+						.bannersLayer{
+							opacity: 1;
+						}
+
+					}
+				}
+			}		
+		}
+	}
+}
