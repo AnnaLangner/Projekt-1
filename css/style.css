@@ -461,6 +461,36 @@ div .content { height: 100%; }
 
 .content .section .generalImg .responsive { width: 50%; height: auto; }
 
+.content .section { border: 1px solid #a5a4a5; box-shadow: 2px 2px 5px #444; background-color: #FFFFFF; }
+
+.content .section .detailsName { color: #a5a4a5; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; }
+
+.content .section .detailsCalendar { display: -ms-flexbox; display: flex; width: 100%; padding: 50px 0; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; border-top: 1px solid #a5a4a5; border-bottom: 1px solid #a5a4a5; }
+
+.content .section .detailsCalendar .windowOne { display: inline-block; border: 1px solid #a5a4a5; padding: 10px; }
+
+.content .section .detailsCalendar .calendarWindowWithIcon { border: 1px solid #a5a4a5; padding: 10px; }
+
+.content .section .detailsCalendar .calendarWindowWithIcon .windowTwo { display: inline-block; border: none; }
+
+.content .section .detailsCalendar .calendarWindowWithIcon .icon-calendar { padding: 0px; }
+
+.content .section .detailsCalendar .icon-refresh { border: none; padding: 10px 12px; margin-left: 5px; background-color: #f58220; border-radius: 8px; color: #FFFFFF; }
+
+.content .section .detailsTable .scroll-wrapper { display: block; width: 100%; overflow-x: auto; }
+
+.content .section .detailsTable .scroll-wrapper table { width: 100%; max-width: 100%; }
+
+.content .section .detailsTable .scroll-wrapper table thead { border-bottom: 1px solid #a5a4a5; padding: 10px 0; }
+
+.content .section .detailsTable .scroll-wrapper table thead tr { border-bottom: 1px solid #a5a4a5; }
+
+.content .section .detailsTable .scroll-wrapper table thead tr th { color: #a5a4a5; }
+
+.content .section .detailsTable .scroll-wrapper table tbody tr { border-bottom: 1px solid #a5a4a5; padding: 10px 0; }
+
+.content .section .detailsTable .scroll-wrapper table tbody tr td { text-align: center; font-weight: bold; }
+
 .content .section { border: 1px solid #a5a4a5; margin-top: 20px; box-shadow: 2px 2px 5px #444; background-color: #FFFFFF; }
 
 .content .section .linksSectionName { color: #a5a4a5; text-transform: uppercase; text-align: left; padding-left: 5px; font-size: 15px; padding-bottom: 10px; border-bottom: 1px solid #a5a4a5; }
@@ -535,7 +565,7 @@ div .content { height: 100%; }
 
 .content .section .main-container .main-containerPersonal form .basicData field .spaceBetween { padding: 5px; }
 
-.content .section .main-container .main-containerPersonal form .basicData field .spaceBetween label { color: #a5a4a5; font-weight: bold; }
+.content .section .main-container .main-containerPersonal form .basicData field .spaceBetween .Name { color: #a5a4a5; font-weight: bold; margin-left: 30px; }
 
 .content .section .main-container .main-containerPersonal form .basicData field .spaceBetween { padding: 5px; }
 

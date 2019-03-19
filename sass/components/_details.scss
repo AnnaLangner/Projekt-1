@@ -1,0 +1,93 @@
+.content {
+	.section {
+		border: 1px solid $seckondcolor;
+		box-shadow: 2px 2px 5px #444;
+		background-color: $firstcolor;
+		
+		.detailsName{
+			color: $seckondcolor;
+			text-transform: uppercase;
+            text-align: left;
+            padding-left: 5px;
+            font-size: 15px;
+		}	
+
+		.detailsCalendar {	
+			display: flex;
+			width: 100%;
+			padding: 50px 0;
+			justify-content: center;
+			align-items: center;
+			border-top: 1px solid $seckondcolor;
+			border-bottom: 1px solid $seckondcolor;
+			
+			.windowOne {
+				display: inline-block;
+				border: 1px solid $seckondcolor;
+				padding: 10px;
+			}
+			.calendarWindowWithIcon{
+				border: 1px solid $seckondcolor;
+				padding: 10px;
+	
+				.windowTwo {
+					display: inline-block;
+					border: none;
+				}
+				.icon-calendar {
+					padding: 0px;
+				}
+			}
+			.icon-refresh {
+				border: none;
+				padding: 10px 12px;
+				margin-left: 5px;
+				background-color: $brand-main-color;
+				border-radius: 8px;
+				color: $firstcolor;
+			}
+		}
+
+		.detailsTable{
+			.scroll-wrapper {
+				display: block;
+				width: 100%;
+				overflow-x: auto;
+
+				table {
+					width: 100%;
+					max-width: 100%;
+					
+					thead {
+						border-bottom: 1px solid $seckondcolor;
+						padding: 10px 0;
+
+						tr {
+							border-bottom: 1px solid $seckondcolor;
+
+							th {
+								color: $seckondcolor;
+
+							}
+						}
+
+					}
+
+					tbody {
+						tr {
+							border-bottom: 1px solid $seckondcolor;
+							padding: 10px 0;
+
+							td {
+								text-align: center;	
+								font-weight: bold;						
+
+							}
+						}
+
+					}
+				}
+			}
+		}
+	}
+}
