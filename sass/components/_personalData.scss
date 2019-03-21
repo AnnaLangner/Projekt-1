@@ -1,139 +1,138 @@
-.content {
-	.section {
-		border: 1px solid $seckondcolor;
-		margin-top: 20px;
-		box-shadow: 2px 2px 5px #444;
-		background-color: $firstcolor;
+.personalSectionName {
+	color: $seckondcolor;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 15px;
+	padding: 5px 15px 15px 15px;
+	border-bottom: 1px solid $seckondcolor;		
+}
 
-		.personalSectionName {
-			color: $seckondcolor;
-			text-transform: uppercase;
-	        text-align: left;
-	        padding-left: 5px;
-	        font-size: 15px;
-	        padding-bottom: 10px;
-	        border-bottom: 1px solid $seckondcolor;		
-		}
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-		.main-container{
-			display: flex;
-			justify-content: center;
-			align-items: center;
+	.main-containerPersonal {
+		width: 50%;
 
-			.main-containerPersonal{
-				width: 50%;
+		form {
+			display: block;
 
-				form {
-					display: block;
+			.basicData {
+				display: block;
+				text-align: left;
+				border-bottom: 1px solid $seckondcolor;
+				padding: 30px 0;
 
-					.basicData {
-						display: block;
-						text-align: left;
-						border-bottom: 1px solid $seckondcolor;
-						padding: 10px 0;
-
-						field {
+				.field {
 							
-							.spaceBetween {
-								padding: 5px;
-
-								.Name {
-									color: $seckondcolor;
-									font-weight: bold;
-									margin-left: 30px;
-
-								}
-							}
-							.spaceBetween {
-								padding: 5px;
-
-								input [type="text"],
-								input [type="email"],
-								input [type="tel"] {
-									padding: 5px 10px;
-									font-size: 14px;
-									background-color: #fafafa;
-									border: none;
-									color: #000000;
-
-								}
-							}
+					.spaceBetween {
+						padding: 5px;
+						
+						label {
+							color: $seckondcolor;
+							font-weight: bold;
+						
 						}
 					}
-
-					.mediaData {
-						display: block;
-						text-align: left;
-						border-bottom: 1px solid $seckondcolor;
-						padding: 10px 0;
-
-						field {
-							
-
-							label {
-								color: $seckondcolor;
-								font-weight: bold;
-
-							}
-							input [type="text"] {
-
-							}
-						}
-					}
-
-					.walletData {
-						display: block;
-						text-align: left;
-						border-bottom: 1px solid $seckondcolor;
-						padding: 10px 0;
-
-						field {
-							
-
-							label {
-								color: $seckondcolor;
-								font-weight: bold;
-
-							}
-							input [type="text"] {
-							
-							}
-						}
-					}
-
-					.passwordData {
-						display: block;
-						text-align: left;
-						border-bottom: 1px solid $seckondcolor;
-						padding: 10px 0;
-
-						field {
-							
-							label {
-								color: $seckondcolor;
-								font-weight: bold;
-
-							}
-							input [type="password"] {
-							
-							}
-						}
-					}
-				
-					.personalButton {
-						border-bottom: 1px solid $seckondcolor;
+					.spaceBetween {
+						padding: 5px;
 					
-						.buttonSave{
-						background-color: $brand-main-color;
-						border: 1px solid $brand-main-color;
-						color: $firstcolor;
-						padding: 5px 15px;
-						display: flex;
-						flex: 1;
-		    			margin: auto;
-		    			border-radius: 2px;
+						input [type="text"],
+						input [type="email"],
+						input [type="tel"] {
+						
 						}
 					}
+				}
+			}
+
+			.mediaData {
+				display: block;
+				text-align: left;
+				border-bottom: 1px solid $seckondcolor;
+				padding: 30px 0;
+
+				.field {
+					.spaceBetween {
+						padding: 5px;
+
+						label {
+							color: $seckondcolor;
+							font-weight: bold;
+						}
+					}
+					.spaceBetween {
+						padding: 5px;
+
+						input [type="text"] {
+
+						}
+					}
+				}
+			}
+
+			.walletData {
+				display: block;
+				text-align: left;
+				border-bottom: 1px solid $seckondcolor;
+				padding: 30px 0;
+
+				.field {
+					.spaceBetween {
+						padding: 5px;						
+						label {
+							color: $seckondcolor;
+							font-weight: bold;
+						}
+					}
+					.spaceBetween {
+						padding: 5px;
+					
+						input [type="text"] {
+					
+						}
+					}
+				}
+			}
+
+			.passwordData {
+				display: block;
+				text-align: left;
+				border-bottom: 1px solid $seckondcolor;
+				padding: 30px 0;
+
+				.field {
+					.spaceBetween {
+						padding: 5px;
+							
+						label {
+							color: $seckondcolor;
+							font-weight: bold;
+						}
+					}
+					.spaceBetween {
+						padding: 5px;
+						
+						input [type="password"] {
+
+						}							
+					}
+				}
+			}
+				
+			.personalButton {
+				border-bottom: 1px solid $seckondcolor;
+					
+				.buttonSave{
+				background-color: $brand-main-color;
+				border: 1px solid $brand-main-color;
+				color: $firstcolor;
+				padding: 5px 15px;
+				display: flex;
+				flex: 1;
+		    	margin: auto;
+		    	border-radius: 2px;
 				}
 			}
 		}

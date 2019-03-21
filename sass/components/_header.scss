@@ -7,6 +7,8 @@ header {
     width: 100%;
     background-color: $firstcolor;
     border-bottom: 1px solid $seckondcolor;  
+    z-index: 1;
+
     .mainMenu 
         .row {
             display: flex;
@@ -15,16 +17,34 @@ header {
             justify-content: flex-end;
             background-color: $firstcolor;
             list-style-type: none;
+            
+
             li {
-                padding: 20px 45px;
+                padding: 20px 15px;
                 color: $seckondcolor;
                 font-size: 15px;
                 text-decoration: none;
                 border-left: 1px solid $seckondcolor;
+                
+                .userName {
+                    color: $signupsColor;
+                }
                 a {
                     color: $seckondcolor;
                     text-decoration: none;
 
+                    
+
+                    .icon-wallet {
+                        padding: 0 7px;
+                    }
+                    .icon-arrow-down {
+                        padding: 0 7px;
+                    }
+                    .icon-profile{
+                        padding: 0 7px;
+                        color: $seckondcolor;
+                    }
                     .icon-notification {
                         padding: 0 10px;
                         position: relative; 
@@ -40,6 +60,10 @@ header {
                         }
                     }
                 }
+            }
+            .narrowSpace{
+                width: 50px;
+                padding: 20px 0;
             }
         }
         }

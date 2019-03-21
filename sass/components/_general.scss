@@ -1,97 +1,91 @@
-.content {
-	.section {
-		border: 1px solid $seckondcolor;
-		box-shadow: 2px 2px 5px #444;
-		background-color: $firstcolor;
-		
-		.generalName{
-			color: $seckondcolor;
-			text-transform: uppercase;
-            text-align: left;
-            padding-left: 5px;
-            font-size: 15px;
-		}	
+.generalName{
+	color: $seckondcolor;
+	text-transform: uppercase;
+    text-align: left;
+    padding: 5px 15px;
+    font-size: 15px;
+}	
 
-		.generalCalendar {	
-			display: flex;
-			width: 100%;
-			padding: 50px 0;
-			justify-content: center;
-			align-items: center;
-			border-top: 1px solid $seckondcolor;
-			border-bottom: 1px solid $seckondcolor;
+.generalCalendar {	
+	display: flex;
+	width: 100%;
+	padding: 50px 0;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid $seckondcolor;
+	border-bottom: 1px solid $seckondcolor;
 			
-			.windowOne {
-				display: inline-block;
-				border: 1px solid $seckondcolor;
-				padding: 10px;
-			}
-			.calendarWindowWithIcon{
-				border: 1px solid $seckondcolor;
-				padding: 10px;
+	.windowOne {
+		display: inline-block;
+		border: 1px solid $seckondcolor;
+		padding: 10px;
+	}
+	.calendarWindowWithIcon{
+		border: 1px solid $seckondcolor;
+		padding: 10px;
 	
-				.windowTwo {
-					display: inline-block;
-					border: none;
-				}
-				.icon-calendar {
-					padding: 0px;
-				}
-			}
-			.icon-refresh {
-				border: none;
-				padding: 10px 12px;
-				margin-left: 5px;
-				background-color: $brand-main-color;
-				border-radius: 8px;
-				color: $firstcolor;
-			}
+		.windowTwo {
+			display: inline-block;
+			border: none;
 		}
-		.generalLine {	
+		.icon-calendar {
+			padding: 0px;
+		}
+	}
+	.icon-refresh {
+		border: none;
+		padding: 10px 12px;
+		margin-left: 5px;
+		background-color: $brand-main-color;
+		border-radius: 8px;
+		color: $firstcolor;
+	}
+}
+.generalLine {	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.generalLineStatistic {
+		width: 50%;
+
+		.statistic {
 			display: flex;
-			justify-content: center;
-			align-items: center;
-
-			.generalLineStatistic {
-				width: 50%;
-
-				.statistic {
-					display: flex;
-					margin: 20px 0;
+			margin: 20px 0;
 					
-					.lineStatistic {
+			.lineStatistic {
 
-						.lineElement {
-							display: flex;
-							align-items: left;
-							width: 100%;
-							padding: 20px;
-							border-bottom: 1px solid $seckondcolor;
+				.lineElement {
+					display: flex;
+					align-items: left;
+					width: 100%;
+					padding: 20px;
+					border-bottom: 1px solid $seckondcolor;
 							
 							
-							.col-6 {	
-								padding: 0;
+					.col-6 {	
+						padding: 0;
 
-								.lineName {
-									color: $seckondcolor;
-									font-size: 15px;									
-								}
-							}
-							
-							.col-6 {
-								padding: 0;
-
-								.lineData {
-									font-size: 15px;
-									text-align: right;
-									
-								}
-							}						
+						.lineName {
+							color: $seckondcolor;
+							font-size: 15px;									
 						}
 					}
-				}						
+							
+					.col-6 {
+						padding: 0;
+
+						.lineData {
+							font-size: 15px;
+							text-align: right;
+									
+						}
+					}						
+				}
 			}
-		}
+		}						
+	}
+}
 		
 		.generalImg{
 			display: flex;
@@ -106,5 +100,3 @@
   				height: auto;
 			}
 		}		
-	}	
-}

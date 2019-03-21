@@ -1,91 +1,81 @@
-.content {
-	.section {
-		border: 1px solid $seckondcolor;
-		margin-top: 20px;
-		box-shadow: 2px 2px 5px #444;
-		background-color: $firstcolor;
-
-		.linksSectionName {
-			color: $seckondcolor;
-			text-transform: uppercase;
-	        text-align: left;
-	        padding-left: 5px;
-	        font-size: 15px;
-	        padding-bottom: 10px;
-	        border-bottom: 1px solid $seckondcolor;		
-		}
-
-		.main-container{
-			display: flex;
-			justify-content: center;
-			align-items: center;
-
-			.main-containerLink{
-				width: 50%;
-				
-				.linkButton {
-					border-bottom: 1px solid $seckondcolor;
-					
-					.buttonAddNew{
-					background-color: $brand-main-color;
-					border: 1px solid $brand-main-color;
-					color: $firstcolor;
-					padding: 5px 15px;
-					display: flex;
-					flex: 1;
-		    		margin: auto;
-		    		border-radius: 2px;
-					}
-				}
-				.linkLine {
-					display: flex;
-					text-align: left;
-					border-bottom: 1px solid $seckondcolor;
-
-						.linkName{
-							color: $seckondcolor;
-							font-weight: bold;
-						}
-
-					.linkLayerRow {
-						position: relative;
-						display: flex;
-						justify-content: space-between;
-			
-						.linkAddress{
-							text-decoration: none;
-							color: $signupsColor;
-						}
-			
-						.linkLayer{
-							width: 100%;
-							height: 100%;
-							text-align: right;								
-							opacity: 0;
-							transition: .3s;
-							
-							.icon-links {
-								text-align: right;
-								color: $brand-main-color;
-							}
-							.icon-trash {
-								text-align: right;
-								color: $seckondcolor;
-							}
-						}				
-					}
-
-					&:hover {
-						background-color: $thirdcolor;
-						opacity: 1;
-
-						.linkLayer{
-							opacity: 1;
-						}
-
-					}
-				}
-			}		
-		}
-	}
+.linksSectionName {
+	color: $seckondcolor;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 15px;
+	padding: 5px 15px 15px 15px;
+	border-bottom: 1px solid $seckondcolor;		
 }
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.main-containerLink {
+		width: 50%;
+		
+		.linkButton {
+			border-bottom: 1px solid $seckondcolor;
+					
+			.buttonAddNew{
+			background-color: $brand-main-color;
+			border: 1px solid $brand-main-color;
+			color: $firstcolor;
+			padding: 5px 15px;
+			display: flex;
+			flex: 1;
+    		margin: auto;
+    		border-radius: 2px;
+			}
+		}
+		.linkLine {
+			display: flex;
+			text-align: left;
+			border-bottom: 1px solid $seckondcolor;
+
+				.linkName {
+					color: $seckondcolor;
+					font-weight: bold;
+				}
+
+			.linkLayerRow {
+				position: relative;
+				display: flex;
+				justify-content: space-between;
+	
+				.linkAddress{
+					text-decoration: none;
+					color: $signupsColor;
+				}
+			
+				.linkLayer{
+					width: 100%;
+					height: 100%;
+					text-align: right;								
+					opacity: 0;
+					transition: .3s;
+							
+					.icon-links {
+						text-align: right;
+						color: $brand-main-color;
+					}
+					.icon-trash {
+						text-align: right;
+						color: $seckondcolor;
+					}
+				}				
+			}
+
+			&:hover {
+				background-color: $thirdcolor;
+				opacity: 1;
+
+				.linkLayer{
+					opacity: 1;
+				}
+			}
+		}
+	}		
+}
+	
