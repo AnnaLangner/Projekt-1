@@ -8,3 +8,13 @@ div .content {
 	height: 100%
 }
 
+/* MEDIA QUERIES */
+
+@media(max-width: 767px) {
+  @include grid('sm');
+
+  body {
+  	margin-top: 0;
+  	margin-left: 50px;
+  }
+}

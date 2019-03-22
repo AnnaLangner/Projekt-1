@@ -85,6 +85,12 @@ body {
 
 @media(max-width: 767px) {
   @include grid('sm');
+    .container {
+        background-color: none;
+    }
+    .content .section {
+        box-shadow: none;
+    }
 }
 
 @media(min-width: 768px) {
