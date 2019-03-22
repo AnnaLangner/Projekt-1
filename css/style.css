@@ -591,3 +591,35 @@ div .content { height: 100%; }
 .main-container .main-containerPersonal form .personalButton { border-bottom: 1px solid #a5a4a5; }
 
 .main-container .main-containerPersonal form .personalButton .buttonSave { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px 15px; display: -ms-flexbox; display: flex; -ms-flex: 1; flex: 1; margin: auto; border-radius: 2px; }
+
+.payoutName { color: #a5a4a5; text-transform: uppercase; text-align: left; padding: 5px 15px; font-size: 15px; }
+
+.payoutCalendar { display: -ms-flexbox; display: flex; padding: 50px 0; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; border-top: 1px solid #a5a4a5; border-bottom: 1px solid #a5a4a5; }
+
+.payoutCalendar .windowOne { display: inline-block; border: 1px solid #a5a4a5; padding: 10px; }
+
+.payoutCalendar .calendarWindowWithIcon { border: 1px solid #a5a4a5; padding: 10px; }
+
+.payoutCalendar .calendarWindowWithIcon .windowTwo { display: inline-block; border: none; }
+
+.payoutCalendar .calendarWindowWithIcon .icon-calendar { padding: 0px; }
+
+.payoutCalendar .icon-refresh { border: none; padding: 10px 12px; margin-left: 5px; background-color: #f58220; border-radius: 8px; color: #FFFFFF; }
+
+.payoutTable .scroll-wrapper { display: block; width: 100%; overflow-x: auto; }
+
+.payoutTable .scroll-wrapper table { width: 100%; max-width: 100%; border-collapse: collapse; }
+
+.payoutTable .scroll-wrapper table thead { border-bottom: 1px solid #a5a4a5; }
+
+.payoutTable .scroll-wrapper table thead tr { border-bottom: 1px solid #a5a4a5; }
+
+.payoutTable .scroll-wrapper table thead tr th { color: #a5a4a5; padding: 15px 0; }
+
+.payoutTable .scroll-wrapper table thead tr th:hover { background-color: #DDDDDD; opacity: 1; }
+
+.payoutTable .scroll-wrapper table tbody tr { border-bottom: 1px solid #a5a4a5; }
+
+.payoutTable .scroll-wrapper table tbody tr:hover { background-color: #DDDDDD; opacity: 1; }
+
+.payoutTable .scroll-wrapper table tbody tr td { text-align: center; font-weight: bold; padding: 15px 0; }
