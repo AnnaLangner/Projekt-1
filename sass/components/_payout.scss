@@ -87,4 +87,31 @@
 			}
 		}
 	}
+	.center {
+		text-align: center;
+
+		.pagination {
+    		display: inline-block;
+    		padding: 15px;
+    		margin: 0;
+    		
+    		li {
+    			display: inline;
+
+    			a {
+    				color: $signupsColor;
+    				float: left;
+    				padding: 8px 16px;
+    				text-decoration: none;
+    				&.active {
+    					background-color: $activeColor;
+    					color: $seckondcolor;
+					}
+					.arrow {
+						color: $seckondcolor;
+					}
+				}
+    		}
+		}
+	}
 }

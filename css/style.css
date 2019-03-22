@@ -338,6 +338,8 @@ header .mainMenu .row ul li a .icon-notification { padding: 0 10px; position: re
 
 header .mainMenu .row ul li a .icon-notification .notificationCircle { background-color: #f58220; border-radius: 50%; position: absolute; top: 0; right: 0; width: 8px; height: 8px; }
 
+header .mainMenu .row ul li a .icon-quit { padding: 0 7px; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
+
 header .mainMenu .row ul .narrowSpace { width: 50px; padding: 20px 0; }
 
 @media (max-width: 768px) { .mainMenu { display: none; } }
@@ -492,6 +494,18 @@ div .content { height: 100%; }
 
 .detailsTable .scroll-wrapper table tbody tr td { text-align: center; font-weight: bold; padding: 15px 0; }
 
+.detailsTable .center { text-align: center; }
+
+.detailsTable .center .pagination { display: inline-block; padding: 15px; margin: 0; }
+
+.detailsTable .center .pagination li { display: inline; }
+
+.detailsTable .center .pagination li a { color: #70bec8; float: left; padding: 8px 16px; text-decoration: none; }
+
+.detailsTable .center .pagination li a.active { background-color: #f0f3f3; color: #a5a4a5; }
+
+.detailsTable .center .pagination li a .arrow { color: #a5a4a5; }
+
 .linksSectionName { color: #a5a4a5; text-transform: uppercase; text-align: left; font-size: 15px; padding: 5px 15px 15px 15px; border-bottom: 1px solid #a5a4a5; }
 
 .main-container { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
@@ -623,3 +637,15 @@ div .content { height: 100%; }
 .payoutTable .scroll-wrapper table tbody tr:hover { background-color: #DDDDDD; opacity: 1; }
 
 .payoutTable .scroll-wrapper table tbody tr td { text-align: center; font-weight: bold; padding: 15px 0; }
+
+.payoutTable .center { text-align: center; }
+
+.payoutTable .center .pagination { display: inline-block; padding: 15px; margin: 0; }
+
+.payoutTable .center .pagination li { display: inline; }
+
+.payoutTable .center .pagination li a { color: #70bec8; float: left; padding: 8px 16px; text-decoration: none; }
+
+.payoutTable .center .pagination li a.active { background-color: #f0f3f3; color: #a5a4a5; }
+
+.payoutTable .center .pagination li a .arrow { color: #a5a4a5; }
