@@ -336,7 +336,7 @@ header .mainMenu .row ul li a .icon-profile { padding: 0 7px; color: #a5a4a5; }
 
 header .mainMenu .row ul li a .icon-notification { padding: 0 10px; position: relative; }
 
-header .mainMenu .row ul li a .icon-notification .notificationCircle { background-color: #f58220; border-radius: 50%; position: absolute; top: 0; right: 0; width: 8px; height: 8px; }
+header .mainMenu .row ul li a .icon-notification .notificationCircle { background-color: #f58220; border-radius: 50%; position: absolute; top: 0; right: 5px; width: 8px; height: 8px; }
 
 header .mainMenu .row ul li a .icon-quit { padding: 0 7px; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
 
@@ -494,7 +494,7 @@ div .content { height: 100%; }
 
 .detailsTable .scroll-wrapper table tbody tr td { text-align: center; font-weight: bold; padding: 15px 0; }
 
-.detailsTable .center { text-align: center; }
+.detailsTable .center { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; }
 
 .detailsTable .center .pagination { display: inline-block; padding: 15px; margin: 0; }
 
@@ -638,7 +638,7 @@ div .content { height: 100%; }
 
 .payoutTable .scroll-wrapper table tbody tr td { text-align: center; font-weight: bold; padding: 15px 0; }
 
-.payoutTable .center { text-align: center; }
+.payoutTable .center { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; }
 
 .payoutTable .center .pagination { display: inline-block; padding: 15px; margin: 0; }
 

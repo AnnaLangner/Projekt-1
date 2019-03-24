@@ -32,6 +32,7 @@ header {
                 a {
                     color: $seckondcolor;
                     text-decoration: none;
+                     
 
                     
 
@@ -47,14 +48,14 @@ header {
                     }
                     .icon-notification {
                         padding: 0 10px;
-                        position: relative; 
+                        position: relative;
 
                         .notificationCircle {
                             background-color: $brand-main-color;
                             border-radius: 50%;
                             position: absolute;
                             top: 0;
-                            right: 0;
+                            right: 5px;
                             width: 8px;
                             height: 8px;
                         }
