@@ -15,14 +15,15 @@
 		        <div class="row">
 		        <ul>
 			        <li><a href="#"><span class="icon-wallet"></span> $1,500.000 <span class="icon-arrow-down"></span></a></li>
-		    	    <li class="narrowSpace"><a href="#">
+		    	    <li class="narrowSpace">
+		    	    	<a href="#">
 		    	    		<span class="icon-notification">
 		    	    			<div class="notificationCircle"></div>
 		    	    		</span>
 		    	    	</a>
 		    	    </li>
-		    	    <li><a class="userName" href="#"><span class="icon-profile"></span>Name User</a></li>
-		    	    <li class="narrowSpace"><a href="#"><span class="icon-quit"></span></a></li>
+		    	    <li><a class="userName" href="#"><span class="icon-profile bnt-enter js--enter-modal"></span>Name User</a></li>
+		    	    <li class="narrowSpace"><a href="#"><span class="icon-quit btn-close js--quit-modal"></span></a></li>
 		        </ul>
 		        </div>
             </nav>
@@ -78,14 +79,9 @@
 						</div>
 					</a>
 				</section>		    	
-			</nav>
+			</nav>			
 
-			
-
-        </div>
-        
-
- 
+        </div> 
 
         <div class="container ">
 
@@ -798,7 +794,7 @@
 
         				<div class="center">
 							<ul class="pagination">
-								<li><a href="#"><span class="icon-arrow-left arrow"></span></a></li>
+								<li><a href="#"><span class="icon-arrow-left"></span></a></li>
 								<li><a class="active" href="#">1</a></li>
 								<li><a href="#">2</a></li>
 								<li><a href="#">3</a></li>
@@ -817,6 +813,23 @@
     		</div>    	
         	
         </div> 
+
+        <div class="overlay" id="overlay">
+        	<div class="quitModal" id="quitModal">
+        		<h4>Do you really want to Quit?</h4>
+		    	<button class="js--stay-modal">Cancel</button>
+		    	<button class="js--quit-modal">Quit</button>
+        	</div>
+        	<div class="loginModal" id="loginModal">
+        		<h4>login</h4>
+        		<div>
+        			<span class="icon-profile"></span><p>Name User</p>
+        			<span class="icon-password"></span><p>password</p>
+        			<button class="js--enter-modal">Enter</button>
+        		</div>
+        		
+        	</div>
+        </div>
 
         <script src="js/script.js"></script>
         <script id="__bs_script__">//<![CDATA[
