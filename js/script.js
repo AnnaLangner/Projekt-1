@@ -35,14 +35,14 @@ document.addEventListener('keyup', function(e) {
 });
 
 //opening of modals
-var btnLoginModal = document.getElementsByClassName('userName');
+var btnLoginModal = document.getElementById('userName');
 
 var showLoginModal = function openModal(modal) {
   document.querySelectorAll('#overlay > *').forEach(function(modal) {
-    modal.classList.remove('show');
+    loginModal.classList.remove('show');
   });
   document.querySelector('#overlay').classList.add('show');
-  document.querySelector('.loginModal').classList.add('show');
+  document.getElementById('.loginModal').classList.add('show');
   
 };
 

@@ -656,10 +656,8 @@ div .content { height: 100%; }
 
 .overlay::webkit-scrollbar { display: none; }
 
-.overlay .modal { max-width: 600px; margin: auto; background-color: #ffffff; position: relative; padding: 30px; display: none; z-index: 9999; }
+.overlay .loginModal { max-width: 600px; margin: auto; background-color: #ffffff; position: relative; padding: 30px; display: none; z-index: 9999; }
 
-.overlay .modal.show { display: none; }
+.overlay .loginModal.show { display: none; }
 
-.overlay .modal header { font-size: 20px; line-height: 30px; min-height: 30px; font-weight: bold; padding: 0 30px; }
-
-.overlay .modal .content { min-height: 30px; padding: 5px 30px; }
+.overlay .loginModal h4 { font-size: 20px; line-height: 30px; min-height: 30px; font-weight: bold; padding: 0 30px; }

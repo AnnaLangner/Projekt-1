@@ -19,7 +19,7 @@
     display: none;
   }
 
-  .modal {
+  .loginModal {
     max-width: 600px;
     margin: auto;
     background-color: #ffffff;
@@ -31,16 +31,13 @@
     &.show {
       display: none;
     }
-      header {
+      h4 {
         font-size: 20px;
         line-height: 30px;
         min-height: 30px;
         font-weight: bold;
         padding: 0 30px;
       }
-      .content {
-        min-height: 30px;
-        padding: 5px 30px;
-      }
+      
   }
 }
