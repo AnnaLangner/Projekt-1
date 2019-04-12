@@ -26,9 +26,21 @@
     position: relative;
     padding: 30px;
     display: none;
+    z-index: 9999;
 
     &.show {
       display: none;
     }
+      header {
+        font-size: 20px;
+        line-height: 30px;
+        min-height: 30px;
+        font-weight: bold;
+        padding: 0 30px;
+      }
+      .content {
+        min-height: 30px;
+        padding: 5px 30px;
+      }
   }
 }

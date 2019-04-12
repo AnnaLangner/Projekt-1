@@ -1,3 +1,5 @@
+'use strict';
+
 var hamburgerBtn = document.getElementById('menuToggle');
 var sidebar = document.getElementById('sidebar');
 
@@ -33,13 +35,16 @@ document.addEventListener('keyup', function(e) {
 });
 
 //opening of modals
-var showModal = function openModal(modal) {
+var btnLoginModal = document.getElementsByClassName('userName');
+
+var showLoginModal = function openModal(modal) {
   document.querySelectorAll('#overlay > *').forEach(function(modal) {
     modal.classList.remove('show');
   });
   document.querySelector('#overlay').classList.add('show');
-  document.querySelector('.modal').classList.add('show');
+  document.querySelector('.loginModal').classList.add('show');
   
 };
 
-document.addEventListener('click', showModal);
+btnLoginModal.addEventListener('click', showLoginModal);
+
