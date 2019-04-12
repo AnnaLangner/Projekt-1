@@ -23,7 +23,7 @@
 		    	    	</a>
 		    	    </li>
 		    	    <li><a class="userName" id="userName" href="#"><span class="icon-profile btn-enter js--enter-modal"></span>Name User</a></li>
-		    	    <li class="narrowSpace"><a href="#"><span class="icon-quit btn-close js--quit-modal"></span></a></li>
+		    	    <li class="narrowSpace"><a href="#" id="quit"><span class="icon-quit btn-close js--quit-modal"></span></a></li>
 		        </ul>
 		        </div>
             </nav>
@@ -31,20 +31,22 @@
 
         <div class="overlay" id="overlay">
 
-        	<div class="loginModal" id="loginModal">        		
-        		<h4>login</h4>        		      			
-        		<div>
-        			<span class="icon-profile"></span><p>Name User</p>
-        			<span class="icon-password"></span><p>password</p>
-        			<button class="js--enter-modal">Enter</button>
-        		</div>        		
+        	<div class="loginModal" id="loginModal">  
+        		<div class="modal">
+        			<h4>login</h4>        		      			
+        			<div class="content">
+        				<span class="icon-profile"></span><input type="text" placeholder="User Name">
+        				<span class="icon-password"></span><input type="text" placeholder="password">
+        				<button class="js--enter-modal">Enter</button>
+        			</div>  
+        		</div>      		
         	</div>
 
-        	<div class="quitModal" id="quitModal">        		
+        	<!-- <div class="quitModal" id="quitModal">        		
         		<h4>Do you really want to Quit?</h4>       		
 		    	<button class="js--stay-modal">Cancel</button>
 		    	<button class="js--quit-modal">Quit</button>		    	
-        	</div>
+        	</div> -->
         	
         </div>
             

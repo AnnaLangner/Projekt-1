@@ -13,7 +13,7 @@ function closeModal() {
 };
 
 //closes the modal via closing buttons with class js - quit-modal
-document.querySelectorAll('#overlay .js--quit-modal').forEach(function(btn) {
+document.querySelectorAll('#overlay .js--enter-modal').forEach(function(btn) {
   btn.addEventListener('click', function(e) {
     e.preventDefault();
     closeModal();
@@ -38,11 +38,12 @@ document.addEventListener('keyup', function(e) {
 var btnLoginModal = document.getElementById('userName');
 
 var showLoginModal = function openModal(modal) {
+	console.log(modal);
   document.querySelectorAll('#overlay > *').forEach(function(modal) {
     loginModal.classList.remove('show');
   });
   document.querySelector('#overlay').classList.add('show');
-  document.getElementById('.loginModal').classList.add('show');
+  document.getElementById('loginModal').classList.add('show');
   
 };
 
