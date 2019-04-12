@@ -1,5 +1,5 @@
 .payoutName{
-	color: $seckondcolor;
+	color: $secondcolor;
 	text-transform: uppercase;
     text-align: left;
     padding: 5px 15px;
@@ -11,16 +11,16 @@
 	padding: 50px 0;
 	justify-content: center;
 	align-items: center;
-	border-top: 1px solid $seckondcolor;
-	border-bottom: 1px solid $seckondcolor;
+	border-top: 1px solid $secondcolor;
+	border-bottom: 1px solid $secondcolor;
 			
 	.windowOne {
 		display: inline-block;
-		border: 1px solid $seckondcolor;
+		border: 1px solid $secondcolor;
 		padding: 10px;
 	}
 	.calendarWindowWithIcon {
-		border: 1px solid $seckondcolor;
+		border: 1px solid $secondcolor;
 		padding: 10px;
 	
 		.windowTwo {
@@ -53,13 +53,13 @@
 			border-collapse: collapse;
 					
 			thead {
-				border-bottom: 1px solid $seckondcolor;
+				border-bottom: 1px solid $secondcolor;
 						
 				tr {
-					border-bottom: 1px solid $seckondcolor;
+					border-bottom: 1px solid $secondcolor;
 
 					th {
-						color: $seckondcolor;
+						color: $secondcolor;
 						padding: 15px 0;
 						&:hover {
 						background-color: $thirdcolor;
@@ -72,7 +72,7 @@
 
 			tbody {
 				tr {
-					border-bottom: 1px solid $seckondcolor;
+					border-bottom: 1px solid $secondcolor;
 					&:hover {
 						background-color: $thirdcolor;
 						opacity: 1;
@@ -108,10 +108,10 @@
     				text-decoration: none;
     				&.active {
     					background-color: $activeColor;
-    					color: $seckondcolor;
+    					color: $secondcolor;
 					}
 					.arrow {
-						color: $seckondcolor;
+						color: $secondcolor;
 					}
 				}
     		}

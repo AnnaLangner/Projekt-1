@@ -6,7 +6,7 @@ header {
     left: 0;
     width: 100%;
     background-color: $firstcolor;
-    border-bottom: 1px solid $seckondcolor;  
+    border-bottom: 1px solid $secondcolor;  
     z-index: 1;
 
     .mainMenu 
@@ -21,16 +21,16 @@ header {
 
             li {
                 padding: 20px 15px;
-                color: $seckondcolor;
+                color: $secondcolor;
                 font-size: 15px;
                 text-decoration: none;
-                border-left: 1px solid $seckondcolor;
+                border-left: 1px solid $secondcolor;
                 
                 .userName {
                     color: $signupsColor;
                 }
                 a {
-                    color: $seckondcolor;
+                    color: $secondcolor;
                     text-decoration: none;
                      
 
@@ -44,7 +44,7 @@ header {
                     }
                     .icon-profile{
                         padding: 0 7px;
-                        color: $seckondcolor;
+                        color: $secondcolor;
                     }
                     .icon-notification {
                         padding: 0 10px;

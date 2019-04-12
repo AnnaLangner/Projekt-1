@@ -663,3 +663,5 @@ div .content { height: 100%; }
 .overlay .modal h4 { font-size: 20px; line-height: 30px; min-height: 30px; font-weight: bold; padding: 0 30px; }
 
 .overlay .modal .content .js--enter-modal { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px 15px; display: -ms-flexbox; display: flex; -ms-flex: 1; flex: 1; margin: auto; border-radius: 2px; }
+
+.overlay .modal .js--quit-modal { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px 15px; display: -ms-flexbox; display: flex; -ms-flex: 1; flex: 1; margin: auto; border-radius: 2px; }

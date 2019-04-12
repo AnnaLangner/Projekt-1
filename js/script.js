@@ -35,17 +35,33 @@ document.addEventListener('keyup', function(e) {
 });
 
 //opening of modals
-var btnLoginModal = document.getElementById('userName');
+//Login
+// var btnLoginModal = document.getElementById('userName');
 
-var showLoginModal = function openModal(modal) {
+// var showLoginModal = function openModal(modal) {
+// 	console.log(modal);
+//   document.querySelectorAll('#overlay > *').forEach(function(modal) {
+//     loginModal.classList.remove('show');
+//   });
+//   document.querySelector('#overlay').classList.add('show');
+//   document.getElementById('loginModal').classList.add('show');
+  
+// };
+
+// btnLoginModal.addEventListener('click', showLoginModal);
+
+//Quit
+var btnQuitModal = document.getElementById('quit');
+
+var showQuitModal = function openModal(modal) {
 	console.log(modal);
   document.querySelectorAll('#overlay > *').forEach(function(modal) {
-    loginModal.classList.remove('show');
+    quitModal.classList.remove('show');
   });
   document.querySelector('#overlay').classList.add('show');
-  document.getElementById('loginModal').classList.add('show');
+  document.getElementById('quitModal').classList.add('show');
   
 };
 
-btnLoginModal.addEventListener('click', showLoginModal);
+btnQuitModal.addEventListener('click', showQuitModal);
 

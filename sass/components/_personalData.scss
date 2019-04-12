@@ -1,10 +1,10 @@
 .personalSectionName {
-	color: $seckondcolor;
+	color: $secondcolor;
 	text-transform: uppercase;
 	text-align: left;
 	font-size: 15px;
 	padding: 5px 15px 15px 15px;
-	border-bottom: 1px solid $seckondcolor;		
+	border-bottom: 1px solid $secondcolor;		
 }
 
 .main-container {
@@ -21,7 +21,7 @@
 			.basicData {
 				display: block;
 				text-align: left;
-				border-bottom: 1px solid $seckondcolor;
+				border-bottom: 1px solid $secondcolor;
 				padding: 30px 0;
 
 				.field {
@@ -30,7 +30,7 @@
 						padding: 5px;
 						
 						label {
-							color: $seckondcolor;
+							color: $secondcolor;
 							font-weight: bold;
 						
 						}
@@ -50,7 +50,7 @@
 			.mediaData {
 				display: block;
 				text-align: left;
-				border-bottom: 1px solid $seckondcolor;
+				border-bottom: 1px solid $secondcolor;
 				padding: 30px 0;
 
 				.field {
@@ -58,7 +58,7 @@
 						padding: 5px;
 
 						label {
-							color: $seckondcolor;
+							color: $secondcolor;
 							font-weight: bold;
 						}
 					}
@@ -75,14 +75,14 @@
 			.walletData {
 				display: block;
 				text-align: left;
-				border-bottom: 1px solid $seckondcolor;
+				border-bottom: 1px solid $secondcolor;
 				padding: 30px 0;
 
 				.field {
 					.spaceBetween {
 						padding: 5px;						
 						label {
-							color: $seckondcolor;
+							color: $secondcolor;
 							font-weight: bold;
 						}
 					}
@@ -99,7 +99,7 @@
 			.passwordData {
 				display: block;
 				text-align: left;
-				border-bottom: 1px solid $seckondcolor;
+				border-bottom: 1px solid $secondcolor;
 				padding: 30px 0;
 
 				.field {
@@ -107,7 +107,7 @@
 						padding: 5px;
 							
 						label {
-							color: $seckondcolor;
+							color: $secondcolor;
 							font-weight: bold;
 						}
 					}
@@ -122,7 +122,7 @@
 			}
 				
 			.personalButton {
-				border-bottom: 1px solid $seckondcolor;
+				border-bottom: 1px solid $secondcolor;
 					
 				.buttonSave{
 				background-color: $brand-main-color;

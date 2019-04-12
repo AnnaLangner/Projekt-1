@@ -1,10 +1,10 @@
 .linksSectionName {
-	color: $seckondcolor;
+	color: $secondcolor;
 	text-transform: uppercase;
 	text-align: left;
 	font-size: 15px;
 	padding: 5px 15px 15px 15px;
-	border-bottom: 1px solid $seckondcolor;		
+	border-bottom: 1px solid $secondcolor;		
 }
 
 .main-container {
@@ -16,7 +16,7 @@
 		width: 50%;
 		
 		.linkButton {
-			border-bottom: 1px solid $seckondcolor;
+			border-bottom: 1px solid $secondcolor;
 					
 			.buttonAddNew{
 			background-color: $brand-main-color;
@@ -32,10 +32,10 @@
 		.linkLine {
 			display: flex;
 			text-align: left;
-			border-bottom: 1px solid $seckondcolor;
+			border-bottom: 1px solid $secondcolor;
 
 				.linkName {
-					color: $seckondcolor;
+					color: $secondcolor;
 					font-weight: bold;
 				}
 
@@ -62,7 +62,7 @@
 					}
 					.icon-trash {
 						text-align: right;
-						color: $seckondcolor;
+						color: $secondcolor;
 					}
 				}				
 			}

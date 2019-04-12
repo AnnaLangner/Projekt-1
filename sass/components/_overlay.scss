@@ -50,6 +50,27 @@
           margin: auto;
           border-radius: 2px;
         }
+      }
+
+      .js--quit-modal {
+        background-color: $brand-main-color;
+        border: 1px solid $brand-main-color;
+        color: $firstcolor;
+        padding: 5px 15px;
+        display: flex;
+        flex: 1;
+        margin: auto;
+        border-radius: 2px;
+      }
+      .js--stay-modal {
+        background-color: $secondcolor;
+        border: 1px solid $secondcolor;
+        color: $firstcolor;
+        padding: 5px 15px;
+        display: flex;
+        flex: 1;
+        margin: auto;
+        border-radius: 2px;
       }      
   }
 }
