@@ -3,40 +3,43 @@ var sidebar = document.getElementById('sidebar');
 
 hamburgerBtn.addEventListener("click", function() {
 sidebar.classList.toggle('active');
-})
+});
 
 //close modal by removing the show class from overlay
 function closeModal() {
-  document.getElementById('overlay').classList.remove('show')
-}
+  document.getElementById('overlay').classList.remove('show');
+};
 
 //closes the modal via closing buttons with class js - quit-modal
 document.querySelectorAll('#overlay .js--quit-modal').forEach(function(btn) {
   btn.addEventListener('click', function(e) {
-    e.preventDefault()
-    closeModal()
-  })
-})
+    e.preventDefault();
+    closeModal();
+  });
+});
 
 //modal closure after clicking on the overlay background
 document.querySelector('#overlay').addEventListener('click', function(e) {
   if(e.target === this) {
-    closeModal()
-  }
-})
+    closeModal();
+  };
+});
 
 //closes the modal by clicking the Escape button on the keyboard
 document.addEventListener('keyup', function(e) {
   if(e.keyCode === 27) {
-    closeModal()
-  }
-})
+    closeModal();
+  };
+});
 
 //opening of modals
-function openModal(modal) {
+var showModal = function openModal(modal) {
   document.querySelectorAll('#overlay > *').forEach(function(modal) {
-    modal.classList.remove('show')
-  })
-  document.querySelector('#overlay').classList.add('show')
-  document.querySelector(modal).classList.add('show')
-}
+    modal.classList.remove('show');
+  });
+  document.querySelector('#overlay').classList.add('show');
+  document.querySelector('.modal').classList.add('show');
+  
+};
+
+document.addEventListener('click', showModal);
