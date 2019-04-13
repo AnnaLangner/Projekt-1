@@ -59,7 +59,7 @@
 					border-bottom: 1px solid $secondcolor;
 
 					th {
-						color: $seckondcolor;
+						color: $secondcolor;
 						padding: 15px 0;
 						&:hover {
 						background-color: $thirdcolor;
@@ -108,7 +108,7 @@
     				text-decoration: none;
     				&.active {
     					background-color: $activeColor;
-    					color: $seckondcolor;
+    					color: $secondcolor;
 					}
 					.arrow {
 						color: $secondcolor;

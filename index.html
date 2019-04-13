@@ -30,24 +30,34 @@
         </header>
 
         <div class="overlay" id="overlay">
-
-        	<div class="modal">
-        		<div class="loginModal" id="loginModal">  
-        			<h4>login</h4>        		      			
-        			<div class="content">
-        				<span class="icon-profile"></span><input type="text" placeholder="User Name">
-        				<span class="icon-password"></span><input type="text" placeholder="password">
-        				<button class="js--enter-modal">Enter</button>
-        			</div>  
-        		</div>      		
         	
-        		<div class="quitModal" id="quitModal">        		
-        			<h4>Do you really want to Quit?</h4>       		
-		    		<button class="js--stay-modal">Cancel</button>
-		    		<button class="js--quit-modal">Quit</button>		    	
-        		</div>
+        	<div class="modal" id="loginModal">  
+        		<div class="content row">
+        			<h4 class="headerModal">login</h4>
+        		</div>          		      		       		      			
+        		<div class="content row">
+        			<div class="windowWithIcon">
+        				<span class="icon-profile icon"></span>
+        				<input class="windowLogin" type="text" placeholder="User Name">
+        			</div>
+        			<div class="windowWithIcon">
+        				<span class="icon-password icon"></span>
+        				<input class="windowLogin" type="text" placeholder="password">
+        			</div>
+        			<button class="js--enter-modal">Enter</button>
+        		</div>  
+        	</div>      		
+        	
+        	<div class="modal" id="quitModal">        		
+        		<h4 class="headerModal">Do you really want to Quit?</h4>       		
+		   		
+		   		<div class="row">
+		   			<button class="js--stay-modal col col-4">Cancel</button>
+		   			<button class="js--quit-modal col col-4">Quit</button>	
+		   		</div>	    	
+        	</div>
 
-        	</div>        	
+        	
         </div>
             
         <div class="sidebar" id="sidebar">

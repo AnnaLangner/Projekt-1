@@ -658,10 +658,18 @@ div .content { height: 100%; }
 
 .overlay .modal { max-width: 600px; margin: auto; background-color: #ffffff; position: relative; padding: 30px; display: none; z-index: 9999; }
 
-.overlay .modal.show { display: none; }
+.overlay .modal.show { display: -ms-flexbox; display: flex; }
 
-.overlay .modal h4 { font-size: 20px; line-height: 30px; min-height: 30px; font-weight: bold; padding: 0 30px; }
+.overlay .modal .headerModal { font-weight: bold; color: #a5a4a5; text-transform: uppercase; text-align: left; padding: 5px 15px; font-size: 15px; border-bottom: 1px solid #a5a4a5; }
 
-.overlay .modal .content .js--enter-modal { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px 15px; display: -ms-flexbox; display: flex; -ms-flex: 1; flex: 1; margin: auto; border-radius: 2px; }
+.overlay .modal .content .windowWithIcon { border: 1px solid #a5a4a5; padding: 10px; }
 
-.overlay .modal .js--quit-modal { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px 15px; display: -ms-flexbox; display: flex; -ms-flex: 1; flex: 1; margin: auto; border-radius: 2px; }
+.overlay .modal .content .windowWithIcon .windowLogin { display: inline-block; border: none; }
+
+.overlay .modal .content .windowWithIcon .icon { padding-right: 10px; border: none; }
+
+.overlay .modal .content .js--enter-modal { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px 15px; text-align: center; display: -ms-flexbox; display: flex; -ms-flex: 1; flex: 1; margin: auto; border-radius: 2px; }
+
+.overlay .modal .js--quit-modal { background-color: #f58220; border: 1px solid #f58220; color: #FFFFFF; padding: 5px 15px; display: -ms-flexbox; display: flex; margin: auto; border-radius: 2px; }
+
+.overlay .modal .js--stay-modal { background-color: #a5a4a5; border: 1px solid #a5a4a5; color: #FFFFFF; padding: 5px 15px; display: -ms-flexbox; display: flex; margin: auto; border-radius: 2px; }
