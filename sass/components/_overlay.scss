@@ -31,64 +31,67 @@
     &.show {
       display: flex;
     }
-      .headerModal {
-        font-weight: bold;
-        color: $secondcolor;
-        text-transform: uppercase;
-        text-align: left;
-        padding: 5px 15px;
-        font-size: 15px;
-        border-bottom: 1px solid $secondcolor;
-      }
+      .wrapperModal {
+        background-color: $firstcolor;
+        margin: auto;
 
-      .content {
-        .windowWithIcon{
-          border: 1px solid $secondcolor;
-          padding: 10px;
+        .headerModal {
+          font-weight: bold;
+          color: $secondcolor;
+          text-transform: uppercase;
+          text-align: left;
+          padding: 5px 15px;
+          font-size: 15px;
+          border-bottom: 1px solid $secondcolor;
+          margin-bottom: 10px;
+        }
+
+        .content {
+          .windowWithIcon{
+            border: 1px solid $secondcolor;
+            padding: 0px;
   
-          .windowLogin {
-            display: inline-block;
-            border: none;
+            .windowLogin {
+              display: inline-block;
+              border: none;
+            }
+            .icon {
+              padding-right: 0px;
+              border: none;
+            }
           }
-          .icon {
-            padding-right: 10px;
-            border: none;
+          .js--enter-modal {
+            background-color: $brand-main-color;
+            border: 1px solid $brand-main-color;
+            color: $firstcolor;
+            padding: 5px 15px;
+            text-align: center;
+            display: flex;
+            flex: 1;
+            margin: auto;
+            border-radius: 2px;          
           }
         }
-        .js--enter-modal {
+
+        .js--quit-modal {
           background-color: $brand-main-color;
           border: 1px solid $brand-main-color;
           color: $firstcolor;
           padding: 5px 15px;
-          text-align: center;
           display: flex;
-          flex: 1;
           margin: auto;
-          border-radius: 2px;          
+          border-radius: 2px;
         }
-      }
-
-      .js--quit-modal {
-        background-color: $brand-main-color;
-        border: 1px solid $brand-main-color;
-        color: $firstcolor;
-        padding: 5px 15px;
-        display: flex;
-        margin: auto;
-        border-radius: 2px;
-      }
-      .js--stay-modal {
-        background-color: $secondcolor;
-        border: 1px solid $secondcolor;
-        color: $firstcolor;
-        padding: 5px 15px;
-        display: flex;
-        margin: auto;
-        border-radius: 2px;
+        .js--stay-modal {
+          background-color: $secondcolor;
+          border: 1px solid $secondcolor;
+          color: $firstcolor;
+          padding: 5px 15px;
+          display: flex;
+          margin: auto;
+          margin-right: 10px;
+          border-radius: 2px;
+        }
       }      
   }
-}
-
-
-
-  
+}  
