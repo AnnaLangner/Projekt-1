@@ -86,16 +86,13 @@
 	}
 }
 		
-		.generalImg{
+		.generalChart{
 			display: flex;
 			justify-content: center;
 			align-items: center;
 
-			img {
-				margin: 20px 0;
+			#myChart {
+				padding: 100px 250px;
 			}
-			.responsive {
-  				width: 50%;
-  				height: auto;
-			}
+			
 		}		

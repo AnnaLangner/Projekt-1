@@ -456,11 +456,9 @@ div .content { height: 100%; }
 
 .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 .lineData { font-size: 15px; text-align: right; }
 
-.generalImg { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
+.generalChart { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 
-.generalImg img { margin: 20px 0; }
-
-.generalImg .responsive { width: 50%; height: auto; }
+.generalChart #myChart { padding: 100px 250px; }
 
 .detailsName { color: #a5a4a5; text-transform: uppercase; text-align: left; padding: 5px 15px; font-size: 15px; }
 
