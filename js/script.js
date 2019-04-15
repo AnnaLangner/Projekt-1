@@ -117,3 +117,12 @@ var chart = new Chart(ctx, {
 });
 
 //
+
+// var bookmarks = document.getElementById('bookmarks');
+
+// bookmarks.forEach(function(item, index) {
+//   var bookmarksLinks = document.getElementById('bookmarksLinks');
+//   bookmarksLinks.addListener('click', function() {
+//     var titleSection = document.getElementById('h1');
+//   }
+// });
