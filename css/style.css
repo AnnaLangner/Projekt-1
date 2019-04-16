@@ -120,7 +120,9 @@ body { font-family: "Open Sans", Helvetica, Arial; }
 
 .container { width: 100%; margin: auto; padding: 15px; background-color: #f4f4f2; }
 
-.content .section { border: 1px solid #a5a4a5; margin-top: 20px; box-shadow: 2px 2px 5px #a5a4a5; background-color: #FFFFFF; }
+.content .section { border: 1px solid #a5a4a5; margin-top: 20px; box-shadow: 2px 2px 5px #a5a4a5; background-color: #FFFFFF; display: none; }
+
+.content .section.show { display: block; }
 
 .container-fluid { width: 100%; padding: 15px; }
 
@@ -455,6 +457,14 @@ div .content { height: 100%; }
 .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 { padding: 0; }
 
 .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 .lineData { font-size: 15px; text-align: right; }
+
+.generalChartTitle { font-size: 20px; font-weight: 500; color: #a5a4a5; display: -ms-flexbox; display: flex; -ms-flex-pack: left; justify-content: left; padding: 0 250px; }
+
+.generalChartLegend { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
+
+.generalChartLegend .0-legend { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; }
+
+.generalChartLegend .0-legend li { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 30px; height: 30px; border-radius: 50%; }
 
 .generalChart { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 

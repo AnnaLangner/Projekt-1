@@ -85,7 +85,37 @@
 		}						
 	}
 }
-		
+		.generalChartTitle {
+			font-size: 20px;
+			font-weight: 500;
+			color: $secondcolor;
+			display: flex;
+			justify-content: left;
+			padding: 0 250px;
+
+		} 
+
+		.generalChartLegend {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			.0-legend {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+					li {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 30px;
+					height: 30px;
+					border-radius: 50%;
+				}
+			}
+		}
+
 		.generalChart{
 			display: flex;
 			justify-content: center;
