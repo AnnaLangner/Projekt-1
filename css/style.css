@@ -458,17 +458,19 @@ div .content { height: 100%; }
 
 .generalLine .generalLineStatistic .statistic .lineStatistic .lineElement .col-6 .lineData { font-size: 15px; text-align: right; }
 
-.generalChartTitle { font-size: 20px; font-weight: 500; color: #a5a4a5; display: -ms-flexbox; display: flex; -ms-flex-pack: left; justify-content: left; padding: 0 250px; }
+.generalChartTitle { font-size: 20px; font-weight: 500; color: #a5a4a5; display: -ms-flexbox; display: flex; -ms-flex-pack: left; justify-content: left; padding: 0 250px; padding-bottom: 20px; }
 
-.generalChartLegend { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
+.generalChartLegend { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; padding-bottom: 20px; }
 
-.generalChartLegend .0-legend { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; }
+.generalChartLegend [class='0-legend'] { display: -ms-inline-flexbox; display: inline-flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 
-.generalChartLegend .0-legend li { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 30px; height: 30px; border-radius: 50%; }
+.generalChartLegend [class='0-legend'] li { width: 100px; text-decoration: none; }
+
+.generalChartLegend [class='0-legend'] li span { width: 30px; height: 30px; border-radius: 50%; }
 
 .generalChart { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 
-.generalChart #myChart { padding: 100px 250px; }
+.generalChart #myChart { padding: 0 250px; padding-bottom: 100px; }
 
 .detailsName { color: #a5a4a5; text-transform: uppercase; text-align: left; padding: 5px 15px; font-size: 15px; }
 
