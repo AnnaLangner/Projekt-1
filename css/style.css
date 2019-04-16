@@ -464,7 +464,7 @@ div .content { height: 100%; }
 
 .generalChartLegend [class='0-legend'] { display: -ms-inline-flexbox; display: inline-flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 
-.generalChartLegend [class='0-legend'] li { width: 100px; text-decoration: none; }
+.generalChartLegend [class='0-legend'] li { width: 100px; text-decoration: none; color: #a5a4a5; }
 
 .generalChartLegend [class='0-legend'] li span { width: 30px; height: 30px; border-radius: 50%; }
 
@@ -659,6 +659,8 @@ div .content { height: 100%; }
 .payoutTable .center .pagination li a.active { background-color: #f0f3f3; color: #a5a4a5; }
 
 .payoutTable .center .pagination li a .arrow { color: #a5a4a5; }
+
+.postbackName { color: #a5a4a5; text-transform: uppercase; text-align: left; padding: 5px 15px; font-size: 15px; }
 
 .overlay { position: fixed; top: 0; left: 0; z-index: 999; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; overflow: auto; padding: 30px; display: none; }
 
