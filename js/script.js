@@ -68,6 +68,7 @@ btnQuitModal.addEventListener('click', showQuitModal);
 //Chart
 
 var ctx = document.getElementById('myChart').getContext('2d');
+var chartLegend = document.querySelector("#generalChartLegend");
 
 var chart = new Chart(ctx, {
     // 1
@@ -102,27 +103,52 @@ var chart = new Chart(ctx, {
     },
     options: {
         title: {
-            display: true,
-            text: 'Earnings chart',
-            position: 'top',
-            fontSize: 20
+            display: false,
+        },
+        legend: {
+           display: false
         }
-        // legend: {
-        //     display: true,
-        //     labels: {
-        //         fontSize: 20
-        //     }
-        // }
     }
 });
 
-//
+function legendClickCallback(event) {
 
-// var bookmarks = document.getElementById('bookmarks');
+    var elem = (event.target.tagName === 'SPAN') ? event.target.parentElement : event.target;
+    var list = elem.parentElement
 
-// bookmarks.forEach(function(item, index) {
-//   var bookmarksLinks = document.getElementById('bookmarksLinks');
-//   bookmarksLinks.addListener('click', function() {
-//     var titleSection = document.getElementById('h1');
-//   }
-// });
+    var chartId = parseInt(list.className.replace('-legend', ''));
+    var chart = Chart.instances[chartId];
+
+    var index = Array.prototype.slice.call(list.children).indexOf(elem);
+    var meta = chart.getDatasetMeta(index);
+    console.log(meta);
+
+    if (meta.hidden === null) {
+        meta.hidden = !chart.data.datasets[index].hidden;
+        elem.classList.add('hidden');
+    } else {
+        elem.classList.remove('hidden');
+        meta.hidden = null;
+    }
+
+    chart.update();
+
+};
+
+chartLegend.innerHTML = chart.generateLegend();
+var legendItems = chartLegend.getElementsByTagName('li');
+for (var i = 0; i < legendItems.length; i += 1) {
+    legendItems[i].addEventListener("click", legendClickCallback);
+};
+
+//section display 
+
+var bookmarks = document.getElementById('bookmarks');
+
+bookmarks.addEventListener('click', function(e) {
+    e.preventDefault();
+    var elem = (event.target.tagName === 'SPAN') ? event.target.parentElement : event.target;
+    var id = elem.getAttribute('href');
+    document.querySelector('.section.show').classList.remove('show');
+    document.querySelector(id).classList.add('show');
+});

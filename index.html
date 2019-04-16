@@ -76,13 +76,13 @@
 
         		<div class="bookmarks" id="bookmarks">			
 					<ul>
-					    <li><a href="#" id="bookmarksLinks"><span class="icon-general"></span>  General</a></li>
-		    			<li><a href="#" id="bookmarksLinks"><span class="icon-details"></span>  Details</a></li>
-		    			<li><a href="#" id="bookmarksLinks"><span class="icon-links"></span>  Links</a></li>
-		    			<li><a href="#" id="bookmarksLinks"><span class="icon-banners"></span> Banners</a></li>
-		    			<li><a href="#" id="bookmarksLinks"><span class="icon-personaldata"></span>  Personal data</a></li>
-		    			<li><a href="#" id="bookmarksLinks"><span class="icon-payout"></span>  Payout</a></li>
-		    			<li><a href="#" id="bookmarksLinks"><span class="icon-postback"></span>  Postback</a></li>
+					    <li><a href="#general"><span class="icon-general"></span>  General</a></li>
+		    			<li><a href="#details"><span class="icon-details"></span>  Details</a></li>
+		    			<li><a href="#links"><span class="icon-links"></span>  Links</a></li>
+		    			<li><a href="#banners"><span class="icon-banners"></span> Banners</a></li>
+		    			<li><a href="#personal"><span class="icon-personaldata"></span>  Personal data</a></li>
+		    			<li><a href="#payout"><span class="icon-payout"></span>  Payout</a></li>
+		    			<li><a href="#"><span class="icon-postback"></span>  Postback</a></li>
 		    		</ul>
 		    	</div>
 		    	<div class="headerMenu">		        	
@@ -119,9 +119,9 @@
 
             <div class="content">                     <!--  General statistic -->
 
-        		<div class="section">
+        		<div class="section show" id="general">
 
-        			<h1 class="generalName" id="h1">general statistic</h1>
+        			<h1 class="generalName">general statistic</h1>
         	
 
         			<div class="generalCalendar row">
@@ -206,7 +206,8 @@
 						</div>
 					</div>
 
-
+					<div class="generalChartTitle" id="generalChartTitle">Ernings chart</div>
+					<div class="generalChartLegend" id="generalChartLegend"></div>
 					<div class="generalChart">
 						<canvas id="myChart"></canvas>   
 					</div>
@@ -214,9 +215,9 @@
 				</div>
 
 								<!-- Details -->
-				<div class="section">
+				<div class="section" id="details">
 
-        			<h1 class="detailsName id="h1"">details statistic</h1>
+        			<h1 class="detailsName">details statistic</h1>
         	
 
         			<div class="detailsCalendar row">
@@ -375,9 +376,9 @@
 
 								<!--  Links -->
     
-    			<div class="section">
+    			<div class="section" id="links">
 
-    				<h1 class="linksSectionName" id="h1">links</h1>
+    				<h1 class="linksSectionName">links</h1>
 
     				<div class="main-container">
     					<div class="main-containerLink">
@@ -524,9 +525,9 @@
     			</div> 
 
     							<!-- banners -->
-    			<div class="section">
+    			<div class="section" id="banners">
 
-    				<h1 class="bannersSectionName" id="h1">banners</h1>
+    				<h1 class="bannersSectionName">banners</h1>
 
     				<div class="main-container">
     					<div class="main-containerBanners">
@@ -637,9 +638,9 @@
 
     								<!-- personal data -->
 
-    			<div class="section">
+    			<div class="section" id="personal">
 
-    				<h1 class="personalSectionName" id="h1">personal data</h1>
+    				<h1 class="personalSectionName">personal data</h1>
 
     				<div class="main-container">
     					<div class="main-containerPersonal">
@@ -746,9 +747,9 @@
 
 	    		<!-- payout history -->
 
-	    		<div class="section">
+	    		<div class="section" id="payout">
 
-        			<h1 class="payoutName" id="h1">payout history</h1>
+        			<h1 class="payoutName">payout history</h1>
         	
 
         			<div class="payoutCalendar row">
