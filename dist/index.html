@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Just do it</title>			
+		<link rel="stylesheet" type="text/css" href="css/style.prefixed.css">					
+
+	</head>
+	<body>
+		                        <!--    Header main menu i sidebar  -->
+
+        <header>
+	        <nav class="mainMenu">
+		        <div class="row">
+		        <ul>
+			        <li><a href="#"><span class="icon-wallet"></span> $1,500.000 <span class="icon-arrow-down"></span></a></li>
+		    	    <li class="narrowSpace">
+		    	    	<a href="#">
+		    	    		<span class="icon-notification">
+		    	    			<div class="notificationCircle"></div>
+		    	    		</span>
+		    	    	</a>
+		    	    </li>
+		    	    <li><a class="userName" id="userName" href="#"><span class="icon-profile btn-enter js--enter-modal"></span>Name User</a></li>
+		    	    <li class="narrowSpace"><a href="#" id="quit"><span class="icon-quit btn-close js--quit-modal"></span></a></li>
+		        </ul>
+		        </div>
+            </nav>
+        </header>
+
+        <div class="overlay" id="overlay">
+        	
+        	<div class="modal" id="loginModal">  
+        		<div class="wrapperModal">
+        			<h4 class="headerModal">login</h4>        		         		      		       		      			
+        			<div class="row">
+        				<div class="windowWithIcon">
+        					<span class="icon-profile icon"></span>
+        					<input class="windowLogin" type="text" placeholder="login name">
+        				</div>
+        				<div class="windowWithIcon">
+        					<span class="icon-password icon"></span>
+        					<input class="windowLogin" type="text" placeholder="password">
+        				</div>
+        				<button class="js--enter-modal">Enter</button>
+        			</div>
+        		</div>   
+        	</div>      		
+        	
+        	<div class="modal" id="quitModal">    
+        		<div class="wrapperModal">				 		
+        			<h4 class="headerModal lowercase">Do you really want to Quit?</h4> 		   		
+		   			<div class="row">
+		   				<button class="js--stay-modal box">Cancel</button>
+		   				<button class="js--quit-modal box">Quit</button>	
+		   			</div>			   			
+		   		</div>    	
+        	</div>
+
+        	
+        </div>
+            
+        <div class="sidebar" id="sidebar">
+
+        	<nav class="sideNavigation">
+
+        		<div class="logoSing">
+        			<img class="logoPhoto" src="images/logo.png" alt="Just do it">
+        			<a href="#" class="buttonToExpand" id="menuToggle" title="show menu">
+						<div></div>
+						<div></div>
+						<div></div>
+					</a>							
+				</div>	
+
+        		<div class="bookmarks" id="bookmarks">			
+					<ul>
+					    <li><a href="#general"><span class="icon-general"></span>  General</a></li>
+		    			<li><a href="#details"><span class="icon-details"></span>  Details</a></li>
+		    			<li><a href="#links"><span class="icon-links"></span>  Links</a></li>
+		    			<li><a href="#banners"><span class="icon-banners"></span> Banners</a></li>
+		    			<li><a href="#personal"><span class="icon-personaldata"></span>  Personal data</a></li>
+		    			<li><a href="#payout"><span class="icon-payout"></span>  Payout</a></li>
+		    			<li><a href="#postback"><span class="icon-postback"></span>  Postback</a></li>
+		    		</ul>
+		    	</div>
+		    	<div class="headerMenu">		        	
+		        	<ul>
+			    	    <li><a href="#"><span class="icon-arrow-down"></span></a></li>
+		    		    <li><a href="#">
+		    		    		<span class="icon-notification">
+		    		    			<div class="notificationCircle"></div>
+		    		    		</span>
+		    		    </a></li>
+		    		    <li><a href="#"> <span class="icon-profile"></span></a></li>
+		    		    <li><a href="#"><span class="icon-quit"></span></a></li>
+		        	</ul>		        	
+            	</div>
+		    	
+
+				<section class="manager">
+					<a href="#">
+						<h2 class="managerTitle">Your manager</h2>
+						<div class="managerChat">
+							<img class="managerPhoto" src="images/manager1.png" alt="ManagerFoto">
+							<span class="notification">
+								<div class="managerCircle"></div>
+							</span>
+							<h1 class="managerName"> Mikhael E. </h1>
+						</div>
+					</a>
+				</section>		    	
+			</nav>			
+
+        </div> 
+
+        <div class="container ">
+
+            <div class="content">                     <!--  General statistic -->
+
+        		<div class="section show" id="general">
+
+        			<h1 class="generalName">general statistic</h1>
+        	
+
+        			<div class="generalCalendar row">
+        				<input class="windowOne" type="date" name="calendar">
+        				<div class="calendarWindowWithIcon">
+        					<input class="windowTwo" type="date" name="calendar">
+        					<span class="icon-calendar"></span>
+        				</div>
+        				<button class="icon-refresh"></button>        	
+        			</div>
+	
+        			<div class="generalLine">
+        				<div class="generalLineStatistic">
+
+        					<div class=" row statistic">
+
+        						<div class="col col-6 col-sm-12">
+        							<div class="row lineStatistic">
+        								<div class="lineElement">
+
+	    									<div class="col col-6 col-sm-12">
+	    										<h2 class="lineName">Visit Singups</h2>
+	    									</div>
+	    									<div class="col col-6 col-sm-12">
+	    										<p class="lineData">124</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+        						<div class="col col-6 col-sm-12">
+        							<div class="row lineStatistic">        								
+										<div class="lineElement">
+
+											<div class="col col-6 col-sm-12">
+												<h2 class="lineName">FTD</h2>
+											</div>
+											<div class="col col-6 col-sm-12">
+												<p class="lineData">445</p>
+											</div>
+
+										</div>
+									</div>
+								</div>								
+							</div>
+
+							<div class=" row statistic">
+
+        						<div class="col col-6 col-sm-12">
+        							<div class="row lineStatistic">
+										<div class="lineElement">
+
+											<div class="col col-6 col-sm-12">
+	    										<h2 class="lineName">Net Deposit</h2>
+	    									</div>
+											<div class="col col-6 col-sm-12">
+	    										<p class="lineData">564</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-6 col-sm-12">
+        							<div class="row lineStatistic">
+										<div class="lineElement">
+
+											<div class="col col-6 col-sm-12">
+												<h2 class="lineName">Turn over</h2>
+											</div>
+											<div class="col col-6 col-sm-12">
+												<p class="lineData">432</p>
+											</div>
+
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+					<div class="generalChartTitle" id="generalChartTitle">Ernings chart</div>
+					<div class="generalChartLegend" id="generalChartLegend"></div>
+					<div class="generalChart">
+						<canvas id="myChart"></canvas>   
+					</div>
+
+				</div>
+
+								<!-- Details -->
+				<div class="section" id="details">
+
+        			<h1 class="detailsName">details statistic</h1>
+        	
+
+        			<div class="detailsCalendar row">
+        				<input class="windowOne" type="date" name="calendar">
+        				<div class="calendarWindowWithIcon">
+        					<input class="windowTwo" type="date" name="calendar">
+        					<span class="icon-calendar"></span>
+        				</div>
+        				<button class="icon-refresh"></button>        	
+        			</div>
+
+        			<div class="row detailsTable">
+        				<div class="scroll-wrapper col-xs-12">
+							<table>
+								<thead>
+        							<tr>
+        								<th>Tracker name</th>
+        								<th>Initiated date</th>
+        								<th>Visits</th>
+        								<th>Unique</th>
+        								<th>Singups</th>
+        								<th>FTD</th>
+        								<th>Depositors</th>
+        								<th>Deposits ($)</th>
+        								<th>Payout</th>
+        								<th>Turnover</th>
+        								<th>Deal</th>
+        							</tr>
+        						</thead>
+        						<tbody>
+        							<tr>
+        								<td>aff/sam_test</td>
+        								<td>17/08/02 (12:58)</td>
+        								<td>232</td>
+        								<td>114</td>
+        								<td>12</td>
+        								<td>6</td>
+        								<td>3</td>
+        								<td>34,425.00</td>
+        								<td>234.00</td>
+        								<td>421,342.00</td>
+        								<td>cpl (200)</td>
+        							</tr>
+        							<tr>
+        								<td>aff/leo_test</td>
+        								<td>15/08/02 (12:58)</td>
+        								<td>232</td>
+        								<td>114</td>
+        								<td>12</td>
+        								<td>6</td>
+        								<td>3</td>
+        								<td>29,436.00</td>
+        								<td>941.00</td>
+        								<td>784,435.00</td>
+        								<td>cpl (200)</td>
+        							</tr>
+        							<tr>
+        								<td>aff/sam_test</td>
+        								<td>17/08/02 (12:58)</td>
+        								<td>232</td>
+        								<td>114</td>
+        								<td>12</td>
+        								<td>6</td>
+        								<td>3</td>
+        								<td>34,425.00</td>
+        								<td>234.00</td>
+        								<td>421,342.00</td>
+        								<td>cpl (200)</td>
+        							</tr>
+        							<tr>
+        								<td>aff/leo_test</td>
+        								<td>15/08/02 (12:58)</td>
+        								<td>232</td>
+        								<td>114</td>
+        								<td>12</td>
+        								<td>6</td>
+        								<td>3</td>
+        								<td>29,436.00</td>
+        								<td>941.00</td>
+        								<td>784,435.00</td>
+        								<td>cpl (200)</td>
+        							</tr>
+        							<tr>
+        								<td>aff/sam_test</td>
+        								<td>17/08/02 (12:58)</td>
+        								<td>232</td>
+        								<td>114</td>
+        								<td>12</td>
+        								<td>6</td>
+        								<td>3</td>
+        								<td>34,425.00</td>
+        								<td>234.00</td>
+        								<td>421,342.00</td>
+        								<td>cpl (200)</td>
+        							</tr>
+        							<tr>
+        								<td>aff/leo_test</td>
+        								<td>15/08/02 (12:58)</td>
+        								<td>232</td>
+        								<td>114</td>
+        								<td>12</td>
+        								<td>6</td>
+        								<td>3</td>
+        								<td>29,436.00</td>
+        								<td>941.00</td>
+        								<td>784,435.00</td>
+        								<td>cpl (200)</td>
+        							</tr>
+        							<tr>
+        								<td>aff/sam_test</td>
+        								<td>17/08/02 (12:58)</td>
+        								<td>232</td>
+        								<td>114</td>
+        								<td>12</td>
+        								<td>6</td>
+        								<td>3</td>
+        								<td>34,425.00</td>
+        								<td>234.00</td>
+        								<td>421,342.00</td>
+        								<td>cpl (200)</td>
+        							</tr>
+        							<tr>
+        								<td>aff/leo_test</td>
+        								<td>15/08/02 (12:58)</td>
+        								<td>232</td>
+        								<td>114</td>
+        								<td>12</td>
+        								<td>6</td>
+        								<td>3</td>
+        								<td>29,436.00</td>
+        								<td>941.00</td>
+        								<td>784,435.00</td>
+        								<td>cpl (200)</td>
+        							</tr>
+        						</tbody>
+							
+							</table>
+						</div>
+						<div class="center">
+							<ul class="pagination">
+								<li><a href="#"><span class="icon-arrow-left arrow"></span></a></li>
+								<li><a class="active" href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#">6</a></li>
+								<li><a href="#">7</a></li>
+								<li><a href="#">8</a></li>
+								<li><a href="#">9</a></li>
+								<li><a href="#"><span class="icon-arrow-right arrow"></span></a></li>
+							</ul>
+						</div>
+					</div>
+        		</div>
+
+								<!--  Links -->
+    
+    			<div class="section" id="links">
+
+    				<h1 class="linksSectionName">links</h1>
+
+    				<div class="main-container">
+    					<div class="main-containerLink">
+
+	    					<div class="row linkButton">
+	    						<div class="col col-12">
+	    							<button class="buttonAddNew"> + add new </button>
+	    						</div>
+	    					</div>
+
+							<div class="linkArea">
+	    						<div class="row linkLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="linkName">Home page</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.homepage.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="linkName">Currently offer</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.currently.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="linkName">Blurpix</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.blurpix.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="linkName">Youe site</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.yoursite.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="linkName">Google</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.google.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="linkName">Facebook</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.facebook.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="linkName">Dashboard</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.dashboard.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="linkName">Blurax</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.blurax.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="linkName">Piece od Wine</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.pieceofwine.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+								<div class="row linkLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="linkName">Twitter</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 linkLayerRow">
+										<a href="#" class="linkAddress">http://www.twitter.com</a>
+										<div class="linkLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+				
+	    					<div class="row linkButton">
+	    						<div class="col col-12">
+	    							<button class="buttonAddNew"> + add new </button>
+	    						</div>
+    						</div>
+    					</div>
+    					
+    				</div>    			
+    		
+    			</div> 
+
+    							<!-- banners -->
+    			<div class="section" id="banners">
+
+    				<h1 class="bannersSectionName">banners</h1>
+
+    				<div class="main-container">
+    					<div class="main-containerBanners">
+
+	    					<div class="row bannersButton">
+	    						<div class="col col-12">
+	    							<button class="buttonAddNew"> + add new </button>
+	    						</div>
+	    					</div>
+
+							<div class="bannersArea">
+	    						<div class="row bannersLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="bannersName">Banner main</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 bannersLayerRow">
+										<a href="#" class="bannersAddress">http://www.website.com/bannermain.gif</a>
+										<div class="bannersLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="bannersArea">
+	    						<div class="row bannersLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="bannersName">Sign up banner</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 bannersLayerRow">
+										<a href="#" class="bannersAddress">http://www.website.com/signup.gif</a>
+										<div class="bannersLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="bannersArea">
+	    						<div class="row bannersLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="bannersName">Banner left side</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 bannersLayerRow">
+										<a href="#" class="bannersAddress">http://www.website.com/leftside.gif</a>
+										<div class="bannersLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="bannersArea">
+	    						<div class="row bannersLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="bannersName">Vertical banner</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 bannersLayerRow">
+										<a href="#" class="bannersAddress">http://www.website.com/vert.gif</a>
+										<div class="bannersLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="bannersArea">
+	    						<div class="row bannersLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="bannersName">Front banner</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 bannersLayerRow">
+										<a href="#" class="bannersAddress">http://www.website.com/front.gif</a>
+										<div class="bannersLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="bannersArea">
+	    						<div class="row bannersLine">
+		    						<div class="col col-6 col-sm-12">
+		    							<p class="bannersName">Horizontal banner</p>
+		    						</div>
+		    						<div class="col col-6 col-sm-12 bannersLayerRow">
+										<a href="#" class="bannersAddress">http://www.website.com/horizontal.gif</a>
+										<div class="bannersLayer">
+											<a href="#" class="icon-links"></a>
+											<a href="#" class="icon-trash"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+								
+	
+				
+	    					<div class="row bannersButton">
+	    						<div class="col col-12">
+	    							<button class="buttonAddNew"> + add new </button>
+	    						</div>
+    						</div>
+    					</div>
+    					
+    				</div>    		
+    				
+    			</div>
+
+    								<!-- personal data -->
+
+    			<div class="section" id="personal">
+
+    				<h1 class="personalSectionName">personal data</h1>
+
+    				<div class="main-container">
+    					<div class="main-containerPersonal">
+    						<form action="" method="POST">
+    							<div class="basicData">
+  									<div class="field row">
+  										<div class="col col-3 col-sm-12 spaceBetween">
+									    	<label>Name</label>
+									    </div>
+									    <div class="col col-9 col-sm-12 spaceBetween">
+									    	<input type="text" name="user-name" required>
+									    </div>
+									</div>
+									<div class="field row">
+										<div class="col col-3 col-sm-12 spaceBetween">
+									    	<label>Surname</label>
+									    </div>
+									    <div class="col col-9 col-sm-12 spaceBetween">
+									    	<input type="text" name="user-surname" required>
+									    </div>
+									</div>
+									<div class="field row">
+										<div class="col col-3 col-sm-12 spaceBetween">
+									    	<label>E-mail</label>
+									    </div>
+									    <div class="col col-9 spaceBetween">
+									    	<input type="email" id="mail" name="user-email" required>
+									    </div>
+									</div>
+									<div class="field row">
+										<div class="col col-3 col-sm-12 spaceBetween">
+									    	<label>Phone number</label>
+									    </div>
+									    <div class="col col-9 spaceBetween">
+									    	<input type="tel" id="phone" name="user-phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+									    </div>
+									</div>
+								</div>
+								<div class="mediaData">
+  									<div class="field row">
+  										<div class="col col-3 col-sm-12 spaceBetween">
+									    	<label>Skype</label>
+									    </div>
+									    <div class="col col-9 col-sm-12 spaceBetween">
+									    	<input type="text" name="user-skype">
+									    </div>
+									</div>
+									<div class="field row">
+										<div class="col col-3 col-sm-12 spaceBetween">
+									    	<label>ICQ</label>
+									    </div>
+									    <div class="col col-9 col-sm-12 spaceBetween">
+									    	<input type="text" name="user-icq">
+									    </div>
+									</div>
+									<div class="field row">
+										<div class="col col-3 col-sm-12 spaceBetween">
+									    	<label>Msn</label>
+									    </div>
+									    <div class="col col-9 spaceBetween">
+									    	<input type="text" name="user-msn">
+									    </div>
+									</div>
+								</div>
+								<div class="walletData">
+  									<div class="field row">
+  										<div class="col col-3 col-sm-12 spaceBetween">
+									    	<label>Wallet</label>
+									    </div>
+									    <div class="col col-9 spaceBetween">
+									    	<input type="text" name="user-wallet" readonly>
+									    </div>
+									</div>
+								</div>
+								<div class="passwordData">
+  									<div class="field row">
+  										<div class="col col-3 col-sm-12 spaceBetween">
+									    	<label>Password</label>
+									    </div>
+									    <div class="col col-9 col-sm-12 spaceBetween">
+									    	<input type="password" name="user-password" required>
+									    </div>
+									</div>
+									<div class="field row">
+										<div class="col col-3 col-sm-12 spaceBetween">
+									    	<label>Repeat</label>
+									    </div>
+									    <div class="col col-9 col-sm-12 spaceBetween">
+									    	<input type="password" name="user-password-repeat" required>
+									    </div>
+									</div>
+								</div>
+
+
+	    						<div class="row personalButton">
+	    							<div class="col col-12">
+	    								<button type="submit" class="buttonSave"> Save </button>
+	    							</div>
+	    						</div>
+	    					</form>
+	    				</div>
+	    			</div>
+	    		</div>
+
+	    		<!-- payout history -->
+
+	    		<div class="section" id="payout">
+
+        			<h1 class="payoutName">payout history</h1>
+        	
+
+        			<div class="payoutCalendar row">
+        				<input class="windowOne" type="date" name="calendar">
+        				<div class="calendarWindowWithIcon">
+        					<input class="windowTwo" type="date" name="calendar">
+        					<span class="icon-calendar"></span>
+        				</div>
+        				<button class="icon-refresh"></button>        	
+        			</div>
+
+        			<div class="row payoutTable">
+        				<div class="scroll-wrapper col-xs-12">
+							<table>
+								<thead>
+        							<tr>
+        								<th>Date</th>
+        								<th>Amounts ($)</th>
+        								<th>Deal</th>
+        								<th>Account</th>
+        								
+        							</tr>
+        						</thead>
+        						<tbody>
+        							<tr>
+        								<td>17/08/02 (12:58)</td>        								
+        								<td>34,425.00</td>
+        								<td>cpl (200)</td>
+        								<td>bank</td>
+        							</tr>
+        							<tr>
+        								<td>15/08/02 (12:58)</td>
+        								<td>29,436.00</td>
+        								<td>cpl (200)</td>
+        								<td>bank</td>
+        							</tr>
+        							<tr>
+        								<td>17/08/02 (12:58)</td>        								
+        								<td>34,425.00</td>
+        								<td>cpl (200)</td>
+        								<td>bank</td>
+        							</tr>
+        							<tr>
+        								<td>15/08/02 (12:58)</td>
+        								<td>29,436.00</td>
+        								<td>cpl (200)</td>
+        								<td>bank</td>
+        							</tr>
+        							<tr>
+        								<td>17/08/02 (12:58)</td>        								
+        								<td>34,425.00</td>
+        								<td>cpl (200)</td>
+        								<td>bank</td>
+        							</tr>
+        							<tr>
+        								<td>15/08/02 (12:58)</td>
+        								<td>29,436.00</td>
+        								<td>cpl (200)</td>
+        								<td>bank</td>
+        							</tr>
+        							<tr>
+        								<td>17/08/02 (12:58)</td>        								
+        								<td>34,425.00</td>
+        								<td>cpl (200)</td>
+        								<td>bank</td>
+        							</tr>
+        							<tr>
+        								<td>15/08/02 (12:58)</td>
+        								<td>29,436.00</td>
+        								<td>cpl (200)</td>
+        								<td>bank</td>
+        							</tr>        							
+        						</tbody>
+        					</table>
+        				</div>
+
+        				<div class="center">
+							<ul class="pagination">
+								<li><a href="#"><span class="icon-arrow-left"></span></a></li>
+								<li><a class="active" href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#">6</a></li>
+								<li><a href="#">7</a></li>
+								<li><a href="#">8</a></li>
+								<li><a href="#">9</a></li>
+								<li><a href="#"><span class="icon-arrow-right arrow"></span></a></li>
+							</ul>
+						</div>
+        				
+        			</div>
+        		</div> 
+
+        		<!--   Postback  -->
+
+        		<div class="section" id="postback">
+
+        			<h1 class="postbackName">Postback</h1>
+
+        		</div>
+        				       					
+    		</div>    	
+        	
+        </div> 
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <script src="js/script.js"></script>
+        <!-- <script id="__bs_script__">//<![CDATA[
+    		document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.3'><\/script>".replace("HOST", location.hostname));
+		//]]></script>    --> 								
+	</body>
+</html>
