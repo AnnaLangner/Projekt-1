@@ -464,9 +464,9 @@ div .content { height: 100%; }
 
 .generalChartLegend [class='0-legend'] { display: -ms-inline-flexbox; display: inline-flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 
-.generalChartLegend [class='0-legend'] li { width: 100px; text-decoration: none; color: #a5a4a5; }
+.generalChartLegend [class='0-legend'] li { width: 100px; color: #a5a4a5; list-style-type: none; }
 
-.generalChartLegend [class='0-legend'] li span { width: 30px; height: 30px; border-radius: 50%; }
+.generalChartLegend [class='0-legend'] li span { display: inline-block; width: 10px; height: 10px; margin-right: 10px; border-radius: 50%; }
 
 .generalChart { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; }
 

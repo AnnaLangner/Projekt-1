@@ -109,11 +109,13 @@
 
 				li {
 					width: 100px;
-					text-decoration: none;
 					color: $secondcolor;
+					list-style-type: none;
 					span {
-						width: 30px;
-						height: 30px;
+						display: inline-block;
+						width: 10px;
+						height: 10px;
+						margin-right: 10px;
 						border-radius: 50%;
 					}
 				}
